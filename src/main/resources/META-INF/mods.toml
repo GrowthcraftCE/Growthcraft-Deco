@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[31,)"
+license = "GNU General Public License v3.0"
+issueTrackerURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/issues"
+
+[[mods]]
+modId = "growthcraft_deco"
+version = "5.0.0"
+displayName = "Growthcraft Deco"
+updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
+displayURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/wiki"
+logoFile = "growthcraft_deco_logo.png"
+credits = "Thanks to Gwafu for starting a great mod. And the Growthcraft CE Development for continuing the work."
+authors = "Alatyami"
+description = '''
+    Growtchraft Decorations is a simple mod that adds additional decrotive blocks to Minecraft.
+    '''
+
+[[dependencies.growthcraft_deco]] #optional
+modId = "forge"
+mandatory = true
+versionRange = "[31,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.growthcraft_deco]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.15.2]"
+ordering = "NONE"
+side = "BOTH"

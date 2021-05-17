@@ -5,9 +5,9 @@ issueTrackerURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/issues"
 
 [[mods]]
 modId = "growthcraft_deco"
-version = "6.0.0"
+version = "6.1.0"
 displayName = "Growthcraft Decorations"
-updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-trapper-versions.json"
+updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
 displayURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/wiki"
 logoFile = "growthcraft_logo.png"
 credits = "Thanks to Gwafu for starting a great mod. And the Growthcraft CE Development for continuing the work."

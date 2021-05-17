@@ -2,6 +2,8 @@ package growthcraft.deco.shared;
 
 public class UnlocalizedName {
 
+    public static final String SLAB_GLASS_CLEAR = "slab_glass_clear";
+
     public static final String STAIRS_WOOL_WHITE = "stairs_wool_white";
     public static final String STAIRS_WOOL_ORANGE = "stairs_wool_orange";
     public static final String STAIRS_WOOL_MAGENTA = "stairs_wool_magenta";

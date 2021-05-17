@@ -2,6 +2,7 @@ package growthcraft.deco.init;
 
 import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.common.block.ConcreteStairs;
+import growthcraft.deco.common.block.GlassSlab;
 import growthcraft.deco.common.block.TerracottaStairs;
 import growthcraft.deco.common.block.WoolStairs;
 import growthcraft.deco.shared.Reference;
@@ -17,6 +18,11 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class GrowthcraftDecoBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
+
+    public static final RegistryObject<GlassSlab> slab_glass_clear = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_CLEAR,
+            GlassSlab::new
+    );
 
     public static final RegistryObject<WoolStairs> stairs_wool_white;
     public static final RegistryObject<WoolStairs> stairs_wool_orange;

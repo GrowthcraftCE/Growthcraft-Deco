@@ -19,11 +19,78 @@ public class GrowthcraftDecoBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
 
+    //region Glass Slabs
     public static final RegistryObject<GlassSlab> slab_glass_clear = BLOCKS.register(
             UnlocalizedName.SLAB_GLASS_CLEAR,
             GlassSlab::new
     );
+    public static final RegistryObject<GlassSlab> slab_glass_white = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_WHITE,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_orange = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_ORANGE,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_magenta = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_MAGENTA,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_light_blue = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIGHT_BLUE,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_yellow = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_YELLOW,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_lime = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIME,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_pink = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_PINK,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_gray = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_GRAY,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_light_gray = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIGHT_GRAY,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_cyan = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_CYAN,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_purple = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_PURPLE,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_blue = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BLUE,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_brown = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BROWN,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_green = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_GREEN,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_red = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_RED,
+            GlassSlab::new
+    );
+    public static final RegistryObject<GlassSlab> slab_glass_black = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BLACK,
+            GlassSlab::new
+    );
+    //endregion
 
+    //region Wool Stairs
     public static final RegistryObject<WoolStairs> stairs_wool_white;
     public static final RegistryObject<WoolStairs> stairs_wool_orange;
     public static final RegistryObject<WoolStairs> stairs_wool_magenta;
@@ -40,7 +107,9 @@ public class GrowthcraftDecoBlocks {
     public static final RegistryObject<WoolStairs> stairs_wool_green;
     public static final RegistryObject<WoolStairs> stairs_wool_red;
     public static final RegistryObject<WoolStairs> stairs_wool_black;
+    //endregion
 
+    //region Terracotta Stairs
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_white;
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_orange;
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_magenta;
@@ -57,7 +126,9 @@ public class GrowthcraftDecoBlocks {
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_green;
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_red;
     public static final RegistryObject<TerracottaStairs> stairs_terracotta_black;
+    //endregion
 
+    //region Concrete Stairs
     public static final RegistryObject<ConcreteStairs> stairs_concrete_white;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_orange;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_magenta;
@@ -74,6 +145,7 @@ public class GrowthcraftDecoBlocks {
     public static final RegistryObject<ConcreteStairs> stairs_concrete_green;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_red;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_black;
+    //endregion
 
     static {
         stairs_wool_white = BLOCKS.register(UnlocalizedName.STAIRS_WOOL_WHITE, WoolStairs::new);

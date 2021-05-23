@@ -3,6 +3,22 @@ package growthcraft.deco.shared;
 public class UnlocalizedName {
 
     public static final String SLAB_GLASS_CLEAR = "slab_glass_clear";
+    public static final String SLAB_GLASS_WHITE = "slab_glass_white";
+    public static final String SLAB_GLASS_ORANGE = "slab_glass_orange";
+    public static final String SLAB_GLASS_MAGENTA = "slab_glass_magenta";
+    public static final String SLAB_GLASS_LIGHT_BLUE = "slab_glass_light_blue";
+    public static final String SLAB_GLASS_YELLOW = "slab_glass_yellow";
+    public static final String SLAB_GLASS_LIME = "slab_glass_lime";
+    public static final String SLAB_GLASS_PINK = "slab_glass_pink";
+    public static final String SLAB_GLASS_GRAY = "slab_glass_gray";
+    public static final String SLAB_GLASS_LIGHT_GRAY = "slab_glass_light_gray";
+    public static final String SLAB_GLASS_CYAN = "slab_glass_cyan";
+    public static final String SLAB_GLASS_PURPLE = "slab_glass_purple";
+    public static final String SLAB_GLASS_BLUE = "slab_glass_blue";
+    public static final String SLAB_GLASS_BROWN = "slab_glass_brown";
+    public static final String SLAB_GLASS_GREEN = "slab_glass_green";
+    public static final String SLAB_GLASS_RED = "slab_glass_red";
+    public static final String SLAB_GLASS_BLACK = "slab_glass_black";
 
     public static final String STAIRS_WOOL_WHITE = "stairs_wool_white";
     public static final String STAIRS_WOOL_ORANGE = "stairs_wool_orange";

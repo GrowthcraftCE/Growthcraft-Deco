@@ -2,6 +2,9 @@ package growthcraft.deco.shared;
 
 public class UnlocalizedName {
 
+    public static final String SLAB_GLOWSTONE = "Glowstone Slab";
+    public static final String SLAB_GLOWSHROOM = "Shroomlight Slab";
+
     public static final String SLAB_GLASS_CLEAR = "slab_glass_clear";
     public static final String SLAB_GLASS_WHITE = "slab_glass_white";
     public static final String SLAB_GLASS_ORANGE = "slab_glass_orange";

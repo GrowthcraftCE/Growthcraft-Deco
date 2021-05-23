@@ -1,10 +1,7 @@
 package growthcraft.deco.init;
 
 import growthcraft.deco.GrowthcraftDeco;
-import growthcraft.deco.common.block.ConcreteStairs;
-import growthcraft.deco.common.block.GlassSlab;
-import growthcraft.deco.common.block.TerracottaStairs;
-import growthcraft.deco.common.block.WoolStairs;
+import growthcraft.deco.common.block.*;
 import growthcraft.deco.shared.Reference;
 import growthcraft.deco.shared.UnlocalizedName;
 import net.minecraft.block.Block;
@@ -18,6 +15,17 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class GrowthcraftDecoBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
+
+    //region Glow Slabs
+    public static final RegistryObject<GlowSlab> slab_glowstone = BLOCKS.register(
+            UnlocalizedName.SLAB_GLOWSTONE,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glowshroom = BLOCKS.register(
+            UnlocalizedName.SLAB_GLOWSHROOM,
+            GlowSlab::new
+    );
+    //endregion
 
     //region Glass Slabs
     public static final RegistryObject<GlassSlab> slab_glass_clear = BLOCKS.register(

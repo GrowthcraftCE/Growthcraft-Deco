@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "growthcraft_deco:block/slab_glowshroom_top",
+    "side": "growthcraft_deco:block/slab_glowshroom_side"
+  }
+}

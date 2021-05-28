@@ -21,9 +21,12 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.SLAB_GLOWSTONE,
             GlowSlab::new
     );
-    public static final RegistryObject<GlowSlab> slab_glowshroom = BLOCKS.register(
+    //endregion
+
+    //region: GlowShroom Slabs
+    public static final RegistryObject<GlowShroomSlab> slab_glowshroom = BLOCKS.register(
             UnlocalizedName.SLAB_GLOWSHROOM,
-            GlowSlab::new
+            GlowShroomSlab::new
     );
     //endregion
 

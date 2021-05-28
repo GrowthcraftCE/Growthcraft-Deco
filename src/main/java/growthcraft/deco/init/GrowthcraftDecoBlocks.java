@@ -137,8 +137,8 @@ public class GrowthcraftDecoBlocks {
     //endregion
 
     //region Concrete Stairs
-    public static final RegistryObject<ConcreteStairs> stairs_concrete_white;
-    public static final RegistryObject<ConcreteStairs> stairs_concrete_orange;
+    public static final RegistryObject<ConcreteStairs> stairs_concrete_white = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_WHITE, ConcreteStairs::new);
+    public static final RegistryObject<ConcreteStairs> stairs_concrete_orange = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_ORANGE, ConcreteStairs::new);
     public static final RegistryObject<ConcreteStairs> stairs_concrete_magenta;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_light_blue;
     public static final RegistryObject<ConcreteStairs> stairs_concrete_yellow;
@@ -190,8 +190,6 @@ public class GrowthcraftDecoBlocks {
         stairs_terracotta_red = BLOCKS.register(UnlocalizedName.STAIRS_TERRACOTTA_RED, TerracottaStairs::new);
         stairs_terracotta_black = BLOCKS.register(UnlocalizedName.STAIRS_TERRACOTTA_BLACK, TerracottaStairs::new);
 
-        stairs_concrete_white = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_WHITE, ConcreteStairs::new);
-        stairs_concrete_orange = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_ORANGE, ConcreteStairs::new);
         stairs_concrete_magenta = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_MAGENTA, ConcreteStairs::new);
         stairs_concrete_light_blue = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_LIGHT_BLUE, ConcreteStairs::new);
         stairs_concrete_yellow = BLOCKS.register(UnlocalizedName.STAIRS_CONCRETE_YELLOW, ConcreteStairs::new);

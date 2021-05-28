@@ -22,7 +22,10 @@ public class GlowSlab extends SlabBlock {
         Properties properties = Properties.create(material);
         properties.hardnessAndResistance(1.0F, 1.0F);
         properties.sound(SoundType.GLASS);
+        properties.notSolid();
         properties.setAllowsSpawn(Blocks::neverAllowSpawn);
+        properties.setOpaque(Blocks::isntSolid);
+        properties.setBlocksVision(Blocks::isntSolid);
         return properties;
     }
 

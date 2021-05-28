@@ -21,6 +21,10 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.SLAB_GLOWSTONE,
             GlowSlab::new
     );
+    public static final RegistryObject<GlowSlab> slab_glass_clear_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_CLEAR_GLOWING,
+            GlowSlab::new
+    );
     //endregion
 
     //region: GlowShroom Slabs

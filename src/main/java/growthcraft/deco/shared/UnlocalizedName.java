@@ -3,6 +3,25 @@ package growthcraft.deco.shared;
 public class UnlocalizedName {
 
     public static final String SLAB_GLOWSTONE = "slab_glowstone";
+
+    public static final String SLAB_GLASS_CLEAR_GLOWING = "slab_glass_clear_glowing";
+    public static final String SLAB_GLASS_WHITE_GLOWING = "slab_glass_white_glowing";
+    public static final String SLAB_GLASS_ORANGE_GLOWING = "slab_glass_orange_glowing";
+    public static final String SLAB_GLASS_MAGENTA_GLOWING = "slab_glass_magenta_glowing";
+    public static final String SLAB_GLASS_LIGHT_BLUE_GLOWING = "slab_glass_light_blue_glowing";
+    public static final String SLAB_GLASS_YELLOW_GLOWING = "slab_glass_yellow_glowing";
+    public static final String SLAB_GLASS_LIME_GLOWING = "slab_glass_lime_glowing";
+    public static final String SLAB_GLASS_PINK_GLOWING = "slab_glass_pink_glowing";
+    public static final String SLAB_GLASS_GRAY_GLOWING = "slab_glass_gray_glowing";
+    public static final String SLAB_GLASS_LIGHT_GRAY_GLOWING = "slab_glass_light_gray_glowing";
+    public static final String SLAB_GLASS_CYAN_GLOWING = "slab_glass_cyan_glowing";
+    public static final String SLAB_GLASS_PURPLE_GLOWING = "slab_glass_purple_glowing";
+    public static final String SLAB_GLASS_BLUE_GLOWING = "slab_glass_blue_glowing";
+    public static final String SLAB_GLASS_BROWN_GLOWING = "slab_glass_brown_glowing";
+    public static final String SLAB_GLASS_GREEN_GLOWING = "slab_glass_green_glowing";
+    public static final String SLAB_GLASS_RED_GLOWING = "slab_glass_red_glowing";
+    public static final String SLAB_GLASS_BLACK_GLOWING = "slab_glass_black_glowing";
+
     public static final String SLAB_GLOWSHROOM = "slab_glowshroom";
 
     public static final String SLAB_GLASS_CLEAR = "slab_glass_clear";

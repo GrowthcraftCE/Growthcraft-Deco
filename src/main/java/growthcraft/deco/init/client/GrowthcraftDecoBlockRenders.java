@@ -9,6 +9,9 @@ public class GrowthcraftDecoBlockRenders {
     private GrowthcraftDecoBlockRenders() { /* Prevent default public constructor */ }
 
     public static void setRenderLayers() {
+
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_clear.get(), t -> t == RenderType.getSolid() || t == RenderType.getTranslucent());
+
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_white.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_orange.get(), RenderType.getTranslucent());
@@ -26,6 +29,11 @@ public class GrowthcraftDecoBlockRenders {
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_green.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_red.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_black.get(), RenderType.getTranslucent());
+
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear_glowing.get(), RenderType.getTranslucent());
+    }
+
+    public static boolean isValidLayer(RenderType layer) {
+        return layer == RenderType.getCutout() || layer == RenderType.getTranslucent();
     }
 }

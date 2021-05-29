@@ -16,6 +16,13 @@ public class GrowthcraftDecoBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
 
+    //region Panel Blocks
+    public static final RegistryObject<GlassPanel> panel_glass_clear = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_CLEAR,
+            GlassPanel::new
+    );
+    //endregion
+
     //region Glow Slabs
     public static final RegistryObject<GlowSlab> slab_glowstone = BLOCKS.register(
             UnlocalizedName.SLAB_GLOWSTONE,

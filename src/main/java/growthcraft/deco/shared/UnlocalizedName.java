@@ -93,6 +93,8 @@ public class UnlocalizedName {
     public static final String STAIRS_CONCRETE_RED = "stairs_concrete_red";
     public static final String STAIRS_CONCRETE_BLACK = "stairs_concrete_black";
 
+    public static final String PANEL_GLASS_CLEAR = "panel_glass_clear";
+
     private UnlocalizedName() { /* Disable default public constructor */ }
 
 }

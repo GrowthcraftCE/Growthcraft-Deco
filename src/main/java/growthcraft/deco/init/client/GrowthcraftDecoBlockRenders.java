@@ -10,7 +10,10 @@ public class GrowthcraftDecoBlockRenders {
 
     public static void setRenderLayers() {
 
-        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_clear.get(), t -> t == RenderType.getSolid() || t == RenderType.getTranslucent());
+        // TODO[7]: Add colors for glass panels
+        // TODO[7]; Add loot tables and recipes for glass panels
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_clear.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        // t -> t == RenderType.getSolid() || t == RenderType.getTranslucent()
 
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_white.get(), RenderType.getTranslucent());
@@ -30,10 +33,13 @@ public class GrowthcraftDecoBlockRenders {
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_red.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_black.get(), RenderType.getTranslucent());
 
+        // TODO[5]: Add colors for glowing glass slabs
+        // TODO[5]: Add loot tables and recipes for glowing glass slabs
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear_glowing.get(), RenderType.getTranslucent());
+
     }
 
-    public static boolean isValidLayer(RenderType layer) {
-        return layer == RenderType.getCutout() || layer == RenderType.getTranslucent();
+    public static boolean isValidGlassPanelLayer(RenderType layer) {
+        return layer == RenderType.getSolid() || layer == RenderType.getTranslucent();
     }
 }

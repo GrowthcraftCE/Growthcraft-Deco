@@ -21,6 +21,72 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.PANEL_GLASS_CLEAR,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_black = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BLACK,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_blue = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BLUE,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_brown = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BROWN,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_cyan = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_CYAN,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_gray = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_GRAY,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_green = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_GREEN,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_light_blue = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIGHT_BLUE,
+            GlassPanel::new
+    );
+
+    public static final RegistryObject<GlassPanel> panel_glass_light_gray = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIGHT_GRAY,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_lime = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIME,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_magenta = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_MAGENTA,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_orange = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_ORANGE,
+            GlassPanel::new
+    );
+
+    public static final RegistryObject<GlassPanel> panel_glass_pink = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_PINK,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_purple = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_PURPLE,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_red = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_RED,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_white = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_WHITE,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_yellow = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_YELLOW,
+            GlassPanel::new
+    );
     //endregion
 
     //region Glow Slabs

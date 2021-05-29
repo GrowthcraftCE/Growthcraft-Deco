@@ -1,6 +1,6 @@
 import shutil
 
-templateBaseDye = "clear"
+templateBaseDye = "black"
 
 dyes = [
   "white",
@@ -17,26 +17,22 @@ dyes = [
   "blue",
   "brown",
   "green",
-  "red",
-  "black"
+  "red"
+  # "black"
 ]
 
 for dye in dyes:
   if dye == templateBaseDye:
     continue
   sourceFiles = [
-    "blockstates/slab_glass_%s.json" % templateBaseDye,
-    "models/block/slab_glass_%s_bottom.json" % templateBaseDye,
-    "models/block/slab_glass_%s_double.json" % templateBaseDye,
-    "models/block/slab_glass_%s_top.json" % templateBaseDye,
-    "models/item/slab_glass_%s.json" % templateBaseDye
+    "blockstates/panel_glass_%s.json" % templateBaseDye,
+    "models/block/panel_glass_%s.json" % templateBaseDye,
+    "models/item/panel_glass_%s.json" % templateBaseDye
   ]
   targetFiles = [
-    "blockstates/slab_glass_%s.json" % dye,
-    "models/block/slab_glass_%s_bottom.json" % dye,
-    "models/block/slab_glass_%s_double.json" % dye,
-    "models/block/slab_glass_%s_top.json" % dye,
-    "models/item/slab_glass_%s.json" % dye
+    "blockstates/panel_glass_%s.json" % dye,
+    "models/block/panel_glass_%s.json" % dye,
+    "models/item/panel_glass_%s.json" % dye
   ]
   for x in range(0, len(sourceFiles)):
     shutil.copy(sourceFiles[x], targetFiles[x])

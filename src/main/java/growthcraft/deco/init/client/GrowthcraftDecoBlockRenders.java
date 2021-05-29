@@ -12,8 +12,23 @@ public class GrowthcraftDecoBlockRenders {
 
         // TODO[7]: Add colors for glass panels
         // TODO[7]; Add loot tables and recipes for glass panels
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_black.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_brown.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_blue.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_clear.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
-        // t -> t == RenderType.getSolid() || t == RenderType.getTranslucent()
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_cyan.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_gray.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_green.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_light_blue.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_light_gray.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_lime.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_magenta.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_orange.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_pink.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_purple.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_red.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_white.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_yellow.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
 
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_white.get(), RenderType.getTranslucent());
@@ -39,6 +54,12 @@ public class GrowthcraftDecoBlockRenders {
 
     }
 
+    /**
+     * Determine rendering for forge: multi-layer models.
+     *
+     * @param layer RenderType for the given layer
+     * @return boolean true of the render type matches
+     */
     public static boolean isValidGlassPanelLayer(RenderType layer) {
         return layer == RenderType.getSolid() || layer == RenderType.getTranslucent();
     }

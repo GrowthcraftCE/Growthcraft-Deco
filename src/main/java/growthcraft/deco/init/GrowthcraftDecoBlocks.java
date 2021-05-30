@@ -17,74 +17,141 @@ public class GrowthcraftDecoBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
 
     //region Panel Blocks
-    public static final RegistryObject<GlassPanel> panel_glass_clear = BLOCKS.register(
-            UnlocalizedName.PANEL_GLASS_CLEAR,
-            GlassPanel::new
-    );
     public static final RegistryObject<GlassPanel> panel_glass_black = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_BLACK,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_black_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BLACK_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_blue = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_BLUE,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_blue_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BLUE_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_brown = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_BROWN,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_brown_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_BROWN_GLOWING,
+            () -> new GlassPanel(15)
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_clear = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_CLEAR,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_clear_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_CLEAR_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_cyan = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_CYAN,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_cyan_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_CYAN_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_gray = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_GRAY,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_gray_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_GRAY_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_green = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_GREEN,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_green_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_GREEN_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_light_blue = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_LIGHT_BLUE,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_light_blue_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIGHT_BLUE_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_light_gray = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_LIGHT_GRAY,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_light_gray_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIGHT_GRAY_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_lime = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_LIME,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_lime_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_LIME_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_magenta = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_MAGENTA,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_magenta_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_MAGENTA_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_orange = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_ORANGE,
             GlassPanel::new
     );
-
+    public static final RegistryObject<GlassPanel> panel_glass_orange_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_ORANGE_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_pink = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_PINK,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_pink_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_PINK_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_purple = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_PURPLE,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_purple_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_PURPLE_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_red = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_RED,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_red_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_RED_GLOWING,
+            () -> new GlassPanel(15)
     );
     public static final RegistryObject<GlassPanel> panel_glass_white = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_WHITE,
             GlassPanel::new
     );
+    public static final RegistryObject<GlassPanel> panel_glass_white_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_WHITE_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> panel_glass_yellow = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_YELLOW,
             GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> panel_glass_yellow_glowing = BLOCKS.register(
+            UnlocalizedName.PANEL_GLASS_YELLOW_GLOWING,
+            () -> new GlassPanel(15)
     );
     //endregion
 

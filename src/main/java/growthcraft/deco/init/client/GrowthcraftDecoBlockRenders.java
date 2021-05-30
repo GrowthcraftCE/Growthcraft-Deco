@@ -10,8 +10,6 @@ public class GrowthcraftDecoBlockRenders {
 
     public static void setRenderLayers() {
 
-        // TODO[7]: Add colors for glass panels
-        // TODO[7]; Add loot tables and recipes for glass panels
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_black.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_brown.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_blue.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
@@ -29,6 +27,24 @@ public class GrowthcraftDecoBlockRenders {
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_red.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_white.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_yellow.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_black_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_brown_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_blue_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_clear_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_cyan_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_gray_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_green_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_light_blue_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_light_gray_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_lime_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_magenta_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_orange_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_pink_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_purple_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_red_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_white_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.panel_glass_yellow_glowing.get(), GrowthcraftDecoBlockRenders::isValidGlassPanelLayer);
 
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_white.get(), RenderType.getTranslucent());
@@ -48,8 +64,6 @@ public class GrowthcraftDecoBlockRenders {
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_red.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_black.get(), RenderType.getTranslucent());
 
-        // TODO[5]: Add colors for glowing glass slabs
-        // TODO[5]: Add loot tables and recipes for glowing glass slabs
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_black_glowing.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_brown_glowing.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_blue_glowing.get(), RenderType.getTranslucent());

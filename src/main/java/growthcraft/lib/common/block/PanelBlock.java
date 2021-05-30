@@ -24,29 +24,9 @@ public class PanelBlock extends HorizontalFaceBlock {
     protected static final VoxelShape AABB_WEST = Block.makeCuboidShape(15.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
     protected static final VoxelShape AABB_EAST = Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 1.0D, 16.0D, 16.0D);
 
-    public PanelBlock() {
-        this(getInitProperties(Material.ROCK));
-    }
-
-    public PanelBlock(Material material) {
-        this(getInitProperties(material));
-        this.setDefaultState(this.stateContainer.getBaseState().with(HORIZONTAL_FACING, Direction.NORTH).with(FACE, AttachFace.WALL));
-
-    }
-
     public PanelBlock(Properties properties) {
         super(properties);
-    }
-
-    private static Properties getInitProperties(Material material) {
-        Properties properties = Properties.create(material);
-        properties.hardnessAndResistance(1.0F, 1.0F);
-        properties.sound(SoundUtils.getSoundFromMaterial(material));
-        properties.notSolid();
-        properties.setAllowsSpawn(Blocks::neverAllowSpawn);
-        properties.setOpaque(Blocks::isntSolid);
-        properties.setBlocksVision(Blocks::isntSolid);
-        return properties;
+        this.setDefaultState(this.stateContainer.getBaseState().with(HORIZONTAL_FACING, Direction.NORTH).with(FACE, AttachFace.WALL));
     }
 
     @Override

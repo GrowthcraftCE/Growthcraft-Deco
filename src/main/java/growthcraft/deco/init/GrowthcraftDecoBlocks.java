@@ -49,7 +49,6 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.PANEL_GLASS_LIGHT_BLUE,
             GlassPanel::new
     );
-
     public static final RegistryObject<GlassPanel> panel_glass_light_gray = BLOCKS.register(
             UnlocalizedName.PANEL_GLASS_LIGHT_GRAY,
             GlassPanel::new
@@ -94,8 +93,72 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.SLAB_GLOWSTONE,
             GlowSlab::new
     );
+    public static final RegistryObject<GlowSlab> slab_glass_black_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BLACK_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_blue_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BLUE_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_brown_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_BROWN_GLOWING,
+            GlowSlab::new
+    );
     public static final RegistryObject<GlowSlab> slab_glass_clear_glowing = BLOCKS.register(
             UnlocalizedName.SLAB_GLASS_CLEAR_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_cyan_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_CYAN_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_gray_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_GRAY_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_green_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_GREEN_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_light_blue_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIGHT_BLUE_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_light_gray_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIGHT_GRAY_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_lime_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_LIME_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_magenta_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_MAGENTA_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_orange_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_ORANGE_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_pink_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_PINK_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_purple_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_PURPLE_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_red_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_RED_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_white_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_WHITE_GLOWING,
+            GlowSlab::new
+    );
+    public static final RegistryObject<GlowSlab> slab_glass_yellow_glowing = BLOCKS.register(
+            UnlocalizedName.SLAB_GLASS_YELLOW_GLOWING,
             GlowSlab::new
     );
     //endregion

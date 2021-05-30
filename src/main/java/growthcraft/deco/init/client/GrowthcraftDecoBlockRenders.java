@@ -50,7 +50,23 @@ public class GrowthcraftDecoBlockRenders {
 
         // TODO[5]: Add colors for glowing glass slabs
         // TODO[5]: Add loot tables and recipes for glowing glass slabs
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_black_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_brown_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_blue_glowing.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_clear_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_cyan_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_gray_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_green_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_light_blue_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_light_gray_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_lime_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_magenta_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_orange_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_pink_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_purple_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_red_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_white_glowing.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(GrowthcraftDecoBlocks.slab_glass_yellow_glowing.get(), RenderType.getTranslucent());
 
     }
 

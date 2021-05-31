@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growthcraft_deco:slab_glass_orange"
+    },
+    "G": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:panel_glass_orange_glowing",
+    "count": 6
+  }
+}

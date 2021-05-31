@@ -3,6 +3,7 @@ package growthcraft.deco;
 import growthcraft.deco.client.proxy.ClientProxy;
 import growthcraft.deco.common.proxy.CommonProxy;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
+import growthcraft.deco.init.client.GrowthcraftDecoBlockRenders;
 import growthcraft.deco.init.config.GrowthcraftDecoConfig;
 import growthcraft.deco.shared.Reference;
 import growthcraft.lib.proxy.IProxy;
@@ -70,8 +71,7 @@ public class GrowthcraftDeco {
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // do something that can only be done on the client
-        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+        GrowthcraftDecoBlockRenders.setRenderLayers();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {

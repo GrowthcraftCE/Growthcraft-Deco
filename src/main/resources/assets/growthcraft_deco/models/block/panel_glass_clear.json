@@ -1,0 +1,21 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/glass"
+  },
+  "layers": {
+    "solid": {
+      "parent": "growthcraft_deco:block/_panel_side",
+      "textures": {
+        "side": "minecraft:block/glass"
+      }
+    },
+    "translucent": {
+      "parent": "growthcraft_deco:block/_panel_face",
+      "textures": {
+        "face": "minecraft:block/glass"
+      }
+    }
+  }
+}

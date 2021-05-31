@@ -33,7 +33,7 @@ repositories {
     // JEI, Tinker's Construct, Mantle, Iron Chests, Natura, etc.
     maven { url = "https://dvs1.progwml6.com/files/maven" }
     // The One Probe
-    maven { url = "http://maven.tterrag.com/" }
+    maven { url = "https://maven.tterrag.com/" }
     // Patchouli
     maven { url = 'https://maven.blamejared.com' }
     maven { url = 'https://oss.sonatype.org/content/groups/public/' }
@@ -53,16 +53,20 @@ minecraft {
     // Simply re-run your setup task after changing the mappings to update your workspace.
     //mappings channel: 'snapshot', version: '20200217-1.15.1'
     mappings channel: 'snapshot', version: project.mappings_version
-
     //mappings channel: 'stable', version: '60'
+
+    // Access Transformer
+    accessTransformer = file 'src/main/resources/META-INF/access-transformer.cfg'
 
     runs {
         client {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             mods {
-                examplemod {
+                growthcraft_deco {
                     source sourceSets.main
                 }
             }
@@ -73,7 +77,7 @@ minecraft {
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
             mods {
-                examplemod {
+                growthcraft_deco {
                     source sourceSets.main
                 }
             }
@@ -85,7 +89,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             args '--mod', 'growthcraft', '--all', '--output', file('src/generated/resources/')
             mods {
-                examplemod {
+                growthcraft_deco {
                     source sourceSets.main
                 }
             }
@@ -99,15 +103,15 @@ dependencies {
     /** Compile time Dependencies
      * Include mods that we have a direct dependency with.
      */
-    compile fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
 
     /** Runtime Dependencies
      *  Include mods the we need while testing during runtime. When adding mods
      *  to this list, place the version into the gradle.properties file.
      */
-    runtime fg.deobf("mezz.jei:jei-${minecraft_version_1_16_4}:${jei_version}")
-    runtime fg.deobf("mcjty.theoneprobe:TheOneProbe-${minecraft_version_short}:${minecraft_version_short}-${theoneprobe_version}")
-    runtime fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}")
+    runtimeOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-${minecraft_version_short}:${minecraft_version_short}-${theoneprobe_version}")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
 
 }
 

@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:block/_panel_simple",
+  "textures": {
+    "side": "minecraft:block/glowstone",
+    "face": "minecraft:block/glowstone"
+  }
+}

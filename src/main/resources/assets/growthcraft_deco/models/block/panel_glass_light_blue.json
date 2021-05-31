@@ -1,0 +1,21 @@
+{
+  "loader": "forge:multi-layer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/light_blue_stained_glass"
+  },
+  "layers": {
+    "solid": {
+      "parent": "growthcraft_deco:block/_panel_side",
+      "textures": {
+        "side": "minecraft:block/light_blue_stained_glass"
+      }
+    },
+    "translucent": {
+      "parent": "growthcraft_deco:block/_panel_face",
+      "textures": {
+        "face": "minecraft:block/light_blue_stained_glass"
+      }
+    }
+  }
+}

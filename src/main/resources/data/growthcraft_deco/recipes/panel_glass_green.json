@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growthcraft_deco:slab_glass_green"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:panel_glass_green",
+    "count": 6
+  }
+}

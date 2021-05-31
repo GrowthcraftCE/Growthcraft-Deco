@@ -153,6 +153,14 @@ public class GrowthcraftDecoBlocks {
             UnlocalizedName.PANEL_GLASS_YELLOW_GLOWING,
             () -> new GlassPanel(15)
     );
+    public static final RegistryObject<GlassPanel> panel_glowstone = BLOCKS.register(
+            UnlocalizedName.PANEL_GLOWSTONE,
+            () -> new GlassPanel(15)
+    );
+    public static final RegistryObject<OrganicPanel> panel_glowshroom = BLOCKS.register(
+            UnlocalizedName.PANEL_GLOWSHROOM,
+            () -> new OrganicPanel(15)
+    );
     //endregion
 
     //region Glow Slabs

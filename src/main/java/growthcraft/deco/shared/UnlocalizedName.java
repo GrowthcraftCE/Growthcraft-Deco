@@ -36,6 +36,8 @@ public class UnlocalizedName {
     public static final String PANEL_GLASS_RED_GLOWING = "panel_glass_red_glowing";
     public static final String PANEL_GLASS_WHITE_GLOWING = "panel_glass_white_glowing";
     public static final String PANEL_GLASS_YELLOW_GLOWING = "panel_glass_yellow_glowing";
+    public static final String PANEL_GLOWSTONE = "panel_glowstone";
+    public static final String PANEL_GLOWSHROOM = "panel_glowshroom";
     public static final String SLAB_GLASS_BLACK = "slab_glass_black";
     public static final String SLAB_GLASS_BLACK_GLOWING = "slab_glass_black_glowing";
     public static final String SLAB_GLASS_BLUE = "slab_glass_blue";

@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "growthcraft_deco:slab_glass_clear"
+      "item": "growthcraft_deco:panel_glass_clear"
     },
     "G": {
       "item": "minecraft:shroomlight"
@@ -15,6 +15,6 @@
   },
   "result": {
     "item": "growthcraft_deco:panel_glass_clear_glowing",
-    "count": 6
+    "count": 8
   }
 }

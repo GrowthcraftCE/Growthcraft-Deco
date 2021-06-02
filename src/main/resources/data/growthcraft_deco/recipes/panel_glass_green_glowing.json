@@ -1,20 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "#G#",
     "###"
   ],
   "key": {
     "#": {
-      "item": "growthcraft_deco:panel_glass_green"
-    },
-    "G": {
-      "item": "minecraft:glowstone"
+      "item": "growthcraft_deco:slab_glass_green_glowing"
     }
   },
   "result": {
     "item": "growthcraft_deco:panel_glass_green_glowing",
-    "count": 8
+    "count": 6
   }
 }

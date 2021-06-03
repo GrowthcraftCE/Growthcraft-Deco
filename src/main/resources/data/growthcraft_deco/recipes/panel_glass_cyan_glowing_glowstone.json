@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "growthcraft_deco:slab_glass_cyan"
+      "item": "growthcraft_deco:panel_glass_cyan"
     },
     "G": {
       "item": "minecraft:glowstone"
@@ -15,6 +15,6 @@
   },
   "result": {
     "item": "growthcraft_deco:panel_glass_cyan_glowing",
-    "count": 6
+    "count": 8
   }
 }

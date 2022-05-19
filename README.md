@@ -7,6 +7,9 @@ Growthcraft Decorations provides additional decorative blocks to the game of Min
 Curse Forge 
 * [Growthcraft Decorations](https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations)
 
+Mineraft 1.18.2
+* [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.18)
+
 Minecraft 1.16.5
 * [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.16)
 

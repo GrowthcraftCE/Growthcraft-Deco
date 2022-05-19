@@ -1,18 +1,21 @@
-# Growthcraft Decorations for Minecraft 1.15 (Forge)
-
-[![version](https://img.shields.io/github/v/release/GrowthcraftCE/Growthcraft-Deco?include_prereleases&label=Latest%20Release)](https://github.com/GrowthcraftCE/Growthcraft-Deco/releases)
-[![](http://cf.way2muchnoise.eu/versions/growthcraft-deco_latest.svg)](https://minecraft.curseforge.com/projects/growthcraft-deco)
-[![](http://cf.way2muchnoise.eu/full_454039_downloads.svg)](https://minecraft.curseforge.com/projects/growthcraft-deco)
-
-[![commits](https://img.shields.io/github/last-commit/GrowthcraftCE/Growthcraft-Deco/1.16?label=Latest%20Commit)](https://github.com/GrowthcraftCE/Growthcraft-Deco/commits/1.15)
-[![build](https://img.shields.io/github/checks-status/GrowthcraftCE/Growthcraft-Deco/1.15?label=Build)](https://github.com/GrowthcraftCE/Growthcraft-Deco/actions)
+# Growthcraft Decorations for Minecraft (Forge)
 
 Growthcraft Decorations provides additional decorative blocks to the game of Minecraft. 
 
+[Growthcraft Master Roadmap](https://app.zenhub.com/workspaces/growthcraft-6043ce571b094900102f4ca6/board)
+
 Curse Forge 
-TBD
+* [Growthcraft Decorations](https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations)
+
+Mineraft 1.18.2
+* [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.18)
+
+Minecraft 1.16.5
+* [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.16)
 
 Minecraft 1.15.2
-* wiki
-* code
-* issue tracker
+* [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.15)
+
+## Contributing
+
+If you'd like to contribute to the kitchen sink decoration mod, open up a GitHub issue and describe what you are working on. This way we will not be duplicating efforts. If possible, always add to both the 1.15 and 1.16 reposiories. If you have any questions, reach out to us on [Discord](https://discord.com/channels/333690296334548994/333690296334548994)

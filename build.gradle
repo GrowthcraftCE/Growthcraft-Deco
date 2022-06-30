@@ -25,7 +25,7 @@ archivesBaseName = 'growthcraft_deco'
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "GrowthcraftCE_Growthcraft-Deco"
+        property "sonar.projectKey", "Growthcraft-Deco"
         property "sonar.organization", "growthcraftce"
         property "sonar.host.url", "https://sonarcloud.io"
     }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "growthcraft_deco:block/slab_glass_clear_bottom"
+    },
+    "type=double": {
+      "model": "growthcraft_deco:block/slab_glass_clear_double"
+    },
+    "type=top": {
+      "model": "growthcraft_deco:block/slab_glass_clear_top"
+    }
+  }
+}

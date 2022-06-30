@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:block/panel_glass_base",
+  "textures": {
+    "panel": "minecraft:block/brown_stained_glass",
+    "particle": "minecraft:block/brown_stained_glass"
+  }
+}

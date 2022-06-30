@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "growthcraft_deco:block/slab_glowshroom_top",
+    "top": "growthcraft_deco:block/slab_glowshroom_top",
+    "side": "growthcraft_deco:block/slab_glowshroom_side"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/lime_stained_glass",
+    "side": "growthcraft_deco:block/slab_glass_lime_side"
+  }
+}

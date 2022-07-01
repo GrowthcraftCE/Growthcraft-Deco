@@ -20,6 +20,13 @@ public class Reference {
     private Reference() { /* Prevent default public constructor */ }
 
     public static class UnlocalizedName {
+        public static final String STAIR_ACACIA_CARPET_BLACK = "stairs_acacia_carpet_black";
+
+
+
+
+
+
         public static final String GLASS_PANEL_BLACK = "panel_glass_black";
         public static final String GLASS_PANEL_BLACK_GLOWING = "panel_glass_black_glowing";
         public static final String GLASS_PANEL_BLUE = "panel_glass_blue";

@@ -2,10 +2,14 @@ package growthcraft.deco.init;
 
 import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.common.block.*;
+import growthcraft.deco.lib.block.CarpetStairBlock;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -495,6 +499,10 @@ public class GrowthcraftDecoBlocks {
     public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CLEAR_GLOWING = BLOCKS.register(
             Reference.UnlocalizedName.SLAB_GLASS_CLEAR_GLOWING,
             () -> new GlassHalfBlock(15)
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLACK,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
     );
 
     /**

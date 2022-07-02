@@ -42,6 +42,7 @@ public class GrowthcraftDecoBlockRenders {
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BLUE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BROWN.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_CLEAR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_CYAN.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_GRAY.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_GREEN.get(), RenderType.translucent());
@@ -58,6 +59,7 @@ public class GrowthcraftDecoBlockRenders {
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BLUE_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_BROWN_GLOWING.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_CLEAR_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_CYAN_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_GRAY_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_GREEN_GLOWING.get(), RenderType.translucent());
@@ -71,7 +73,6 @@ public class GrowthcraftDecoBlockRenders {
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_RED_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_WHITE_GLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(GrowthcraftDecoBlocks.SLAB_GLASS_YELLOW_GLOWING.get(), RenderType.translucent());
-
 
     }
 }

@@ -19,9 +19,9 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.sonarqube"
 
-version = "${growthcraft_version}"
+version = "${minecraft_version}-${growthcraft_version}"
 group = 'growthcraft'
-archivesBaseName = 'growthcraft_deco'
+archivesBaseName = 'growthcraft-deco'
 
 sonarqube {
     properties {

@@ -15,17 +15,44 @@ public class Reference {
 
     public static final String NAME = "Growthcraft Decorations";
     public static final String NAME_SHORT = "deco";
-    public static final String VERSION = "7.0.0";
+    public static final String VERSION = "7.1.0";
 
     private Reference() { /* Prevent default public constructor */ }
 
     public static class UnlocalizedName {
         public static final String STAIR_ACACIA_CARPET_BLACK = "stairs_acacia_carpet_black";
+        public static final String STAIR_ACACIA_CARPET_BLUE = "stairs_acacia_carpet_blue";
+        public static final String STAIR_ACACIA_CARPET_BROWN = "stairs_acacia_carpet_brown";
+        public static final String STAIR_ACACIA_CARPET_CYAN = "stairs_acacia_carpet_cyan";
+        public static final String STAIR_ACACIA_CARPET_GRAY = "stairs_acacia_carpet_gray";
+        public static final String STAIR_ACACIA_CARPET_GREEN = "stairs_acacia_carpet_green";
+        public static final String STAIR_ACACIA_CARPET_LIGHT_BLUE = "stairs_acacia_carpet_light_blue";
+        public static final String STAIR_ACACIA_CARPET_LIGHT_GRAY = "stairs_acacia_carpet_light_gray";
+        public static final String STAIR_ACACIA_CARPET_LIME = "stairs_acacia_carpet_lime";
+        public static final String STAIR_ACACIA_CARPET_MAGENTA = "stairs_acacia_carpet_magenta";
+        public static final String STAIR_ACACIA_CARPET_ORANGE = "stairs_acacia_carpet_orange";
+        public static final String STAIR_ACACIA_CARPET_PINK = "stairs_acacia_carpet_pink";
+        public static final String STAIR_ACACIA_CARPET_PURPLE = "stairs_acacia_carpet_purple";
+        public static final String STAIR_ACACIA_CARPET_RED = "stairs_acacia_carpet_red";
+        public static final String STAIR_ACACIA_CARPET_WHITE = "stairs_acacia_carpet_white";
+        public static final String STAIR_ACACIA_CARPET_YELLOW = "stairs_acacia_carpet_yellow";
 
-
-
-
-
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_BLACK = "stairs_acacia_carpet_partial_black";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_BLUE = "stairs_acacia_carpet_partial_blue";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_BROWN = "stairs_acacia_carpet_partial_brown";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_CYAN = "stairs_acacia_carpet_partial_cyan";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_GRAY = "stairs_acacia_carpet_partial_gray";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_GREEN = "stairs_acacia_carpet_partial_green";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE = "stairs_acacia_carpet_partial_light_blue";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY = "stairs_acacia_carpet_partial_light_gray";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_LIME = "stairs_acacia_carpet_partial_lime";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_MAGENTA = "stairs_acacia_carpet_partial_magenta";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_ORANGE = "stairs_acacia_carpet_partial_orange";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_PINK = "stairs_acacia_carpet_partial_pink";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_PURPLE = "stairs_acacia_carpet_partial_purple";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_RED = "stairs_acacia_carpet_partial_red";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_WHITE = "stairs_acacia_carpet_partial_white";
+        public static final String STAIR_ACACIA_CARPET_PARTIAL_YELLOW = "stairs_acacia_carpet_partial_yellow";
 
         public static final String GLASS_PANEL_BLACK = "panel_glass_black";
         public static final String GLASS_PANEL_BLACK_GLOWING = "panel_glass_black_glowing";

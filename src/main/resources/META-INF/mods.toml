@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/issues"
 
 [[mods]]
 modId = "growthcraft_deco"
-version = "7.0.0-ALPHA"
+version = "7.1.0-ALPHA"
 displayName = "Growthcraft Decorations"
 updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
 displayURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/wiki"

@@ -17,8 +17,8 @@ dyes = [
   "blue",
   "brown",
   "green",
-  "red",
-  "clear"
+  "red"
+  # "clear"
   # "black"
 ]
 
@@ -26,16 +26,18 @@ for dye in dyes:
   if dye == templateBaseDye:
     continue
   sourceFiles = [
-    "blockstates/panel_glass_%s_glowing.json" % templateBaseDye,
-    # "models/block/panel_glass_%s.json" % templateBaseDye,
-    # "models/item/panel_glass_%s.json" % templateBaseDye,
-    "models/item/panel_glass_%s_glowing.json" % templateBaseDye
+    "blockstates/stairs_acacia_carpet_%s.json" % templateBaseDye,
+    "models/block/stairs/stairs_acacia_carpet_%s.json" % templateBaseDye,
+    "models/block/stairs/stairs_acacia_carpet_%s_inner.json" % templateBaseDye,
+    "models/block/stairs/stairs_acacia_carpet_%s_outer.json" % templateBaseDye,
+    "models/item/stairs_acacia_carpet_%s.json" % templateBaseDye
   ]
   targetFiles = [
-    "blockstates/panel_glass_%s_glowing.json" % dye,
-    # "models/block/panel_glass_%s.json" % dye,
-    # "models/item/panel_glass_%s.json" % dye,
-    "models/item/panel_glass_%s_glowing.json" % dye
+    "blockstates/stairs_acacia_carpet_%s.json" % dye,
+    "models/block/stairs/stairs_acacia_carpet_%s.json" % dye,
+    "models/block/stairs/stairs_acacia_carpet_%s_inner.json" % dye,
+    "models/block/stairs/stairs_acacia_carpet_%s_outer.json" % dye,
+    "models/item/stairs_acacia_carpet_%s.json" % dye
   ]
   for x in range(0, len(sourceFiles)):
     shutil.copy(sourceFiles[x], targetFiles[x])

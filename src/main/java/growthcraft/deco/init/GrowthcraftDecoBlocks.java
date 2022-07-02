@@ -108,6 +108,14 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_BROWN_GLOWING,
             () -> new GlassPanel(15)
     );
+    public static final RegistryObject<GlassPanel> GLASS_PANEL_CLEAR = BLOCKS.register(
+            Reference.UnlocalizedName.GLASS_PANEL_CLEAR,
+            GlassPanel::new
+    );
+    public static final RegistryObject<GlassPanel> GLASS_PANEL_CLEAR_GLOWING = BLOCKS.register(
+            Reference.UnlocalizedName.GLASS_PANEL_CLEAR_GLOWING,
+            () -> new GlassPanel(15)
+    );
     public static final RegistryObject<GlassPanel> GLASS_PANEL_CYAN = BLOCKS.register(
             Reference.UnlocalizedName.GLASS_PANEL_CYAN,
             GlassPanel::new
@@ -244,6 +252,14 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.SLAB_GLASS_BROWN_GLOWING,
             () -> new GlassHalfBlock(15)
     );
+    public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CLEAR = BLOCKS.register(
+            Reference.UnlocalizedName.SLAB_GLASS_CLEAR,
+            GlassHalfBlock::new
+    );
+    public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CLEAR_GLOWING = BLOCKS.register(
+            Reference.UnlocalizedName.SLAB_GLASS_CLEAR_GLOWING,
+            () -> new GlassHalfBlock(15)
+    );
     public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CYAN = BLOCKS.register(
             Reference.UnlocalizedName.SLAB_GLASS_CYAN,
             GlassHalfBlock::new
@@ -348,9 +364,141 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.SLAB_GLASS_YELLOW_GLOWING,
             () -> new GlassHalfBlock(15)
     );
+    public static final RegistryObject<OrganicHalfBlock> SLAB_GLOWSHROOM = BLOCKS.register(
+            Reference.UnlocalizedName.SLAB_GLOWSHROOM,
+            () -> new OrganicHalfBlock(15)
+    );
     public static final RegistryObject<GlassHalfBlock> SLAB_GLOWSTONE = BLOCKS.register(
             Reference.UnlocalizedName.SLAB_GLOWSTONE,
             GlassHalfBlock::new
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLACK,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLUE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BROWN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_CYAN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GRAY,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GREEN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIME,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_ORANGE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLACK,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLUE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BROWN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_CYAN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GRAY,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GREEN,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIME,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_ORANGE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PINK,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PURPLE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_RED,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_WHITE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_YELLOW,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PINK,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PURPLE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_RED,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_WHITE,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_YELLOW,
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<TerracottaStairBlock> TERRACOTTA_STAIRS_BLACK = BLOCKS.register(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BLACK,
@@ -480,153 +628,133 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.STAIRS_WOOL_YELLOW,
             WoolStairBlock::new
     );
-    public static final RegistryObject<OrganicHalfBlock> SLAB_GLOWSHROOM = BLOCKS.register(
-            Reference.UnlocalizedName.SLAB_GLOWSHROOM,
-            () -> new OrganicHalfBlock(15)
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BLACK,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<GlassPanel> GLASS_PANEL_CLEAR = BLOCKS.register(
-            Reference.UnlocalizedName.GLASS_PANEL_CLEAR,
-            GlassPanel::new
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BLUE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<GlassPanel> GLASS_PANEL_CLEAR_GLOWING = BLOCKS.register(
-            Reference.UnlocalizedName.GLASS_PANEL_CLEAR_GLOWING,
-            () -> new GlassPanel(15)
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BROWN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CLEAR = BLOCKS.register(
-            Reference.UnlocalizedName.SLAB_GLASS_CLEAR,
-            GlassHalfBlock::new
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_CYAN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<GlassHalfBlock> SLAB_GLASS_CLEAR_GLOWING = BLOCKS.register(
-            Reference.UnlocalizedName.SLAB_GLASS_CLEAR_GLOWING,
-            () -> new GlassHalfBlock(15)
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_GRAY,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BLACK = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_GREEN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BLUE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_BROWN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_CYAN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIME,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_GRAY = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_GREEN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_ORANGE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_PINK,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_PURPLE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_LIME = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_RED,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_MAGENTA = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_WHITE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_ORANGE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PARTIAL_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_YELLOW,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_PINK = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_BLACK,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_PURPLE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_BLUE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_RED = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_BROWN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_WHITE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_CYAN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PARTIAL_YELLOW = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_GRAY,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BLACK = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_GREEN,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BLUE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_BROWN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_CYAN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_LIME,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_GRAY = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_GREEN = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_ORANGE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIGHT_BLUE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PINK,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIGHT_GRAY = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_PURPLE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_LIME = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_RED,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_MAGENTA = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_WHITE,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_ORANGE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
-    );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PINK = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
-    );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_PURPLE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
-    );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_RED = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
-    );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_WHITE = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
-    );
-    public static final RegistryObject<StairBlock> STAIR_ACACIA_CARPET_YELLOW = BLOCKS.register(
-            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+    public static final RegistryObject<StairBlock> STAIR_OAK_CARPET_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_OAK_CARPET_YELLOW,
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
 
     /**

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "SSS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:green_carpet"
+    },
+    "S": {
+      "item": "minecraft:acacia_stairs"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_acacia_carpet_green",
+    "count": 6
+  }
+}

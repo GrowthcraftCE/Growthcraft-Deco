@@ -25,18 +25,16 @@ for dye in dyes:
   if dye == templateBaseDye:
     continue
   sourceFiles = [
-    # "loot_tables/blocks/panel_glass_%s_glowing.json" % templateBaseDye,
-    # "loot_tables/blocks/panel_glass_%s.json" % templateBaseDye,
-    # "recipes/panel_glass_%s.json" % templateBaseDye,
-    # "recipes/panel_glass_%s_glowing_glowstone.json" % templateBaseDye,
-    "recipes/panel_glass_%s_glowing.json" % templateBaseDye
+    "loot_tables/blocks/stairs_acacia_carpet_partial_%s.json" % templateBaseDye,
+    "loot_tables/blocks/stairs_acacia_carpet_%s.json" % templateBaseDye,
+    "recipes/stairs_acacia_carpet_%s.json" % templateBaseDye,
+    "recipes/stairs_acacia_carpet_partial_%s.json" % templateBaseDye
   ]
   targetFiles = [
-       #  "loot_tables/blocks/panel_glass_%s_glowing.json" % dye,
-      #   "loot_tables/blocks/panel_glass_%s.json" % dye,
-     #    "recipes/panel_glass_%s.json" % dye,
-      #   "recipes/panel_glass_%s_glowing_glowstone.json" % dye,
-        "recipes/panel_glass_%s_glowing" % dye
+    "loot_tables/blocks/stairs_acacia_carpet_partial_%s.json" % dye,
+    "loot_tables/blocks/stairs_acacia_carpet_%s.json" % dye,
+    "recipes/stairs_acacia_carpet_%s.json" % dye,
+    "recipes/stairs_acacia_carpet_partial_%s.json" % dye
   ]
   for x in range(0, len(sourceFiles)):
     shutil.copy(sourceFiles[x], targetFiles[x])

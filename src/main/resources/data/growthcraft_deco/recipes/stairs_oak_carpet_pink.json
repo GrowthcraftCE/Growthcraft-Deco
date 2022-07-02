@@ -8,14 +8,14 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:clear_carpet"
+      "item": "minecraft:pink_carpet"
     },
     "S": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {
-    "item": "growthcraft_deco:stairs_acacia_carpet_clear",
+    "item": "growthcraft_deco:stairs_oak_carpet_pink",
     "count": 6
   }
 }

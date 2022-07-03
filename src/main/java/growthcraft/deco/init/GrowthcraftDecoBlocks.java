@@ -757,6 +757,137 @@ public class GrowthcraftDecoBlocks {
             () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
     );
 
+
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BLACK,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BLUE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BROWN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_CYAN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_GRAY,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_GREEN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIME,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_ORANGE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_PINK,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_PURPLE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_RED,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_WHITE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PARTIAL_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_YELLOW,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_BLACK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BLACK,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BLUE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_BROWN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BROWN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_CYAN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_CYAN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_GRAY,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_GREEN = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_GREEN,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_LIGHT_BLUE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_LIGHT_GRAY = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_LIME = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIME,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_MAGENTA = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_ORANGE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_ORANGE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PINK = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PINK,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_PURPLE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PURPLE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_RED = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_RED,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_WHITE = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_WHITE,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+    public static final RegistryObject<StairBlock> STAIR_SPRUCE_CARPET_YELLOW = BLOCKS.register(
+            Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_YELLOW,
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+    );
+
+
     /**
      * Dynamically register Growthcraft Decorations BlockItems.
      *

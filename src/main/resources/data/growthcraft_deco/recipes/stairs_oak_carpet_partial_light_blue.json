@@ -11,11 +11,11 @@
       "item": "minecraft:light_blue_carpet"
     },
     "S": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {
-    "item": "growthcraft_deco:stairs_dark_oak_carpet_partial_light_blue",
+    "item": "growthcraft_deco:stairs_oak_carpet_partial_light_blue",
     "count": 8
   }
 }

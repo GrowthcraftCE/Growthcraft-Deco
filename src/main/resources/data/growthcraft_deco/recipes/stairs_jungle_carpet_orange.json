@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "SSS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:orange_carpet"
+    },
+    "S": {
+      "item": "minecraft:jungle_stairs"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_jungle_carpet_orange",
+    "count": 6
+  }
+}

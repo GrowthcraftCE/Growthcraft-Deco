@@ -3,7 +3,7 @@ import shutil
 templateBaseDye = "black"
 templateBaseMaterial = "oak"
 
-targetBaseMaterial = "dark_oak"
+targetBaseMaterial = "warped"
 
 dyes = [
     "black",
@@ -44,20 +44,30 @@ for dye in dyes:
         "templates/carpet_stairs/model/item/stairs_oak_carpet_partial_%s.json" % templateBaseDye
     ]
     targetFiles = [
-        "../main/resources/data/growthcraft_deco/loot_tables/blocks/stairs_oak_carpet_partial_%s.json" % dye,
-        "../main/resources/data/growthcraft_deco/loot_tables/blocks/stairs_oak_carpet_%s.json" % dye,
-        "../main/resources/data/growthcraft_deco/recipes/stairs_oak_carpet_%s.json" % dye,
-        "../main/resources/data/growthcraft_deco/recipes/stairs_oak_carpet_partial_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/blockstates/stairs_oak_carpet_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/blockstates/stairs_oak_carpet_partial_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_%s_inner.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_%s_outer.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_partial_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_partial_%s_inner.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_oak_carpet_partial_%s_outer.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/item/stairs_oak_carpet_%s.json" % dye,
-        "../main/resources/assets/growthcraft_deco/models/item/stairs_oak_carpet_partial_%s.json" % dye
+        "../main/resources/data/growthcraft_deco/loot_tables/blocks/stairs_%s_carpet_partial_%s.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/data/growthcraft_deco/loot_tables/blocks/stairs_%s_carpet_%s.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/data/growthcraft_deco/recipes/stairs_%s_carpet_%s.json" % (targetBaseMaterial, dye),
+        "../main/resources/data/growthcraft_deco/recipes/stairs_%s_carpet_partial_%s.json" % (targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/blockstates/stairs_%s_carpet_%s.json" % (targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/blockstates/stairs_%s_carpet_partial_%s.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_%s.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_%s_inner.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_%s_outer.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_partial_%s.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_partial_%s_inner.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/block/stairs/stairs_%s_carpet_partial_%s_outer.json" % (
+            targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/item/stairs_%s_carpet_%s.json" % (targetBaseMaterial, dye),
+        "../main/resources/assets/growthcraft_deco/models/item/stairs_%s_carpet_partial_%s.json" % (
+            targetBaseMaterial, dye)
     ]
 
     for x in range(0, len(sourceFiles)):

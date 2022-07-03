@@ -11,11 +11,11 @@
       "item": "minecraft:purple_carpet"
     },
     "S": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {
-    "item": "growthcraft_deco:stairs_dark_oak_carpet_purple",
+    "item": "growthcraft_deco:stairs_oak_carpet_purple",
     "count": 6
   }
 }

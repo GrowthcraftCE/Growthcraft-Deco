@@ -1,0 +1,8 @@
+{
+  "parent": "growthcraft_deco:block/slabs/template/slab",
+  "textures": {
+    "bottom": "minecraft:block/white_stained_glass",
+    "top": "minecraft:block/white_stained_glass",
+    "side": "growthcraft_deco:block/slabs/slab_glass_white_side"
+  }
+}

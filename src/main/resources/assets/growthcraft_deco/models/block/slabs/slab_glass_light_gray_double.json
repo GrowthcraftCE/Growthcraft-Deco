@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:block/slabs/template/cube_column",
+  "textures": {
+    "end": "minecraft:block/light_gray_stained_glass",
+    "side": "growthcraft_deco:block/slabs/slab_glass_light_gray_side"
+  }
+}

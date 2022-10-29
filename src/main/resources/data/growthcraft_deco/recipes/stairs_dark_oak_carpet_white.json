@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "SSS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_carpet"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_stairs"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_dark_oak_carpet_white",
+    "count": 6
+  }
+}

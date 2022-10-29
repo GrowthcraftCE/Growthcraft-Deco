@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:block/panels/template/panel_glass_base",
+  "textures": {
+    "panel": "minecraft:block/shroomlight",
+    "particle": "minecraft:block/shroomlight"
+  }
+}

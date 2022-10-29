@@ -1,0 +1,8 @@
+{
+  "parent": "growthcraft_deco:block/stairs/template/stairs_outer",
+  "textures": {
+    "base": "minecraft:block/birch_planks",
+    "carpet": "minecraft:block/yellow_wool",
+    "particle": "minecraft:block/birch_planks"
+  }
+}

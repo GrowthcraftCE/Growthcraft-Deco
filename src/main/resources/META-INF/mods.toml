@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "GNU General Public License v3.0"
+issueTrackerURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/issues"
+
+[[mods]]
+modId = "growthcraft_deco"
+version = "8.0.0"
+displayName = "Growthcraft Decorations"
+updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
+displayURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/wiki"
+logoFile = "growthcraft_core_logo.png"
+credits = "Thanks to Gwafu for starting a great mod. And the Growthcraft CE Development for continuing the work."
+authors = "Alatyami, CoffeeThief"
+description = '''
+Growtchraft Decorations add additional decortive versions of vanila blocks for Minecraft.
+    '''
+
+[[dependencies.growthcraft_deco]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[43,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.growthcraft_deco]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"

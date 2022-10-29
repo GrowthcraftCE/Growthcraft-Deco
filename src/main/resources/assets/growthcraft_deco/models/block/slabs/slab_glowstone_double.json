@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:block/slabs/template/cube_column",
+  "textures": {
+    "end": "growthcraft_deco:block/slabs/slab_glowstone_top",
+    "side": "growthcraft_deco:block/slabs/slab_glowstone_side"
+  }
+}

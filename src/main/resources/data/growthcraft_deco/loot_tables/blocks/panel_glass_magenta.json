@@ -2,18 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "growthcraft_deco:panel_glass_magenta"
-        }
-      ],
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:match_tool",
@@ -28,7 +17,14 @@
             ]
           }
         }
-      ]
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "growthcraft_deco:panel_glass_magenta"
+        }
+      ],
+      "rolls": 1
     }
   ]
 }

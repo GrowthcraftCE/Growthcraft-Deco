@@ -396,6 +396,59 @@ public class Reference {
         public static final String STAIR_WARPED_CARPET_RED = "stairs_warped_carpet_red";
         public static final String STAIR_WARPED_CARPET_WHITE = "stairs_warped_carpet_white";
         public static final String STAIR_WARPED_CARPET_YELLOW = "stairs_warped_carpet_yellow";
+        // TODO: Additional Vanilla Glowing Stairs
+        public static final String STAIR_OAK_GLOWING = "stairs_oak_glowing";
+        public static final String STAIR_SPRUCE_GLOWING = "stairs_spruce_glowing";
+        public static final String STAIR_BIRCH_GLOWING = "stairs_birch_glowing";
+        public static final String STAIR_JUNGLE_GLOWING = "stairs_jungle_glowing";
+        public static final String STAIR_ACACIA_GLOWING = "stairs_acacia_glowing";
+        public static final String STAIR_DARK_OAK_GLOWING = "stairs_dark_oak_glowing";
+        public static final String STAIR_MANGROVE_GLOWING = "stairs_mangrove_glowing";
+        public static final String STAIR_DARK_PRISMARINE_GLOWING = "stairs_dark_prismarine_glowing";
+        public static final String STAIR_PRISMARINE_GLOWING = "stairs_prismarine_glowing";
+        public static final String STAIR_PRISMARINE_BRICK_GLOWING = "stairs_prismarine_brick_glowing";
+        public static final String STAIR_COBBLESTONE_GLOWING = "stairs_cobblestone_glowing";
+        public static final String STAIR_SANDSTONE_GLOWING = "stairs_sandstone_glowing";
+        public static final String STAIR_RED_SANDSTONE_GLOWING = "stairs_red_sandstone_glowing";
+        public static final String STAIR_BRICK_GLOWING = "stairs_brick_glowing";
+        public static final String STAIR_STONE_BRICK_GLOWING = "stairs_stone_brick_glowing";
+        public static final String STAIR_MUD_BRICK_GLOWING = "stairs_mud_brick_glowing";
+        public static final String STAIR_NETHER_BRICK_GLOWING = "stairs_nether_brick_glowing";
+        public static final String STAIR_WARPED_GLOWING = "stairs_warped_glowing";
+        public static final String STAIR_CRIMSON_GLOWING = "stairs_crimson_glowing";
+        public static final String STAIR_QUARTZ_GLOWING = "stairs_quartz_glowing";
+        public static final String STAIR_PURPUR_GLOWING = "stairs_purpur_glowing";
+        public static final String STAIR_POLISHED_GRANITE_GLOWING = "stairs_polished_granite_glowing";
+        public static final String STAIR_SMOOTH_RED_SANDSTONE_GLOWING = "stairs_smooth_red_sandstone_glowing";
+        public static final String STAIR_MOSSY_STONE_BRICK_GLOWING = "stairs_mossy_stone_brick_glowing";
+        public static final String STAIR_POLISHED_DIORITE_GLOWING = "stairs_polished_diorite_glowing";
+        public static final String STAIR_MOSSY_COBBLESTONE_GLOWING = "stairs_mossy_cobblestone_glowing";
+        public static final String STAIR_END_STONE_BRICK_GLOWING = "stairs_end_stone_brick_glowing";
+        public static final String STAIR_STONE_GLOWING = "stairs_stone_glowing";
+        public static final String STAIR_SMOOTH_SANDSTONE_GLOWING = "stairs_smooth_sandstone_glowing";
+        public static final String STAIR_SMOOTH_QUARTZ_GLOWING = "stairs_smooth_quartz_glowing";
+        public static final String STAIR_GRANITE_GLOWING = "stairs_granite_glowing";
+        public static final String STAIR_ANDESITE_GLOWING = "stairs_andesite_glowing";
+        public static final String STAIR_RED_NETHER_BRICK_GLOWING = "stairs_red_nether_brick_glowing";
+        public static final String STAIR_POLISHED_ANDESITE_GLOWING = "stairs_polished_andesite_glowing";
+        public static final String STAIR_DIORITE_GLOWING = "stairs_diorite_glowing";
+        public static final String STAIR_BLACKSTONE_GLOWING = "stairs_blackstone_glowing";
+        public static final String STAIR_POLISHED_BLACKSTONE_BRICK_GLOWING = "stairs_polished_blackstone_brick_glowing";
+        public static final String STAIR_POLISHED_BLACKSTONE_GLOWING = "stairs_polished_blackstone_glowing";
+        public static final String STAIR_CUT_COPPER_GLOWING = "stairs_cut_copper_glowing";
+        public static final String STAIR_EXPOSED_CUT_COPPER_GLOWING = "stairs_exposed_cut_copper_glowing";
+        public static final String STAIR_WEATHERED_CUT_COPPER_GLOWING = "stairs_weathered_cut_copper_glowing";
+        public static final String STAIR_OXIDIZED_CUT_COPPER_GLOWING = "stairs_oxidized_cut_copper_glowing";
+        public static final String STAIR_WAXED_CUT_COPPER_GLOWING = "stairs_waxed_cut_copper_glowing";
+        public static final String STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING = "stairs_waxed_exposed_cut_copper_glowing";
+        public static final String STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING = "stairs_waxed_weathered_cut_copper_glowing";
+        public static final String STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING = "stairs_waxed_oxidized_cut_copper_glowing";
+        public static final String STAIR_COBBLED_DEEPSLATE_GLOWING = "stairs_cobbled_deepslate_glowing";
+        public static final String STAIR_POLISHED_DEEPSLATE_GLOWING = "stairs_polished_deepslate_glowing";
+        public static final String STAIR_DEEPSLATE_BRICK_GLOWING = "stairs_deepslate_brick_glowing";
+        public static final String STAIR_DEEPSLATE_TILE_GLOWING = "stairs_deepslate_tile_glowing";
+        public static final String TAG_GLOWING = "glowing";
+
     }
 
 }

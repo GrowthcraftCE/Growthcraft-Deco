@@ -1524,6 +1524,17 @@ public class GrowthcraftDecoBlocks {
             WoolStairBlock::new
     );
 
+    // GrowthcraftDecoBlocks entry
+    // blockstate json
+    // block model json
+    // item model json
+    // loot_table json
+
+    public static final RegistryObject<Block> STAIR_OAK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_OAK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.OAK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS))
+    );
+
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> block) {
         RegistryObject<Block> registryObject = BLOCKS.register(name, block);
         if (!excludeBlockItemRegistry(registryObject.getId())) {

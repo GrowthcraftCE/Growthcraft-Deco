@@ -396,7 +396,6 @@ public class Reference {
         public static final String STAIR_WARPED_CARPET_RED = "stairs_warped_carpet_red";
         public static final String STAIR_WARPED_CARPET_WHITE = "stairs_warped_carpet_white";
         public static final String STAIR_WARPED_CARPET_YELLOW = "stairs_warped_carpet_yellow";
-        // TODO: Additional Vanilla Glowing Stairs
         public static final String STAIR_OAK_GLOWING = "stairs_oak_glowing";
         public static final String STAIR_SPRUCE_GLOWING = "stairs_spruce_glowing";
         public static final String STAIR_BIRCH_GLOWING = "stairs_birch_glowing";

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    "G": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_nether_brick_glowing",
+    "count": 8
+  }
+}

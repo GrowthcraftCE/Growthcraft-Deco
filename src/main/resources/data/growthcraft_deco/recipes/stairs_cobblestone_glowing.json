@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone_stairs"
+    },
+    "G": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_cobblestone_glowing",
+    "count": 8
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone_stairs"
+    },
+    "G": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:stairs_polished_blackstone_glowing",
+    "count": 8
+  }
+}

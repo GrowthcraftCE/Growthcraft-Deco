@@ -1524,15 +1524,254 @@ public class GrowthcraftDecoBlocks {
             WoolStairBlock::new
     );
 
-    // GrowthcraftDecoBlocks entry
-    // blockstate json
-    // block model json
-    // item model json
-    // loot_table json
-
     public static final RegistryObject<Block> STAIR_OAK_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_GLOWING,
             () -> new GlowingStairBlock(Blocks.OAK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_SPRUCE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_SPRUCE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.SPRUCE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_BIRCH_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_BIRCH_GLOWING,
+            () -> new GlowingStairBlock(Blocks.BIRCH_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_JUNGLE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_JUNGLE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.JUNGLE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_ACACIA_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_ACACIA_GLOWING,
+            () -> new GlowingStairBlock(Blocks.ACACIA_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_DARK_OAK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_DARK_OAK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.DARK_OAK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_MANGROVE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_MANGROVE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.MANGROVE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.MANGROVE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_DARK_PRISMARINE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_DARK_PRISMARINE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.DARK_PRISMARINE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_PRISMARINE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_PRISMARINE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.PRISMARINE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.PRISMARINE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_PRISMARINE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_PRISMARINE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.PRISMARINE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_COBBLESTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_COBBLESTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.COBBLESTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.COBBLESTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_SANDSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_SANDSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.SANDSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SANDSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_RED_SANDSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_RED_SANDSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.RED_SANDSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.RED_SANDSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_STONE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_STONE_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.STONE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_MUD_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_MUD_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.MUD_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.MUD_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_NETHER_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_NETHER_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.NETHER_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.NETHER_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WARPED_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WARPED_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WARPED_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_CRIMSON_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_CRIMSON_GLOWING,
+            () -> new GlowingStairBlock(Blocks.CRIMSON_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_QUARTZ_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_QUARTZ_GLOWING,
+            () -> new GlowingStairBlock(Blocks.QUARTZ_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.QUARTZ_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_PURPUR_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_PURPUR_GLOWING,
+            () -> new GlowingStairBlock(Blocks.PURPUR_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.PURPUR_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_GRANITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_GRANITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_GRANITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_SMOOTH_RED_SANDSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_SMOOTH_RED_SANDSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.SMOOTH_RED_SANDSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_RED_SANDSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_MOSSY_STONE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_MOSSY_STONE_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.MOSSY_STONE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_DIORITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_DIORITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_DIORITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_DIORITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_MOSSY_COBBLESTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_MOSSY_COBBLESTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.MOSSY_COBBLESTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_END_STONE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_END_STONE_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.END_STONE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_STONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_STONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.STONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_SMOOTH_SANDSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_SMOOTH_SANDSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.SMOOTH_SANDSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_SANDSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_SMOOTH_QUARTZ_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_SMOOTH_QUARTZ_GLOWING,
+            () -> new GlowingStairBlock(Blocks.SMOOTH_QUARTZ_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_GRANITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_GRANITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.GRANITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_ANDESITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_ANDESITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.ANDESITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ANDESITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_RED_NETHER_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_RED_NETHER_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.RED_NETHER_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_ANDESITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_ANDESITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_ANDESITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_DIORITE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_DIORITE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.DIORITE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DIORITE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_BLACKSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_BLACKSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.BLACKSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BLACKSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_BLACKSTONE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_BLACKSTONE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_BLACKSTONE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_BLACKSTONE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_BLACKSTONE_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_EXPOSED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_EXPOSED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.EXPOSED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.EXPOSED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WEATHERED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WEATHERED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_OXIDIZED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_OXIDIZED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.OXIDIZED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OXIDIZED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WAXED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WAXED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WAXED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING,
+            () -> new GlowingStairBlock(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_COBBLED_DEEPSLATE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_COBBLED_DEEPSLATE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.COBBLED_DEEPSLATE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_POLISHED_DEEPSLATE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_POLISHED_DEEPSLATE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.POLISHED_DEEPSLATE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_DEEPSLATE_BRICK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING,
+            () -> new GlowingStairBlock(Blocks.DEEPSLATE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICK_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_DEEPSLATE_TILE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
+            () -> new GlowingStairBlock(Blocks.DEEPSLATE_TILE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILE_STAIRS))
     );
 
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> block) {

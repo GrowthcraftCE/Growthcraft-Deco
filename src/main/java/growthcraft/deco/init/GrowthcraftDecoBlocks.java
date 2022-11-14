@@ -1570,7 +1570,7 @@ public class GrowthcraftDecoBlocks {
     );
 
     public static final RegistryObject<Block> STAIR_PRISMARINE_BRICK_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_PRISMARINE_GLOWING,
+            Reference.UnlocalizedName.STAIR_PRISMARINE_BRICK_GLOWING,
             () -> new GlowingStairBlock(Blocks.PRISMARINE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICK_STAIRS))
     );
 

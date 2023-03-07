@@ -93,10 +93,17 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_BLACK,
             GlassPanel::new
     );
+
     public static final RegistryObject<Block> GLASS_PANEL_BLACK_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANEL_BLACK_GLOWING,
             () -> new GlassPanel(15)
     );
+
+    public static final RegistryObject<Block> GLASS_PANE_BLUE_GLOWING = registerBlock(
+            Reference.UnlocalizedName.GLASS_PANE_BLUE_GLOWING,
+            () -> new GlassPane(DyeColor.BLUE)
+    );
+
     public static final RegistryObject<Block> GLASS_PANEL_BLUE = registerBlock(
             Reference.UnlocalizedName.GLASS_PANEL_BLUE,
             GlassPanel::new

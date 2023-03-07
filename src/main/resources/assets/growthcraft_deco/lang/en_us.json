@@ -427,5 +427,6 @@
   "block.growthcraft_deco.stairs_deepslate_brick_glowing": "Deepslate Brick Stairs Glowing",
   "block.growthcraft_deco.stairs_deepslate_tile_glowing": "Deepslate Tile Stairs Glowing",
   "item_group.growthcraft_deco.tab": "Growthcraft Decorations",
-  "block.growthcraft_deco.glass_stained_black_pane_glowing": "Black Stained Glass Pane (Glowing)"
+  "block.growthcraft_deco.glass_stained_black_pane_glowing": "Black Stained Glass Pane (Glowing)",
+  "block.growthcraft_deco.glass_stained_blue_pane_glowing": "Blue Stained Glass Pane (Glowing)"
 }

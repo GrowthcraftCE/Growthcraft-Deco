@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "G": {
       "tag": "growthcraft_deco:glowing"
     }
   },
   "result": {
-    "item": "growthcraft_deco:glass_stained_black_pane_glowing",
+    "item": "growthcraft_deco:glass_stained_blue_pane_glowing",
     "count": 8
   }
 }

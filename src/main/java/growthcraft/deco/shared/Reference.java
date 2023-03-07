@@ -11,6 +11,8 @@ public class Reference {
 
     public static class UnlocalizedName {
         public static final String GLASS_PANE_BLACK_GLOWING = "glass_stained_black_pane_glowing";
+        public static final String GLASS_PANE_BLUE_GLOWING = "glass_stained_blue_pane_glowing";
+
         public static final String GLASS_PANEL_BLACK = "panel_glass_black";
         public static final String GLASS_PANEL_BLACK_GLOWING = "panel_glass_black_glowing";
         public static final String GLASS_PANEL_BLUE = "panel_glass_blue";

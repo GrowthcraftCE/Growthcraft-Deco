@@ -1788,7 +1788,7 @@ public class GrowthcraftDecoBlocks {
 
     private static Item.Properties getDefaultItemProperties() {
         Item.Properties properties = new Item.Properties();
-        properties.tab(Reference.CREATIVE_TAB);
+        //properties.tab(Reference.CREATIVE_TAB);
         return properties;
     }
 

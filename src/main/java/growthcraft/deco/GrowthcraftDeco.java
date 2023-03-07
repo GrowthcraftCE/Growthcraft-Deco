@@ -5,6 +5,7 @@ import growthcraft.deco.init.GrowthcraftDecoItems;
 import growthcraft.deco.init.client.GrowthcraftDecoBlockRenderers;
 import growthcraft.deco.shared.Reference;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -34,6 +35,14 @@ public class GrowthcraftDeco {
 
     private void setup(final FMLCommonSetupEvent event) {
         // Do nothing for now ...
+    }
+
+    private void onCreativeModeTabEvent(CreativeModeTabEvent.BuildContents event) {
+        if (event.getTab() == Reference.CREATIVE_TAB) {
+            GrowthcraftDecoItems.ITEMS.getEntries().forEach(item -> {
+                event.accept(item);
+            });
+        }
     }
 
     private void clientSetupEvent(final FMLClientSetupEvent event) {

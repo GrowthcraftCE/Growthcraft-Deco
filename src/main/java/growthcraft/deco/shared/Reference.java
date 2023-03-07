@@ -12,6 +12,21 @@ public class Reference {
     public static class UnlocalizedName {
         public static final String GLASS_PANE_BLACK_GLOWING = "glass_stained_black_pane_glowing";
         public static final String GLASS_PANE_BLUE_GLOWING = "glass_stained_blue_pane_glowing";
+        public static final String GLASS_PANE_BROWN_GLOWING = "glass_stained_brown_pane_glowing";
+        public static final String GLASS_PANE_CLEAR_GLOWING = "glass_stained_clear_pane_glowing";
+        public static final String GLASS_PANE_CYAN_GLOWING = "glass_stained_cyan_pane_glowing";
+        public static final String GLASS_PANE_GRAY_GLOWING = "glass_stained_gray_pane_glowing";
+        public static final String GLASS_PANE_GREEN_GLOWING = "glass_stained_green_pane_glowing";
+        public static final String GLASS_PANE_LIGHT_BLUE_GLOWING = "glass_stained_light_blue_pane_glowing";
+        public static final String GLASS_PANE_LIGHT_GRAY_GLOWING = "glass_stained_light_gray_pane_glowing";
+        public static final String GLASS_PANE_LIME_GLOWING = "glass_stained_lime_pane_glowing";
+        public static final String GLASS_PANE_MAGENTA_GLOWING = "glass_stained_magenta_pane_glowing";
+        public static final String GLASS_PANE_ORANGE_GLOWING = "glass_stained_orange_pane_glowing";
+        public static final String GLASS_PANE_PINK_GLOWING = "glass_stained_pink_pane_glowing";
+        public static final String GLASS_PANE_PURPLE_GLOWING = "glass_stained_purple_pane_glowing";
+        public static final String GLASS_PANE_RED_GLOWING = "glass_stained_blue_red_glowing";
+        public static final String GLASS_PANE_WHITE_GLOWING = "glass_stained_white_pane_glowing";
+        public static final String GLASS_PANE_YELLOW_GLOWING = "glass_stained_yellow_pane_glowing";
 
         public static final String GLASS_PANEL_BLACK = "panel_glass_black";
         public static final String GLASS_PANEL_BLACK_GLOWING = "panel_glass_black_glowing";

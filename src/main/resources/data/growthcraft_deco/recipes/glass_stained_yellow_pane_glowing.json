@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_stained_glass_pane"
+    },
+    "G": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "result": {
+    "item": "growthcraft_deco:glass_stained_yellow_pane_glowing",
+    "count": 8
+  }
+}

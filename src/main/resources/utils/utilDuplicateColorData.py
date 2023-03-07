@@ -3,38 +3,52 @@ import shutil
 templateBaseDye = "black"
 
 dyes = [
-  "white",
-  "orange",
-  "magenta",
-  "light_blue",
-  "yellow",
-  "lime",
-  "pink",
-  "gray",
-  "light_gray",
-  "cyan",
-  "purple",
+  "black",
   "blue",
   "brown",
+  "clear",
+  "cyan",
+  "gray",
   "green",
+  "light_blue",
+  "light_gray",
+  "lime",
+  "magenta",
+  "orange",
+  "pink",
+  "purple",
   "red",
-  "clear"
+  "white",
+  "yellow"
 ]
 
 for dye in dyes:
   if dye == templateBaseDye:
     continue
   sourceFiles = [
-    "loot_tables/blocks/stairs_oak_carpet_partial_%s.json" % templateBaseDye,
-    "loot_tables/blocks/stairs_oak_carpet_%s.json" % templateBaseDye,
-    "recipes/stairs_oak_carpet_%s.json" % templateBaseDye,
-    "recipes/stairs_oak_carpet_partial_%s.json" % templateBaseDye
+    "../data/growthcraft_deco/loot_tables/blocks/glass_stained_%s_pane_glowing.json" % templateBaseDye,
+    "../data/growthcraft_deco/recipes/glass_stained_%s_pane_glowing.json" % templateBaseDye,
+    "../assets/growthcraft_deco/blockstates/glass_stained_%s_pane_glowing.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_noside.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_noside_alt.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_post.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_side.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_side_alt.json" % templateBaseDye,
+    "../assets/growthcraft_deco/models/item/glass_stained_%s_pane_glowing.json" % templateBaseDye
+
+
+
   ]
   targetFiles = [
-    "loot_tables/blocks/stairs_oak_carpet_partial_%s.json" % dye,
-    "loot_tables/blocks/stairs_oak_carpet_%s.json" % dye,
-    "recipes/stairs_oak_carpet_%s.json" % dye,
-    "recipes/stairs_oak_carpet_partial_%s.json" % dye
+    "../data/growthcraft_deco/loot_tables/blocks/glass_stained_%s_pane_glowing.json" % dye,
+    "../data/growthcraft_deco/recipes/glass_stained_%s_pane_glowing.json" % dye,
+    "../assets/growthcraft_deco/blockstates/glass_stained_%s_pane_glowing.json" % dye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_noside.json" % dye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_noside_alt.json" % dye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_post.json" % dye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_side.json" % dye,
+    "../assets/growthcraft_deco/models/block/panes/%s_stained_glass_pane_side_alt.json" % dye,
+    "../assets/growthcraft_deco/models/item/glass_stained_%s_pane_glowing.json" % dye
   ]
   for x in range(0, len(sourceFiles)):
     shutil.copy(sourceFiles[x], targetFiles[x])

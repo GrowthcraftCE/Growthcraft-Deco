@@ -1,25 +1,16 @@
 package growthcraft.deco.shared;
 
-import growthcraft.deco.init.GrowthcraftDecoBlocks;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-
 public class Reference {
     public static final String MODID = "growthcraft_deco";
-    public static final CreativeModeTab CREATIVE_TAB = new CreativeModeTab(Reference.MODID) {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(GrowthcraftDecoBlocks.SLAB_GLOWSHROOM.get());
-        }
-    };
 
     public static final String NAME = "Growthcraft Decorations";
     public static final String NAME_SHORT = "deco";
-    public static final String VERSION = "8.2.0";
+    public static final String VERSION = "8.3.0";
 
     private Reference() { /* Prevent default public constructor */ }
 
     public static class UnlocalizedName {
+        public static final String GLASS_PANE_BLACK_GLOWING = "glass_stained_black_pane_glowing";
         public static final String GLASS_PANEL_BLACK = "panel_glass_black";
         public static final String GLASS_PANEL_BLACK_GLOWING = "panel_glass_black_glowing";
         public static final String GLASS_PANEL_BLUE = "panel_glass_blue";

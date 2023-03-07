@@ -4,6 +4,7 @@ import growthcraft.deco.block.*;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -81,6 +82,11 @@ public class GrowthcraftDecoBlocks {
     public static final RegistryObject<Block> CONCRETE_STAIRS_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIRS_CONCRETE_YELLOW,
             ConcreteStairBlock::new
+    );
+
+    public static final RegistryObject<Block> GLASS_PANE_BLACK_GLOWING = registerBlock(
+            Reference.UnlocalizedName.GLASS_PANE_BLACK_GLOWING,
+            () -> new GlassPane(DyeColor.BLACK)
     );
 
     public static final RegistryObject<Block> GLASS_PANEL_BLACK = registerBlock(
@@ -1792,7 +1798,7 @@ public class GrowthcraftDecoBlocks {
         return properties;
     }
 
-    private static boolean excludeBlockItemRegistry(ResourceLocation registryName) {
+    public static boolean excludeBlockItemRegistry(ResourceLocation registryName) {
         ArrayList<String> excludeBlocks = new ArrayList<>();
         //excludeBlocks.add(Reference.MODID + ":" + Reference.UnlocalizedName.APPLE_TREE_FRUIT);
         return excludeBlocks.contains(registryName.toString());

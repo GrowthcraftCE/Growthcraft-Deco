@@ -1468,131 +1468,131 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_YELLOW,
             () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_BLACK = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BLACK,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_BLUE = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BLUE,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_BROWN = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BROWN,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_CYAN = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_CYAN,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_GRAY = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_GRAY,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_GREEN = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_GREEN,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_LIGHT_BLUE = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_LIGHT_BLUE,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_LIGHT_GRAY = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_LIGHT_GRAY,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_LIME = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_LIME = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_LIME,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_MAGENTA = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_MAGENTA,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_ORANGE = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_ORANGE,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_PINK = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_PINK = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_PINK,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_PURPLE = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_PURPLE,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_RED = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_RED = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_RED,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_WHITE = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_WHITE,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> TERRACOTTA_STAIRS_YELLOW = registerBlock(
+    public static final RegistryObject<Block> STAIR_TERRACOTTA_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_YELLOW,
             TerracottaStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_BLACK = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_BLACK,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_BLUE = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_BLUE,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_BROWN = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_BROWN,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_CYAN = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_CYAN,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_GRAY = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_GRAY,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_GREEN = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_GREEN,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_LIGHT_BLUE = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_LIGHT_BLUE,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_LIGHT_GRAY = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_LIGHT_GRAY,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_LIME = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_LIME,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_MAGENTA = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_MAGENTA,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_ORANGE = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_ORANGE,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_PINK = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_PINK,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_PURPLE = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_PURPLE,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_RED = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_RED = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_RED,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_WHITE = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_WHITE,
             WoolStairBlock::new
     );
-    public static final RegistryObject<Block> WOOL_STAIRS_YELLOW = registerBlock(
+    public static final RegistryObject<Block> STAIR_WOOL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIRS_WOOL_YELLOW,
             WoolStairBlock::new
     );

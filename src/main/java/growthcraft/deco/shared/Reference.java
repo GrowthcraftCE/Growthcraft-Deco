@@ -24,7 +24,7 @@ public class Reference {
         public static final String GLASS_PANE_ORANGE_GLOWING = "glass_stained_orange_pane_glowing";
         public static final String GLASS_PANE_PINK_GLOWING = "glass_stained_pink_pane_glowing";
         public static final String GLASS_PANE_PURPLE_GLOWING = "glass_stained_purple_pane_glowing";
-        public static final String GLASS_PANE_RED_GLOWING = "glass_stained_blue_red_glowing";
+        public static final String GLASS_PANE_RED_GLOWING = "glass_stained_red_glowing";
         public static final String GLASS_PANE_WHITE_GLOWING = "glass_stained_white_pane_glowing";
         public static final String GLASS_PANE_YELLOW_GLOWING = "glass_stained_yellow_pane_glowing";
 

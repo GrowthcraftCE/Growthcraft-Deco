@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glowstone"
-            ]
+            "tag": "growthcraft_deco:glowing"
           }
         ]
       },

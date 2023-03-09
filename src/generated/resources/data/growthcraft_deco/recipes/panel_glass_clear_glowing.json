@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "growthcraft_deco:panel_glass_clear"
+    },
+    "B": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "growthcraft_deco:panel_glass_clear_glowing"
+  }
+}

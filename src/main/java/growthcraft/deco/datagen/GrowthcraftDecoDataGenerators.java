@@ -1,5 +1,7 @@
 package growthcraft.deco.datagen;
 
+import growthcraft.deco.datagen.providers.GrowthcraftDecoLootTableProvider;
+import growthcraft.deco.datagen.providers.GrowthcraftDecoRecipeProvider;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -25,5 +27,6 @@ public class GrowthcraftDecoDataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(true, new GrowthcraftDecoRecipeProvider(packOutput));
+        generator.addProvider(true, GrowthcraftDecoLootTableProvider.create(packOutput));
     }
 }

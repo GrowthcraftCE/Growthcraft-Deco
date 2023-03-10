@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_stairs"
+    },
+    "B": {
+      "item": "minecraft:pink_carpet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "growthcraft_deco:stairs_dark_oak_carpet_pink"
+  }
+}

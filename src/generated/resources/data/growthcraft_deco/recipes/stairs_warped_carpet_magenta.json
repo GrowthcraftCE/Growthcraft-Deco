@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:warped_stairs"
+    },
+    "B": {
+      "item": "minecraft:magenta_carpet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "growthcraft_deco:stairs_warped_carpet_magenta"
+  }
+}

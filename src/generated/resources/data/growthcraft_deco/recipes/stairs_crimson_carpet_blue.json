@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:crimson_stairs"
+    },
+    "B": {
+      "item": "minecraft:blue_carpet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "item": "growthcraft_deco:stairs_crimson_carpet_blue"
+  }
+}

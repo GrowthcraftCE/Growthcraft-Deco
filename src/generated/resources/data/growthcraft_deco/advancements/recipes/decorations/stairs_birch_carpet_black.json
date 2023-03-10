@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_birch_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_black_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_carpet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "growthcraft_deco:stairs_birch_carpet_black"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_stairs",
+      "has_black_carpet",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "growthcraft_deco:stairs_birch_carpet_black"
+    ]
+  }
+}

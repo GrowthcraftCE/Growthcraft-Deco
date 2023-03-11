@@ -24,6 +24,7 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         // Simple Cube Blocks with Simple BlockItem Models
         //this.blockWithItem(GrowthcraftDecoBlocks.STONE_BRICKS_GLOWING.get());
         this.glassPanes();
+        this.slabs();
     }
 
     private void glassPanes() {
@@ -61,6 +62,10 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
                 "minecraft:block/white_stained_glass", "minecraft:block/white_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_YELLOW_PANE_GLOWING.get(),
                 "minecraft:block/yellow_stained_glass", "minecraft:block/yellow_stained_glass_pane_top");
+    }
+
+    private void slabs() {
+        //slabBlock(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get(), mcLoc());
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

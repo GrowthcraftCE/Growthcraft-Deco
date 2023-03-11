@@ -1,5 +1,7 @@
 package growthcraft.deco.datagen;
 
+import growthcraft.deco.datagen.providers.GrowthcraftDecoBlockStateProvider;
+import growthcraft.deco.datagen.providers.GrowthcraftDecoItemModelProvider;
 import growthcraft.deco.datagen.providers.GrowthcraftDecoLootTableProvider;
 import growthcraft.deco.datagen.providers.GrowthcraftDecoRecipeProvider;
 import growthcraft.deco.shared.Reference;
@@ -28,5 +30,7 @@ public class GrowthcraftDecoDataGenerators {
 
         generator.addProvider(true, new GrowthcraftDecoRecipeProvider(packOutput));
         generator.addProvider(true, GrowthcraftDecoLootTableProvider.create(packOutput));
+        generator.addProvider(true, new GrowthcraftDecoBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(true, new GrowthcraftDecoItemModelProvider(packOutput, existingFileHelper));
     }
 }

@@ -84,7 +84,7 @@ public class GrowthcraftDecoBlocks {
             ConcreteStairBlock::new
     );
 
-    public static final RegistryObject<Block> GLASS_PANE_BLACK_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_BLACK_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_BLACK_GLOWING,
             () -> new GlassPane(DyeColor.BLACK)
     );
@@ -99,7 +99,7 @@ public class GrowthcraftDecoBlocks {
             () -> new GlassPanel(15)
     );
 
-    public static final RegistryObject<Block> GLASS_PANE_BLUE_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_BLUE_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_BLUE_GLOWING,
             () -> new GlassPane(DyeColor.BLUE)
     );
@@ -112,7 +112,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_BLUE_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_BROWN_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_BROWN_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_BROWN_GLOWING,
             () -> new GlassPane(DyeColor.BROWN)
     );
@@ -124,7 +124,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_BROWN_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_CLEAR_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_CLEAR_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_CLEAR_GLOWING,
             () -> new GlassPane(DyeColor.WHITE)
     );
@@ -136,7 +136,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_CLEAR_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_CYAN_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_CYAN_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_CYAN_GLOWING,
             () -> new GlassPane(DyeColor.CYAN)
     );
@@ -148,7 +148,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_CYAN_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_GRAY_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_GRAY_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_GRAY_GLOWING,
             () -> new GlassPane(DyeColor.GRAY)
     );
@@ -160,7 +160,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_GRAY_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_GREEN_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_GREEN_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_GREEN_GLOWING,
             () -> new GlassPane(DyeColor.GREEN)
     );
@@ -172,7 +172,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_GREEN_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_LIGHT_BLUE_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_LIGHT_BLUE_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_LIGHT_BLUE_GLOWING,
             () -> new GlassPane(DyeColor.LIGHT_BLUE)
     );
@@ -184,7 +184,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_LIGHT_BLUE_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_LIGHT_GRAY_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_LIGHT_GRAY_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_LIGHT_GRAY_GLOWING,
             () -> new GlassPane(DyeColor.LIGHT_GRAY)
     );
@@ -196,7 +196,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_LIGHT_GRAY_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_LIME_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_LIME_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_LIME_GLOWING,
             () -> new GlassPane(DyeColor.LIME)
     );
@@ -208,7 +208,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_LIME_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_MAGENTA_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_MAGENTA_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_MAGENTA_GLOWING,
             () -> new GlassPane(DyeColor.MAGENTA)
     );
@@ -220,7 +220,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_MAGENTA_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_ORANGE_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_ORANGE_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_ORANGE_GLOWING,
             () -> new GlassPane(DyeColor.ORANGE)
     );
@@ -232,7 +232,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_ORANGE_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_PINK_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_PINK_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_PINK_GLOWING,
             () -> new GlassPane(DyeColor.PINK)
     );
@@ -244,7 +244,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_PINK_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_PURPLE_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_PURPLE_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_PURPLE_GLOWING,
             () -> new GlassPane(DyeColor.PURPLE)
     );
@@ -256,7 +256,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_PURPLE_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_RED_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_RED_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_RED_GLOWING,
             () -> new GlassPane(DyeColor.RED)
     );
@@ -268,7 +268,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_RED_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_WHITE_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_WHITE_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_WHITE_GLOWING,
             () -> new GlassPane(DyeColor.WHITE)
     );
@@ -280,7 +280,7 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.GLASS_PANEL_WHITE_GLOWING,
             () -> new GlassPanel(15)
     );
-    public static final RegistryObject<Block> GLASS_PANE_YELLOW_GLOWING = registerBlock(
+    public static final RegistryObject<Block> GLASS_STAINED_YELLOW_PANE_GLOWING = registerBlock(
             Reference.UnlocalizedName.GLASS_PANE_YELLOW_GLOWING,
             () -> new GlassPane(DyeColor.YELLOW)
     );

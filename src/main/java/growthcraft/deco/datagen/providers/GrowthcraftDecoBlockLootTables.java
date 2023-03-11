@@ -391,23 +391,23 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
      */
     private void silkTouchLootTables() {
         // Silk Touch Required
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_BLACK_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_BLUE_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_BROWN_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_CLEAR_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_CYAN_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_GRAY_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_GREEN_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_LIGHT_BLUE_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_LIGHT_GRAY_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_LIME_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_MAGENTA_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_ORANGE_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_PINK_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_PURPLE_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_RED_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_WHITE_GLOWING.get());
-        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANE_YELLOW_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BLACK_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BLUE_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BROWN_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_CLEAR_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_CYAN_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_GRAY_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_GREEN_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_BLUE_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_GRAY_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_LIME_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_MAGENTA_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_ORANGE_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_PINK_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_PURPLE_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_RED_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_WHITE_PANE_GLOWING.get());
+        this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_YELLOW_PANE_GLOWING.get());
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANEL_BLACK_GLOWING.get());
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANEL_BLUE_GLOWING.get());
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_PANEL_BROWN_GLOWING.get());

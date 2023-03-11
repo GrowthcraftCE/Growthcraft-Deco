@@ -148,23 +148,23 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
 
     private void glowingRecipes(Consumer<FinishedRecipe> recipeConsumer) {
 
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_BLACK_GLOWING.get(), Blocks.BLACK_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_BLUE_GLOWING.get(), Blocks.BLUE_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_BROWN_GLOWING.get(), Blocks.BROWN_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_CLEAR_GLOWING.get(), Blocks.GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_CYAN_GLOWING.get(), Blocks.CYAN_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_GRAY_GLOWING.get(), Blocks.GRAY_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_GREEN_GLOWING.get(), Blocks.GREEN_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_LIGHT_BLUE_GLOWING.get(), Blocks.LIGHT_BLUE_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_LIGHT_GRAY_GLOWING.get(), Blocks.LIGHT_GRAY_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_LIME_GLOWING.get(), Blocks.LIME_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_MAGENTA_GLOWING.get(), Blocks.MAGENTA_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_ORANGE_GLOWING.get(), Blocks.ORANGE_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_PINK_GLOWING.get(), Blocks.PINK_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_PURPLE_GLOWING.get(), Blocks.PURPLE_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_RED_GLOWING.get(), Blocks.RED_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_WHITE_GLOWING.get(), Blocks.WHITE_STAINED_GLASS_PANE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANE_YELLOW_GLOWING.get(), Blocks.YELLOW_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_BLACK_PANE_GLOWING.get(), Blocks.BLACK_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_BLUE_PANE_GLOWING.get(), Blocks.BLUE_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_BROWN_PANE_GLOWING.get(), Blocks.BROWN_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_CLEAR_PANE_GLOWING.get(), Blocks.GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_CYAN_PANE_GLOWING.get(), Blocks.CYAN_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_GRAY_PANE_GLOWING.get(), Blocks.GRAY_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_GREEN_PANE_GLOWING.get(), Blocks.GREEN_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_BLUE_PANE_GLOWING.get(), Blocks.LIGHT_BLUE_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_GRAY_PANE_GLOWING.get(), Blocks.LIGHT_GRAY_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_LIME_PANE_GLOWING.get(), Blocks.LIME_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_MAGENTA_PANE_GLOWING.get(), Blocks.MAGENTA_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_ORANGE_PANE_GLOWING.get(), Blocks.ORANGE_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_PINK_PANE_GLOWING.get(), Blocks.PINK_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_PURPLE_PANE_GLOWING.get(), Blocks.PURPLE_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_RED_PANE_GLOWING.get(), Blocks.RED_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_WHITE_PANE_GLOWING.get(), Blocks.WHITE_STAINED_GLASS_PANE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_YELLOW_PANE_GLOWING.get(), Blocks.YELLOW_STAINED_GLASS_PANE);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLASS_BLACK_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get());
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLASS_BLUE_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BLUE.get());
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLASS_BROWN_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BROWN.get());

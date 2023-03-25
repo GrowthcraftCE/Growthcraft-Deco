@@ -17,5 +17,6 @@
   "result": {
     "count": 8,
     "item": "growthcraft_deco:stairs_acacia_carpet_partial_lime"
-  }
+  },
+  "show_notification": true
 }

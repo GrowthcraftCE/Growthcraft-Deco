@@ -12,5 +12,6 @@
   "result": {
     "count": 6,
     "item": "growthcraft_deco:panel_glass_yellow"
-  }
+  },
+  "show_notification": true
 }

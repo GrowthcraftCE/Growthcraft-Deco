@@ -27,7 +27,7 @@ println("Build Version: ${growthcraft_version}")
 println('----------------------------------------')
 
 minecraft {
-    mappings channel: 'official', version: '1.19.3'
+    mappings channel: 'official', version: '1.19.4'
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     runs {
@@ -36,6 +36,8 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'growthcraft_deco'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 gowthcraft_deco {
@@ -48,7 +50,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'growthcraft_deco'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 gowthcraft_deco {
@@ -61,7 +65,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'growthcraft_deco'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 growthcraft_deco {
@@ -74,6 +80,8 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             args '--mod', 'growthcraft_deco', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
@@ -89,18 +97,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // JEI, Tinker's Construct, Mantle, Iron Chests, Natura, etc.
-    maven { url = "https://dvs1.progwml6.com/files/maven" }
-    // The One Probe
-    maven { url = "https://maven.tterrag.com/" }
-    // Patchouli
-    maven { url = 'https://maven.blamejared.com' }
+    // Curse Forge
+    maven { url "https://www.cursemaven.com" }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${forge_version}"
-
-    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+    runtimeOnly fg.deobf("curse.maven:theoneprobe-${curseforge_theoneprobe}")
+    // TODO: 2023.03.24 - Not available for 1.19.4
+    //runtimeOnly fg.deobf("curse.maven:jei-${curseforge_jei}")
+    //runtimeOnly fg.deobf("curse.maven:patchouli-${curseforge_patchouli}")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

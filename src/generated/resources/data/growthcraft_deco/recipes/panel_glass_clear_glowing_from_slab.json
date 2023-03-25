@@ -12,5 +12,6 @@
   "result": {
     "count": 6,
     "item": "growthcraft_deco:panel_glass_clear_glowing"
-  }
+  },
+  "show_notification": true
 }

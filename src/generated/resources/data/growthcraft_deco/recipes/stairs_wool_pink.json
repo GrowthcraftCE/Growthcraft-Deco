@@ -14,5 +14,6 @@
   "result": {
     "count": 4,
     "item": "growthcraft_deco:stairs_wool_pink"
-  }
+  },
+  "show_notification": true
 }

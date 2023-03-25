@@ -17,5 +17,6 @@
   "result": {
     "count": 6,
     "item": "growthcraft_deco:stairs_oak_carpet_light_blue"
-  }
+  },
+  "show_notification": true
 }

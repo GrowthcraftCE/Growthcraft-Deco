@@ -12,5 +12,6 @@
   "result": {
     "count": 6,
     "item": "growthcraft_deco:slab_glass_lime"
-  }
+  },
+  "show_notification": true
 }

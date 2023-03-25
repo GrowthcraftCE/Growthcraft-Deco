@@ -17,5 +17,6 @@
   "result": {
     "count": 8,
     "item": "growthcraft_deco:glass_stained_light_gray_pane_glowing"
-  }
+  },
+  "show_notification": true
 }

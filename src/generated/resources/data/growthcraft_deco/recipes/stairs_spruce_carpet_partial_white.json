@@ -17,5 +17,6 @@
   "result": {
     "count": 8,
     "item": "growthcraft_deco:stairs_spruce_carpet_partial_white"
-  }
+  },
+  "show_notification": true
 }

@@ -17,5 +17,6 @@
   "result": {
     "count": 8,
     "item": "growthcraft_deco:stairs_birch_carpet_partial_light_blue"
-  }
+  },
+  "show_notification": true
 }

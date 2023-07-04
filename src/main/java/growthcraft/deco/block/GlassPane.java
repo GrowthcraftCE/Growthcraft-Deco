@@ -7,7 +7,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.StainedGlassPaneBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.Material;
 
 public class GlassPane extends StainedGlassPaneBlock {
 
@@ -18,7 +17,7 @@ public class GlassPane extends StainedGlassPaneBlock {
     }
 
     public GlassPane(DyeColor dyeColor, int lightLevel) {
-        super(dyeColor, BlockBehaviour.Properties.of(Material.GLASS).strength(0.3F).sound(SoundType.GLASS).noOcclusion());
+        super(dyeColor, BlockBehaviour.Properties.of().strength(0.3F).sound(SoundType.GLASS).noOcclusion());
         this.lightLevel = lightLevel;
     }
 

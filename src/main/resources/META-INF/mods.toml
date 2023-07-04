@@ -1,30 +1,29 @@
 modLoader = "javafml"
-loaderVersion = "[45,)"
-license = "GNU General Public License v3.0"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
 issueTrackerURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/issues"
 
 [[mods]]
-modId = "growthcraft_deco"
-version = "8.3.0"
-displayName = "Growthcraft Decorations"
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
 updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
 displayURL = "https://github.com/GrowthcraftCE/Growthcraft-Deco/wiki"
 logoFile = "growthcraft_core_logo.png"
 credits = "Thanks to Gwafu for starting a great mod. And the Growthcraft CE Development for continuing the work."
-authors = "Alatyami, CoffeeThief"
-description = '''
-Growtchraft Decorations add additional decortive versions of vanila blocks for Minecraft.
-    '''
+authors = "${mod_authors}"
+description = '''${mod_description}'''
 
-[[dependencies.growthcraft_deco]] #optional
+[[dependencies.${ mod_id }]] #optional
 modId = "forge" #mandatory
 mandatory = true #mandatory
-versionRange = "[45,)" #mandatory
+versionRange = "${forge_version_range}" #mandatory
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.growthcraft_deco]]
+[[dependencies.${ mod_id }]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.4,1.20)"
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"

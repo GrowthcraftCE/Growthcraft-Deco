@@ -5,7 +5,7 @@ public class Reference {
 
     public static final String NAME = "Growthcraft Decorations";
     public static final String NAME_SHORT = "deco";
-    public static final String VERSION = "8.3.0";
+    public static final String VERSION = "9.0.0";
 
     private Reference() { /* Prevent default public constructor */ }
 
@@ -456,6 +456,7 @@ public class Reference {
         public static final String STAIR_DEEPSLATE_TILE_GLOWING = "stairs_deepslate_tile_glowing";
         public static final String TAG_GLOWING = "glowing";
 
+        public static final String CREATIVE_TAB = "tab";
     }
 
 }

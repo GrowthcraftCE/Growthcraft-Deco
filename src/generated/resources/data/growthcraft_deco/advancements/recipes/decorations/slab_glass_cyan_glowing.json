@@ -28,5 +28,6 @@
     "recipes": [
       "growthcraft_deco:slab_glass_cyan_glowing"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

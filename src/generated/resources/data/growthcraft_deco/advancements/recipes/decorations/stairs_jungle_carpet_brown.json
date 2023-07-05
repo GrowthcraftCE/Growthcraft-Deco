@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_jungle_carpet_brown"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

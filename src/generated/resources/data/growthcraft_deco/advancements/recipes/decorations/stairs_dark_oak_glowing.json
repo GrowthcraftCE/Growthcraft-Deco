@@ -28,5 +28,6 @@
     "recipes": [
       "growthcraft_deco:stairs_dark_oak_glowing"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

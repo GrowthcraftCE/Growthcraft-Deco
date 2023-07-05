@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_warped_carpet_partial_red"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

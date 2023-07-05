@@ -28,5 +28,6 @@
     "recipes": [
       "growthcraft_deco:stairs_mangrove_glowing"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

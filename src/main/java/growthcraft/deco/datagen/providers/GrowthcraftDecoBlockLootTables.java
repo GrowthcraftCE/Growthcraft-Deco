@@ -113,6 +113,8 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_BIRCH_CARPET_WHITE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_BIRCH_CARPET_YELLOW.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_BIRCH_GLOWING.get());
+        this.dropSelf(GrowthcraftDecoBlocks.STAIR_BAMBOO_GLOWING.get());
+        this.dropSelf(GrowthcraftDecoBlocks.STAIR_BAMBOO_MOSAIC_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_BLACKSTONE_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_BRICK_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_COBBLED_DEEPSLATE_GLOWING.get());

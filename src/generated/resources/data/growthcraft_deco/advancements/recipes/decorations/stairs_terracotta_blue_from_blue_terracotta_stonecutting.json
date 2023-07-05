@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:stairs_terracotta_blue_from_blue_terracotta_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

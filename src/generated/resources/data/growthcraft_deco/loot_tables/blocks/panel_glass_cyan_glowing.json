@@ -26,5 +26,6 @@
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "growthcraft_deco:blocks/panel_glass_cyan_glowing"
 }

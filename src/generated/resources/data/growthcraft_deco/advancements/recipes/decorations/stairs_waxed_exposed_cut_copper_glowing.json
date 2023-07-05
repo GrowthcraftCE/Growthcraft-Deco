@@ -28,5 +28,6 @@
     "recipes": [
       "growthcraft_deco:stairs_waxed_exposed_cut_copper_glowing"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

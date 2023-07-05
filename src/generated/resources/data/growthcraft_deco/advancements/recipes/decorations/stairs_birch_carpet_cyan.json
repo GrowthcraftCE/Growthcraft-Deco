@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_birch_carpet_cyan"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

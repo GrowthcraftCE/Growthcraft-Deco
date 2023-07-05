@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:slab_glass_magenta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -1607,6 +1607,16 @@ public class GrowthcraftDecoBlocks {
             () -> new GlowingStairBlock(Blocks.SPRUCE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_STAIRS))
     );
 
+    public static final RegistryObject<Block> STAIR_BAMBOO_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_BAMBOO_GLOWING,
+            () -> new GlowingStairBlock(Blocks.BAMBOO_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_STAIRS))
+    );
+
+    public static final RegistryObject<Block> STAIR_BAMBOO_MOSAIC_GLOWING = registerBlock(
+            Reference.UnlocalizedName.STAIR_BAMBOO_MOSAIC_GLOWING,
+            () -> new GlowingStairBlock(Blocks.BAMBOO_MOSAIC_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_STAIRS))
+    );
+
     public static final RegistryObject<Block> STAIR_BIRCH_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_GLOWING,
             () -> new GlowingStairBlock(Blocks.BIRCH_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_STAIRS))

@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_crimson_carpet_partial_light_gray"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

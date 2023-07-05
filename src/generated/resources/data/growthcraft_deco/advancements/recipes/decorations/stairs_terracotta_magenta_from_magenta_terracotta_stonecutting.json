@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:stairs_terracotta_magenta_from_magenta_terracotta_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

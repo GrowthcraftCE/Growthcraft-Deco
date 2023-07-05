@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:stairs_wool_light_blue"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

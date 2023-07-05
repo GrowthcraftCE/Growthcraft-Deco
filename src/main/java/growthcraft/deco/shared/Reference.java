@@ -457,6 +457,9 @@ public class Reference {
         public static final String TAG_GLOWING = "glowing";
 
         public static final String CREATIVE_TAB = "tab";
+        public static final String STAIR_BAMBOO_GLOWING = "stairs_bamboo_glowing";
+        public static final String STAIR_BAMBOO_MOSAIC_GLOWING = "stairs_bamboo_mosaic_glowing";
+
     }
 
 }

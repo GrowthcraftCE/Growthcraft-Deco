@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:stairs_concrete_cyan_from_cyan_concrete_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_spruce_carpet_blue"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

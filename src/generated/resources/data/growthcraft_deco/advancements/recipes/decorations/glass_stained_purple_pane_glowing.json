@@ -28,5 +28,6 @@
     "recipes": [
       "growthcraft_deco:glass_stained_purple_pane_glowing"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_oak_carpet_cyan"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

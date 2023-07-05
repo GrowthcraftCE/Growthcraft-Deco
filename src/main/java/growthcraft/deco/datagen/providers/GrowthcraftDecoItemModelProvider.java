@@ -33,6 +33,8 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
     private void glowingBlocks() {
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ACACIA_GLOWING, Blocks.ACACIA_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ANDESITE_GLOWING, Blocks.ANDESITE_STAIRS);
+        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_GLOWING, Blocks.BAMBOO_STAIRS);
+        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BIRCH_GLOWING, Blocks.BIRCH_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BLACKSTONE_GLOWING, Blocks.BLACKSTONE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BRICK_GLOWING, Blocks.BRICK_STAIRS);

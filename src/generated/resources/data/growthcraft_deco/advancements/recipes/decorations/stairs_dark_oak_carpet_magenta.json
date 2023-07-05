@@ -43,5 +43,6 @@
     "recipes": [
       "growthcraft_deco:stairs_dark_oak_carpet_magenta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:panel_glowshroom"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

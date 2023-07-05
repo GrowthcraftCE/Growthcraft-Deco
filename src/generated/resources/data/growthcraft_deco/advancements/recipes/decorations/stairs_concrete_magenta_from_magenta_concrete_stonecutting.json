@@ -30,5 +30,6 @@
     "recipes": [
       "growthcraft_deco:stairs_concrete_magenta_from_magenta_concrete_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

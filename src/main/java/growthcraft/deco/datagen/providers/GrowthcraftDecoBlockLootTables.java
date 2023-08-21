@@ -386,6 +386,14 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_RED.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_WHITE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_YELLOW.get());
+
+        // Iterate over all the simple vanilla glowing blocks.
+        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.forEach(
+                (name, blockRegistryObject) -> {
+                    this.dropSelf(blockRegistryObject.get());
+                }
+        );
+
     }
 
     /**

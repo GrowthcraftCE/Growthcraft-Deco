@@ -25,6 +25,7 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         //this.blockWithItem(GrowthcraftDecoBlocks.STONE_BRICKS_GLOWING.get());
         this.glassPanes();
         this.slabs();
+        this.clonedSimpleBlocks();
     }
 
     private void glassPanes() {
@@ -64,6 +65,12 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
                 "minecraft:block/yellow_stained_glass", "minecraft:block/yellow_stained_glass_pane_top");
     }
 
+    private void clonedSimpleBlocks() {
+        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("stone_glowing").get(), "minecraft", "block/stone");
+        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("granite_glowing").get(), "minecraft", "block/granite");
+        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("polished_granite_glowing").get(), "minecraft", "block/polished_granite");
+    }
+
     private void slabs() {
         //slabBlock(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get(), mcLoc());
     }
@@ -74,6 +81,14 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
                 cubeAll(blockRegistryObject.get())
         );
     }
+
+    private void blockWithExistingModel(Block block, String namespace, String modelPath) {
+        // TODO: Make a generic data gen to use an existing blocks blockstate model.
+        ResourceLocation modelLocation = new ResourceLocation(namespace, modelPath);
+        simpleBlock(block, models().getExistingFile(modelLocation));
+        simpleBlockItem(block, models().getExistingFile(modelLocation));
+    }
+
 
     private void paneWithRenderType(Block block, String pane, String edge) {
         paneBlockWithRenderType(

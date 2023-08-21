@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.function.Supplier;
 
 public class GrowthcraftDecoBlocks {
@@ -1856,6 +1857,24 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
             () -> new GlowingStairBlock(Blocks.DEEPSLATE_TILE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILE_STAIRS))
     );
+
+    // TODO: Simple Vanilla Block Clones (Glowing)
+    public static HashMap<String, RegistryObject<Block>> GLOWING_VANILLA_BLOCKS = new HashMap<>();
+
+    static {
+        GLOWING_VANILLA_BLOCKS.put("stone_glowing", registerVanillaBlockVariant("stone_glowing", Blocks.STONE));
+        GLOWING_VANILLA_BLOCKS.put("granite_glowing", registerVanillaBlockVariant("granite_glowing", Blocks.GRANITE));
+        GLOWING_VANILLA_BLOCKS.put("polished_granite_glowing", registerVanillaBlockVariant("polished_granite_glowing", Blocks.POLISHED_GRANITE));
+
+    }
+
+    private static RegistryObject<Block> registerVanillaBlockVariant(String name, Block block) {
+        return registerBlock(name,
+                () -> new Block(BlockBehaviour.Properties.copy(block).lightLevel((p_50874_) -> {
+                    return 15;
+                }))
+        );
+    }
 
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> block) {
         RegistryObject<Block> registryObject = BLOCKS.register(name, block);

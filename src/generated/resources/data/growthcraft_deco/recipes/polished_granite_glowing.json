@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:weathered_cut_copper_stairs"
+      "item": "minecraft:polished_granite"
     },
     "B": {
       "tag": "growthcraft_deco:glowing"
@@ -16,7 +16,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:stairs_weathered_cut_copper_glowing"
+    "item": "growthcraft_deco:polished_granite_glowing"
   },
   "show_notification": true
 }

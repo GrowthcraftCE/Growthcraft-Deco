@@ -232,7 +232,11 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WEATHERED_CUT_COPPER_STAIRS);
+
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("stone_glowing").get(), Blocks.STONE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("granite_glowing").get(), Blocks.GRANITE);
+        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("polished_granite_glowing").get(), Blocks.POLISHED_GRANITE);
+
     }
 
     private void carpetedStairsRecipes(Consumer<FinishedRecipe> recipeConsumer) {

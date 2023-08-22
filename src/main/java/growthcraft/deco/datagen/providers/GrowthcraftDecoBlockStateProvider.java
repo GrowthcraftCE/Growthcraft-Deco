@@ -66,9 +66,13 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
     }
 
     private void clonedSimpleBlocks() {
-        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("stone_glowing").get(), "minecraft", "block/stone");
-        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("granite_glowing").get(), "minecraft", "block/granite");
-        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("polished_granite_glowing").get(), "minecraft", "block/polished_granite");
+        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.STONE_GLOWING, "minecraft", "block/stone");
+        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.GRANITE_GLOWING, "minecraft", "block/granite");
+        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.POLISHED_GRANITE_GLOWING, "minecraft", "block/polished_granite");
+
+        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCK_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            blockWithExistingModel(blockRegistryObject.get(), resourceLocation);
+        });
     }
 
     private void slabs() {
@@ -82,9 +86,18 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         );
     }
 
+    private void glowingVanillaBlocksWithExistingModel(String unlocalizedName, String namespace, String modelPath) {
+        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get(unlocalizedName).get(), namespace, modelPath);
+
+    }
+
     private void blockWithExistingModel(Block block, String namespace, String modelPath) {
         // TODO: Make a generic data gen to use an existing blocks blockstate model.
         ResourceLocation modelLocation = new ResourceLocation(namespace, modelPath);
+        blockWithExistingModel(block, modelLocation);
+    }
+
+    private void blockWithExistingModel(Block block, ResourceLocation modelLocation) {
         simpleBlock(block, models().getExistingFile(modelLocation));
         simpleBlockItem(block, models().getExistingFile(modelLocation));
     }

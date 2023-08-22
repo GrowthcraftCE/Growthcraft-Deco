@@ -233,9 +233,9 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS);
 
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("stone_glowing").get(), Blocks.STONE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("granite_glowing").get(), Blocks.GRANITE);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get("polished_granite_glowing").get(), Blocks.POLISHED_GRANITE);
+        GrowthcraftDecoBlocks.GLOWING_VANILLA_RECIPE_BLOCK_MAP.forEach((glowingBlock, clonedBlock) -> {
+            this.buildGlowingRecipe(recipeConsumer, glowingBlock.get(), clonedBlock);
+        });
 
     }
 

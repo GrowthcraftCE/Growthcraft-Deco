@@ -1,11 +1,9 @@
 package growthcraft.deco.datagen;
 
-import growthcraft.deco.datagen.providers.GrowthcraftDecoBlockStateProvider;
-import growthcraft.deco.datagen.providers.GrowthcraftDecoItemModelProvider;
-import growthcraft.deco.datagen.providers.GrowthcraftDecoLootTableProvider;
-import growthcraft.deco.datagen.providers.GrowthcraftDecoRecipeProvider;
+import growthcraft.deco.datagen.providers.*;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -32,5 +30,6 @@ public class GrowthcraftDecoDataGenerators {
         generator.addProvider(true, GrowthcraftDecoLootTableProvider.create(packOutput));
         generator.addProvider(true, new GrowthcraftDecoBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(true, new GrowthcraftDecoBlockTagsProvider(packOutput, Registries.BLOCK, lookupProvider, "minecraft", existingFileHelper));
     }
 }

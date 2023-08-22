@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "B": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "growthcraft_deco:red_nether_bricks_glowing"
+  },
+  "show_notification": true
+}

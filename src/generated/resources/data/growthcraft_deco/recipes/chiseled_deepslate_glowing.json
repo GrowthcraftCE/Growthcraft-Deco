@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "B": {
+      "tag": "growthcraft_deco:glowing"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "growthcraft_deco:chiseled_deepslate_glowing"
+  },
+  "show_notification": true
+}

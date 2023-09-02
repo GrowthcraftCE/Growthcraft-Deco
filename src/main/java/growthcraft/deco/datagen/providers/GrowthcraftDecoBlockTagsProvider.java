@@ -27,12 +27,12 @@ public class GrowthcraftDecoBlockTagsProvider extends TagsProvider<Block> {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 
-        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS_MINEABLE_PICKAXE.forEach((unlocalizedName, block) -> {
+        GrowthcraftDecoBlocks.BLOCKS_MINEABLE_PICKAXE.forEach((unlocalizedName, block) -> {
                     tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Objects.requireNonNull(block.getKey()));
                 }
         );
 
-        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS_MINEABLE_AXE.forEach((unlocalizedName, block) -> {
+        GrowthcraftDecoBlocks.BLOCKS_MINEABLE_AXE.forEach((unlocalizedName, block) -> {
                     tag(BlockTags.MINEABLE_WITH_AXE).add(Objects.requireNonNull(block.getKey()));
                 }
         );

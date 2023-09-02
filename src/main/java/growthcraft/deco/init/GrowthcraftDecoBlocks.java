@@ -9,6 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -21,8 +22,10 @@ public class GrowthcraftDecoBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
 
     public static HashMap<String, RegistryObject<Block>> GLOWING_VANILLA_BLOCKS = new HashMap<>();
-    public static HashMap<String, RegistryObject<Block>> GLOWING_VANILLA_BLOCKS_MINEABLE_PICKAXE = new HashMap<>();
-    public static HashMap<String, RegistryObject<Block>> GLOWING_VANILLA_BLOCKS_MINEABLE_AXE = new HashMap<>();
+    public static HashMap<String, RegistryObject<Block>> DOOR_BLOCKS = new HashMap<>();
+
+    public static HashMap<String, RegistryObject<Block>> BLOCKS_MINEABLE_PICKAXE = new HashMap<>();
+    public static HashMap<String, RegistryObject<Block>> BLOCKS_MINEABLE_AXE = new HashMap<>();
 
     /**
      * HashMap used for dynamically building the recipe json files using the data generator.
@@ -2025,29 +2028,44 @@ public class GrowthcraftDecoBlocks {
         registerVanillaBlockVariant(Reference.UnlocalizedName.RAW_GOLD_BLOCK_GLOWING, Blocks.RAW_GOLD_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/raw_gold_block"));
         registerVanillaBlockVariant(Reference.UnlocalizedName.REINFORCED_DEEPSLATE_GLOWING, Blocks.REINFORCED_DEEPSLATE, "pickaxe", new ResourceLocation("minecraft", "block/reinforced_deepslate"));
 
-        GLOWING_VANILLA_BLOCKS_MINEABLE_PICKAXE.put(Reference.UnlocalizedName.STAIR_QUARTZ_GLOWING, STAIR_QUARTZ_GLOWING);
-        GLOWING_VANILLA_BLOCKS_MINEABLE_PICKAXE.put(Reference.UnlocalizedName.STAIR_SMOOTH_QUARTZ_GLOWING, STAIR_SMOOTH_QUARTZ_GLOWING);
+        BLOCKS_MINEABLE_PICKAXE.put(Reference.UnlocalizedName.STAIR_QUARTZ_GLOWING, STAIR_QUARTZ_GLOWING);
+        BLOCKS_MINEABLE_PICKAXE.put(Reference.UnlocalizedName.STAIR_SMOOTH_QUARTZ_GLOWING, STAIR_SMOOTH_QUARTZ_GLOWING);
 
     }
 
 
     private static RegistryObject<Block> registerVanillaBlockVariant(String name, Block block, String toolType, ResourceLocation modelLocation) {
+        String doorVariantName = name.replaceAll("glowing", "door");
+
+        // Set block type for the doors based on tool type.
+        BlockSetType blockSetType = toolType.equals("axe") ? BlockSetType.OAK : BlockSetType.STONE;
+
+        // Glowing Block Vairant Registration
         RegistryObject<Block> TEMP_BLOCK = registerBlock(name,
                 () -> new Block(BlockBehaviour.Properties.copy(block).lightLevel((p_50874_) -> {
                     return 15;
                 }))
         );
 
+        // Door Block Variant Registration
+        RegistryObject<Block> DOOR_BLOCK = registerBlock(doorVariantName,
+                () -> new HiddenDoorBlock(BlockBehaviour.Properties.copy(block), blockSetType)
+        );
+
         GLOWING_VANILLA_BLOCKS.put(name, TEMP_BLOCK);
+        DOOR_BLOCKS.put(doorVariantName, DOOR_BLOCK);
+
         GLOWING_VANILLA_RECIPE_BLOCK_MAP.put(TEMP_BLOCK, block);
+        // TODO: Mapper for Door recipes data-gen.
 
         if (toolType.equals("axe")) {
-            GLOWING_VANILLA_BLOCKS_MINEABLE_AXE.put(name, TEMP_BLOCK);
+            BLOCKS_MINEABLE_AXE.put(name, TEMP_BLOCK);
         } else if (toolType.equals("pickaxe")) {
-            GLOWING_VANILLA_BLOCKS_MINEABLE_PICKAXE.put(name, TEMP_BLOCK);
+            BLOCKS_MINEABLE_PICKAXE.put(name, TEMP_BLOCK);
         }
 
         GLOWING_VANILLA_BLOCK_STATE_MAP.put(TEMP_BLOCK, modelLocation);
+        // TODO: Mapper for door block state data-gen.
 
         return TEMP_BLOCK;
     }

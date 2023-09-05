@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/dried_kelp_side",
+    "particle": "minecraft:block/dried_kelp_side"
+  }
+}

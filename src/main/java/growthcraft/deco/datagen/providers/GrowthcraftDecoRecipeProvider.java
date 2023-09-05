@@ -525,7 +525,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .define('A', ingredient)
                 .pattern("AAA")
                 .unlockedBy("has_item", has(ingredient))
-                .save(recipeConsumer, new ResourceLocation(Reference.MODID, RecipeProvider.getItemName(result)).toString() + "_" + recipePostfixName);
+                .save(recipeConsumer, new ResourceLocation(Reference.MODID, RecipeProvider.getItemName(result)) + "_" + recipePostfixName);
     }
 
     public void buildStairRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient) {
@@ -565,7 +565,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     public void buildStonecuttingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient, int resultCount) {
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ingredient), RecipeCategory.DECORATIONS, result, resultCount)
                 .unlockedBy(getHasName(ingredient), has(ingredient))
-                .save(recipeConsumer, new ResourceLocation(Reference.MODID, getConversionRecipeName(result, ingredient)).toString() + "_stonecutting");
+                .save(recipeConsumer, new ResourceLocation(Reference.MODID, getConversionRecipeName(result, ingredient)) + "_stonecutting");
     }
 
 }

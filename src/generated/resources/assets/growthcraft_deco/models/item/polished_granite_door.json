@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/polished_granite",
+    "particle": "minecraft:block/polished_granite"
+  }
+}

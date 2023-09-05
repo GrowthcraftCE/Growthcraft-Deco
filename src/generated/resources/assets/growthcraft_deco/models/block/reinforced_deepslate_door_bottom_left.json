@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "minecraft:block/reinforced_deepslate_side",
+    "top": "minecraft:block/reinforced_deepslate_side"
+  }
+}

@@ -1,12 +1,15 @@
 package growthcraft.deco.datagen.providers;
 
+import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
+import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DoorBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -28,6 +31,7 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         this.glassPanes();
         this.glowingBlocks();
         this.simpleBlockItems();
+        this.variantDoorBlockItems();
     }
 
     private void glowingBlocks() {
@@ -107,6 +111,19 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
 
     private void simpleBlockItems() {
 
+    }
+
+    private void variantDoorBlockItems() {
+        GrowthcraftDecoBlocks.HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
+            variantDoorBlockItem(blockRegistryObject, resourceLocation);
+        }));
+    }
+
+    private ItemModelBuilder variantDoorBlockItem(RegistryObject<Block> block, ResourceLocation resourceLocation) {
+        return this.getBuilder(block.getId().getPath())
+                .parent(getExistingFile(new ResourceLocation(Reference.MODID, "item/template_hidden_door")))
+                .texture("layer0", resourceLocation)
+                .texture("particle", resourceLocation);
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, Block mirroredBlock) {

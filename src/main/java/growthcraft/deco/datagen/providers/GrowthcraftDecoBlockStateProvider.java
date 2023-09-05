@@ -1,15 +1,20 @@
 package growthcraft.deco.datagen.providers;
 
+import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.HashMap;
 
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
@@ -66,13 +71,15 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
     }
 
     private void clonedSimpleBlocks() {
-        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.STONE_GLOWING, "minecraft", "block/stone");
-        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.GRANITE_GLOWING, "minecraft", "block/granite");
-        //glowingVanillaBlocksWithExistingModel(Reference.UnlocalizedName.POLISHED_GRANITE_GLOWING, "minecraft", "block/polished_granite");
-
+        // Glowing Variants for Vanilla Blocks
         GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCK_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
             blockWithExistingModel(blockRegistryObject.get(), resourceLocation);
         });
+        // Hidden Door Variants for Vanilla Blocks
+        GrowthcraftDecoBlocks.HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
+            // Generate the Block Models needed for the door block
+            doorBlock((DoorBlock) blockRegistryObject.get(), resourceLocation, resourceLocation);
+        }));
     }
 
     private void slabs() {

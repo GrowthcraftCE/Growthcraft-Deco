@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/end_stone_bricks",
+    "particle": "minecraft:block/end_stone_bricks"
+  }
+}

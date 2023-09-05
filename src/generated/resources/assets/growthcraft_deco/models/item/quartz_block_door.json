@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/quartz_block_side",
+    "particle": "minecraft:block/quartz_block_side"
+  }
+}

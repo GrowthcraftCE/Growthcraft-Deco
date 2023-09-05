@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/honeycomb_block",
+    "particle": "minecraft:block/honeycomb_block"
+  }
+}

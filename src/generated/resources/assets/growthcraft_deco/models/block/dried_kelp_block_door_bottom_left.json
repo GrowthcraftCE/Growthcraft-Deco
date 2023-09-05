@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "minecraft:block/dried_kelp_side",
+    "top": "minecraft:block/dried_kelp_side"
+  }
+}

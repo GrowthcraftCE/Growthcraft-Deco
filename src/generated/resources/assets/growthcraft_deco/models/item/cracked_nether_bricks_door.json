@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/cracked_nether_bricks",
+    "particle": "minecraft:block/cracked_nether_bricks"
+  }
+}

@@ -5,7 +5,7 @@ public class Reference {
 
     public static final String NAME = "Growthcraft Decorations";
     public static final String NAME_SHORT = "deco";
-    public static final String VERSION = "9.0.2";
+    public static final String VERSION = "9.0.3";
 
     private Reference() { /* Prevent default public constructor */ }
 
@@ -491,11 +491,11 @@ public class Reference {
         public static final String LIGHT_GRAY_WOOL_GLOWING = "light_gray_wool_glowing";
         public static final String CYAN_WOOL_GLOWING = "cyan_wool_glowing";
         public static final String PURPLE_WOOL_GLOWING = "purple_wool_glowing";
-        public static final String BLUE_WOOL_GLOWING = "blue_wool";
-        public static final String BROWN_WOOL_GLOWING = "brown_wool";
-        public static final String GREEN_WOOL_GLOWING = "green_wool";
-        public static final String RED_WOOL_GLOWING = "red_wool";
-        public static final String BLACK_WOOL_GLOWING = "black_wool";
+        public static final String BLUE_WOOL_GLOWING = "blue_wool_glowing";
+        public static final String BROWN_WOOL_GLOWING = "brown_wool_glowing";
+        public static final String GREEN_WOOL_GLOWING = "green_wool_glowing";
+        public static final String RED_WOOL_GLOWING = "red_wool_glowing";
+        public static final String BLACK_WOOL_GLOWING = "black_wool_glowing";
         public static final String GOLD_BLOCK_GLOWING = "gold_block_glowing";
         public static final String IRON_BLOCK_GLOWING = "iron_block_glowing";
         public static final String BRICKS_GLOWING = "bricks_glowing";

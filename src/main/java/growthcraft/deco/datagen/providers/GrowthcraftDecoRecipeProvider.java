@@ -6,8 +6,10 @@ import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -233,11 +235,17 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS);
 
-        GrowthcraftDecoBlocks.GLOWING_VANILLA_RECIPE_BLOCK_MAP.forEach((glowingBlock, clonedBlock) -> {
+        GrowthcraftDecoBlocks.GLOWING_BLOCKS_RECIPE_MAP.forEach((glowingBlock, clonedBlock) -> {
             this.buildGlowingRecipe(recipeConsumer, glowingBlock.get(), clonedBlock);
         });
 
+        GrowthcraftDecoBlocks.HIDDEN_DOOR_BLOCKS_RECIPE_MAP.forEach((glowingBlock, clonedBlock) -> {
+            this.buildHiddenDoorRecipe(recipeConsumer, glowingBlock.get(), clonedBlock);
+        });
+
     }
+
+
 
     private void carpetedStairsRecipes(Consumer<FinishedRecipe> recipeConsumer) {
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BLACK.get(), Blocks.ACACIA_STAIRS, Blocks.BLACK_CARPET);
@@ -499,6 +507,17 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_RED.get(), Blocks.WARPED_STAIRS, Blocks.RED_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_WHITE.get(), Blocks.WARPED_STAIRS, Blocks.WHITE_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_YELLOW.get(), Blocks.WARPED_STAIRS, Blocks.YELLOW_CARPET);
+    }
+
+    private void buildHiddenDoorRecipe(Consumer<FinishedRecipe> recipeConsumer, Block result, Block clonedBlock) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
+                .define('A', clonedBlock)
+                .define('B', ItemTags.DOORS)
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .unlockedBy("has_item", has(ItemTags.DOORS))
+                .save(recipeConsumer);
     }
 
     private void buildGlowingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient) {

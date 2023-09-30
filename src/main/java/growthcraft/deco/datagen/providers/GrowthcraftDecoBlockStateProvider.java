@@ -95,7 +95,6 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
 
     private void glowingVanillaBlocksWithExistingModel(String unlocalizedName, String namespace, String modelPath) {
         blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get(unlocalizedName).get(), namespace, modelPath);
-
     }
 
     private void blockWithExistingModel(Block block, String namespace, String modelPath) {
@@ -108,7 +107,6 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         simpleBlock(block, models().getExistingFile(modelLocation));
         simpleBlockItem(block, models().getExistingFile(modelLocation));
     }
-
 
     private void paneWithRenderType(Block block, String pane, String edge) {
         paneBlockWithRenderType(

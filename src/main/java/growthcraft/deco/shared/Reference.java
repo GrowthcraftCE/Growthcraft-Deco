@@ -1,5 +1,9 @@
 package growthcraft.deco.shared;
 
+import io.netty.util.collection.ByteCollections;
+
+import java.util.HashMap;
+
 public class Reference {
     public static final String MODID = "growthcraft_deco";
 
@@ -613,6 +617,31 @@ public class Reference {
         public static final String CREATIVE_TAB = "tab";
 
 
+    }
+
+    public class LocalizedNames {
+        public static HashMap<String, String> GLOWING_BLOCKS_EN_US = new HashMap<String, String>();
+        public static HashMap<String, String> DOORS_EN_US = new HashMap<String, String>();
+
+
+    }
+
+    public enum ToolTypeNames {
+        PICKAXE("pickaxe"),
+        AXE("axe"),
+        NONE("none")
+        ;
+
+        private final String text;
+
+        ToolTypeNames(final String text) {
+            this.text = text;
+        }
+
+        @Override
+        public String toString() {
+            return text;
+        }
     }
 
 }

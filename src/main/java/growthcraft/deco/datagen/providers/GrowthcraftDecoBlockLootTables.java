@@ -394,7 +394,7 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
                 }
         );
 
-        GrowthcraftDecoBlocks.DOOR_BLOCKS.forEach(
+        GrowthcraftDecoBlocks.HIDDEN_DOOR_BLOCKS.forEach(
                 (name, blockRegistryObject) -> {
                     this.dropSelf(blockRegistryObject.get());
                 }

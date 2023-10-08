@@ -3,7 +3,6 @@ package growthcraft.deco.datagen.providers;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
-import org.apache.commons.codec.language.bm.Lang;
 
 public class GrowthcraftDecoLangProvider extends LanguageProvider {
 

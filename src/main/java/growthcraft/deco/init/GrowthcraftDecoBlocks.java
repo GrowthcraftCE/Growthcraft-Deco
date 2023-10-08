@@ -1621,6 +1621,10 @@ public class GrowthcraftDecoBlocks {
             WoolStairBlock::new
     );
 
+
+
+
+
     public static final RegistryObject<Block> STAIR_OAK_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_GLOWING,
             () -> new GlowingStairBlock(Blocks.OAK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS))
@@ -1875,8 +1879,59 @@ public class GrowthcraftDecoBlocks {
      * Glowing Variants of Vanilla Stairs
      */
     static {
+        // acacia_stairs.json
+        // andesite_stairs.json
+        // bamboo_mosaic_stairs.json
+        // bamboo_stairs.json
+        // birch_stairs.json
+        // blackstone_stairs.json
+        // brick_stairs.json
+        // cherry_stairs.json
+        // cobbled_deepslate_stairs.json
+        // cobblestone_stairs.json
+        // crimson_stairs.json
+        // cut_copper_stairs.json
+        // dark_oak_stairs.json
+        // dark_prismarine_stairs.json
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_bricks"));
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_tiles"));
+        // diorite_stairs.json
+        // end_stone_brick_stairs.json
+        // exposed_cut_copper_stairs.json
+        // granite_stairs.json
+        // jungle_stairs.json
+        // mangrove_stairs.json
+        // mossy_cobblestone_stairs.json
+        // mossy_stone_brick_stairs.json
+        // mud_brick_stairs.json
+        // nether_brick_stairs.json
+        // oak_stairs.json
+        // oxidized_cut_copper_stairs.json
+        // polished_andesite_stairs.json
+        // polished_blackstone_brick_stairs.json
+        // polished_blackstone_stairs.json
+        // polished_deepslate_stairs.json
+        // polished_diorite_stairs.json
+        // polished_granite_stairs.json
+        // prismarine_brick_stairs.json
+        // prismarine_stairs.json
+        // purpur_stairs.json
+        // quartz_stairs.json
+        // red_nether_brick_stairs.json
+        // red_sandstone_stairs.json
+        // sandstone_stairs.json
+        // smooth_quartz_stairs.json
+        // smooth_red_sandstone_stairs.json
+        // smooth_sandstone_stairs.json
+        // spruce_stairs.json
+        // stone_brick_stairs.json
+        // stone_stairs.json
+        // warped_stairs.json
+        // waxed_cut_copper_stairs.json
+        // waxed_exposed_cut_copper_stairs.json
+        // waxed_oxidized_cut_copper_stairs.json
+        // waxed_weathered_cut_copper_stairs.json
+        // weathered_cut_copper_stairs.json
     }
 
     /**
@@ -2080,7 +2135,7 @@ public class GrowthcraftDecoBlocks {
 
         // Add to the lang data generation list.
         Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(
-                String.format("block.%s", GLOWING_STAIR_BLOCK.getId().toString()),
+                String.format("block.%s", GLOWING_STAIR_BLOCK.getId().toString().replace(":", ".")),
                 WordUtils.capitalize(
                         name.replace("stairs_", "")
                                 .replace("_", " ")
@@ -2110,7 +2165,7 @@ public class GrowthcraftDecoBlocks {
 
         GLOWING_VANILLA_BLOCK_STATE_MAP.put(GLOWING_BLOCK, modelLocation);
         Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(
-                String.format("block.%s", GLOWING_BLOCK.getId().toString()),
+                String.format("block.%s", GLOWING_BLOCK.getId().toString().replace(":", ".")),
                 WordUtils.capitalize(
                         name.replace("_", " ")
                                 .replace("glowing", "(Glowing)")
@@ -2141,7 +2196,7 @@ public class GrowthcraftDecoBlocks {
         HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.put(DOOR_BLOCK, modelLocation);
 
         Reference.LocalizedNames.DOORS_EN_US.put(
-                String.format("block.%s", DOOR_BLOCK.getId().toString()),
+                String.format("block.%s", DOOR_BLOCK.getId().toString().replace(":", ".")),
                 WordUtils.capitalize(name.replace("_", " ")));
     }
 

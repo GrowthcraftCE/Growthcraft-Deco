@@ -187,8 +187,8 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_DARK_OAK_CARPET_YELLOW.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_DARK_OAK_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_DARK_PRISMARINE_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_DIORITE_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_END_STONE_BRICK_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_EXPOSED_CUT_COPPER_GLOWING.get());
@@ -389,6 +389,12 @@ public class GrowthcraftDecoBlockLootTables extends BlockLootSubProvider {
 
         // Iterate over all the simple vanilla glowing blocks.
         GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.forEach(
+                (name, blockRegistryObject) -> {
+                    this.dropSelf(blockRegistryObject.get());
+                }
+        );
+
+        GrowthcraftDecoBlocks.GLOWING_STAIR_BLOCKS.forEach(
                 (name, blockRegistryObject) -> {
                     this.dropSelf(blockRegistryObject.get());
                 }

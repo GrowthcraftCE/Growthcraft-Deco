@@ -22,8 +22,6 @@ import java.util.function.Supplier;
 public class GrowthcraftDecoBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MODID);
 
-
-
     public static HashMap<String, RegistryObject<Block>>  GLOWING_STAIR_BLOCKS = new HashMap<>();
     public static HashMap<String, RegistryObject<Block>> CARPET_STAIRS_BLOCKS = new HashMap<>();
     public static HashMap<String, RegistryObject<Block>> GLOWING_VANILLA_BLOCKS = new HashMap<>();
@@ -1873,23 +1871,18 @@ public class GrowthcraftDecoBlocks {
             () -> new GlowingStairBlock(Blocks.POLISHED_DEEPSLATE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE_STAIRS))
     );
 
-    public static final RegistryObject<Block> STAIR_DEEPSLATE_BRICK_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING,
-            () -> new GlowingStairBlock(Blocks.DEEPSLATE_BRICK_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICK_STAIRS))
-    );
-
-    public static final RegistryObject<Block> STAIR_DEEPSLATE_TILE_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
-            () -> new GlowingStairBlock(Blocks.DEEPSLATE_TILE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILE_STAIRS))
-    );
-
+    /**
+     * Glowing Variants of Vanilla Stairs
+     */
     static {
-        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE);
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_bricks"));
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_tiles"));
     }
 
+    /**
+     * Glowing Variants of Vanilla Blocks
+     */
     static {
-
-
         registerVanillaVariant(Reference.UnlocalizedName.ACACIA_PLANKS_GLOWING, Blocks.ACACIA_PLANKS, "axe", new ResourceLocation("minecraft", "block/acacia_planks"));
         registerVanillaVariant(Reference.UnlocalizedName.ANDESITE_GLOWING, Blocks.ANDESITE,"pickaxe", new ResourceLocation("minecraft", "block/andesite"));
         registerVanillaVariant(Reference.UnlocalizedName.BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC, "axe", new ResourceLocation("minecraft", "block/bamboo_mosaic"));
@@ -2045,29 +2038,10 @@ public class GrowthcraftDecoBlocks {
 
     }
 
-    private static void registerVanillaGlowingStairVariant(String name, Block block, Reference.ToolTypeNames toolType, ResourceLocation modelLocation) {
-        RegistryObject<Block> GLOWING_STAIR_BLOCK = registerBlock(name,
-                () -> new GlowingStairBlock(block.defaultBlockState(), BlockBehaviour.Properties.copy(block))
-        );
-
-        GLOWING_STAIR_BLOCKS.put(name, GLOWING_STAIR_BLOCK);
-        GLOWING_BLOCKS_RECIPE_MAP.put(GLOWING_STAIR_BLOCK, block);
-
-        GLOWING_STAIR_BLOCKS_STATE_MAP.put(GLOWING_STAIR_BLOCK, modelLocation);
-
-        Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(GLOWING_STAIR_BLOCK.getId().toString(), WordUtils.capitalize(name.replace("stairs", " ").replace("_", " ").replace("glowing", "Stairs (Glowing)")));
-
-        switch(toolType) {
-            case AXE -> BLOCKS_MINEABLE_AXE.put(name, GLOWING_STAIR_BLOCK);
-            case PICKAXE -> BLOCKS_MINEABLE_PICKAXE.put(name, GLOWING_STAIR_BLOCK);
-        }
-
-    }
 
     private static void registerVanillaVariant(String name, Block block, String toolType, ResourceLocation modelLocation, ResourceLocation customDoorTexture) {
         registerVanillaGlowingBlockVariant(name, block, toolType, modelLocation);
         registerVanillaDoorBlockVariant(name.replaceAll("glowing", "door"), block, toolType, customDoorTexture);
-
     }
 
     private static void registerVanillaVariant(String name, Block block, Reference.ToolTypeNames toolType, ResourceLocation modelLocation) {
@@ -2077,6 +2051,43 @@ public class GrowthcraftDecoBlocks {
     private static void registerVanillaVariant(String name, Block block, String toolType, ResourceLocation modelLocation) {
         registerVanillaGlowingBlockVariant(name, block, toolType, modelLocation);
         registerVanillaDoorBlockVariant(name.replaceAll("glowing", "door"), block, toolType, modelLocation);
+    }
+
+    /**
+     * Registration of Glowing Variants for Vanilla Stairs. Includes handling of BlockState, Block Model, Item Model, Recipe, and Lang files.
+     *
+     * @param name String of unlocalized registry name.
+     * @param block Block to be cloned as a Glowing Block
+     * @param toolType ToolTypeNames of the tool needed to loot.
+     * @param modelLocation ResourceLocation of the model to clone from.
+     */
+    private static void registerVanillaGlowingStairVariant(String name, Block block, Reference.ToolTypeNames toolType, ResourceLocation modelLocation) {
+        RegistryObject<Block> GLOWING_STAIR_BLOCK = registerBlock(name,
+                () -> new GlowingStairBlock(block.defaultBlockState(), BlockBehaviour.Properties.copy(block))
+        );
+
+        GLOWING_STAIR_BLOCKS.put(name, GLOWING_STAIR_BLOCK);
+
+        GLOWING_BLOCKS_RECIPE_MAP.put(GLOWING_STAIR_BLOCK, block);
+
+        // Add to the respective mineable tag.
+        switch(toolType) {
+            case AXE -> BLOCKS_MINEABLE_AXE.put(name, GLOWING_STAIR_BLOCK);
+            case PICKAXE -> BLOCKS_MINEABLE_PICKAXE.put(name, GLOWING_STAIR_BLOCK);
+        }
+
+        GLOWING_STAIR_BLOCKS_STATE_MAP.put(GLOWING_STAIR_BLOCK, modelLocation);
+
+        // Add to the lang data generation list.
+        Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(
+                String.format("block.%s", GLOWING_STAIR_BLOCK.getId().toString()),
+                WordUtils.capitalize(
+                        name.replace("stairs_", "")
+                                .replace("_", " ")
+                                .replace("glowing", "Stairs (Glowing)")
+                )
+        );
+
     }
 
     private static void registerVanillaGlowingBlockVariant(String name, Block block, String toolType, ResourceLocation modelLocation) {
@@ -2098,7 +2109,13 @@ public class GrowthcraftDecoBlocks {
         }
 
         GLOWING_VANILLA_BLOCK_STATE_MAP.put(GLOWING_BLOCK, modelLocation);
-        Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(GLOWING_BLOCK.getId().toString(), WordUtils.capitalize(name.replace("_", " ").replace("glowing", "(Glowing)")));
+        Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.put(
+                String.format("block.%s", GLOWING_BLOCK.getId().toString()),
+                WordUtils.capitalize(
+                        name.replace("_", " ")
+                                .replace("glowing", "(Glowing)")
+                )
+        );
 
     }
 
@@ -2122,17 +2139,19 @@ public class GrowthcraftDecoBlocks {
         }
 
         HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.put(DOOR_BLOCK, modelLocation);
-        Reference.LocalizedNames.DOORS_EN_US.put(DOOR_BLOCK.getId().toString(), WordUtils.capitalize(name.replace("_", " ")));
+
+        Reference.LocalizedNames.DOORS_EN_US.put(
+                String.format("block.%s", DOOR_BLOCK.getId().toString()),
+                WordUtils.capitalize(name.replace("_", " ")));
     }
 
     private static void registerGlowingStairVariantBlock(String name, Supplier<Block> block) {
-
         RegistryObject<Block> registryObject = registerBlock(
                 Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
                 () -> new GlowingStairBlock(Blocks.DEEPSLATE_TILE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILE_STAIRS))
         );
-
     }
+
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> block) {
         RegistryObject<Block> registryObject = BLOCKS.register(name, block);
         if (!excludeBlockItemRegistry(registryObject.getId())) {
@@ -2146,8 +2165,7 @@ public class GrowthcraftDecoBlocks {
     }
 
     private static Item.Properties getDefaultItemProperties() {
-        Item.Properties properties = new Item.Properties();
-        return properties;
+        return new Item.Properties();
     }
 
     public static boolean excludeBlockItemRegistry(ResourceLocation registryName) {

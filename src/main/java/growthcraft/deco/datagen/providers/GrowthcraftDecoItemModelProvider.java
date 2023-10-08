@@ -31,6 +31,7 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         this.glassPanes();
         this.glowingBlocks();
         this.simpleBlockItems();
+        this.variantStairBlockItems();
         this.variantDoorBlockItems();
     }
 
@@ -48,8 +49,8 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_CUT_COPPER_GLOWING, Blocks.CUT_COPPER_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_OAK_GLOWING, Blocks.DARK_OAK_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_PRISMARINE_GLOWING, Blocks.DARK_PRISMARINE_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DIORITE_GLOWING, Blocks.DIORITE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_END_STONE_BRICK_GLOWING, Blocks.END_STONE_BRICK_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_EXPOSED_CUT_COPPER_GLOWING, Blocks.EXPOSED_CUT_COPPER_STAIRS);
@@ -111,6 +112,12 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
 
     private void simpleBlockItems() {
 
+    }
+
+    private void variantStairBlockItems() {
+        GrowthcraftDecoBlocks.GLOWING_STAIR_BLOCKS_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
+            simpleBlockItem(blockRegistryObject, blockRegistryObject.get());
+        }));
     }
 
     private void variantDoorBlockItems() {

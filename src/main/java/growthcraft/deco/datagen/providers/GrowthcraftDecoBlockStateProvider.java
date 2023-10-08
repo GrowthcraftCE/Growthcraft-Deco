@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -75,6 +76,12 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCK_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
             blockWithExistingModel(blockRegistryObject.get(), resourceLocation);
         });
+
+        // Glowing Variants for Vanilla Stairs
+        GrowthcraftDecoBlocks.GLOWING_STAIR_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            stairsBlock((StairBlock) blockRegistryObject.get(), resourceLocation);
+        });
+
         // Hidden Door Variants for Vanilla Blocks
         GrowthcraftDecoBlocks.HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
             // Generate the Block Models needed for the door block

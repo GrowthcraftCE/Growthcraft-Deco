@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:deepslate_tile_stairs"
+      "item": "minecraft:deepslate_brick_stairs"
     },
     "B": {
       "tag": "growthcraft_deco:glowing"
@@ -16,7 +16,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:stairs_deepslate_tile_glowing"
+    "item": "growthcraft_deco:deepslate_brick_stairs_glowing"
   },
   "show_notification": true
 }

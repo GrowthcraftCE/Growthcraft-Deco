@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "growthcraft_deco:stairs_deepslate_brick_glowing"
+        "recipe": "growthcraft_deco:deepslate_tiles_stairs_glowing"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "growthcraft_deco:stairs_deepslate_brick_glowing"
+      "growthcraft_deco:deepslate_tiles_stairs_glowing"
     ]
   },
   "sends_telemetry_event": false

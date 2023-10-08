@@ -3,6 +3,7 @@ package growthcraft.deco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.init.GrowthcraftDecoCreativeTabs;
 import growthcraft.deco.init.GrowthcraftDecoItems;
+import growthcraft.deco.init.GrowthcraftDecoMissingMappings;
 import growthcraft.deco.init.client.GrowthcraftDecoBlockRenderers;
 import growthcraft.deco.shared.Reference;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.MissingMappingsEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,6 +34,9 @@ public class GrowthcraftDeco {
         GrowthcraftDecoCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        MinecraftForge.EVENT_BUS.addListener(this::onMissingMappingsEvent);
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -48,4 +53,11 @@ public class GrowthcraftDeco {
         // do something when the server starts
         LOGGER.info("Growthcraft-Deco is starting ...");
     }
+
+    @SubscribeEvent
+    public void onMissingMappingsEvent(MissingMappingsEvent event) {
+        GrowthcraftDecoMissingMappings.missingMappingEventHandler(event);
+    }
+
+
 }

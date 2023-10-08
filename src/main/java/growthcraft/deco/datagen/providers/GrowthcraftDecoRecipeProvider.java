@@ -197,8 +197,8 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_CUT_COPPER_GLOWING.get(), Blocks.CUT_COPPER_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DARK_OAK_GLOWING.get(), Blocks.DARK_OAK_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DARK_PRISMARINE_GLOWING.get(), Blocks.DARK_PRISMARINE_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING.get(), Blocks.DEEPSLATE_BRICK_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING.get(), Blocks.DEEPSLATE_TILE_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING.get(), Blocks.DEEPSLATE_BRICK_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING.get(), Blocks.DEEPSLATE_TILE_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_DIORITE_GLOWING.get(), Blocks.DIORITE_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_END_STONE_BRICK_GLOWING.get(), Blocks.END_STONE_BRICK_STAIRS);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_EXPOSED_CUT_COPPER_GLOWING.get(), Blocks.EXPOSED_CUT_COPPER_STAIRS);

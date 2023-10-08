@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "growthcraft_deco:stairs_deepslate_tile_glowing"
+          "name": "growthcraft_deco:deepslate_brick_stairs_glowing"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "growthcraft_deco:blocks/stairs_deepslate_tile_glowing"
+  "random_sequence": "growthcraft_deco:blocks/deepslate_brick_stairs_glowing"
 }

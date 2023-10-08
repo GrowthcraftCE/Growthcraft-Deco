@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:dried_kelp_block_door"
+      "item": "minecraft:dried_kelp_block"
     },
     "B": {
       "tag": "minecraft:doors"

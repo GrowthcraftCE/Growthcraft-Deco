@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:dark_prismarine_door"
+      "item": "minecraft:dark_prismarine"
     },
     "B": {
       "tag": "minecraft:doors"

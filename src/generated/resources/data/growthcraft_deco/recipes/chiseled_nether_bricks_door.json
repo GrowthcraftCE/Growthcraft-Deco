@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:chiseled_nether_bricks_door"
+      "item": "minecraft:chiseled_nether_bricks"
     },
     "B": {
       "tag": "minecraft:doors"

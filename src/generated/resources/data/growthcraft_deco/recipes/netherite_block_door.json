@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:netherite_block_door"
+      "item": "minecraft:netherite_block"
     },
     "B": {
       "tag": "minecraft:doors"

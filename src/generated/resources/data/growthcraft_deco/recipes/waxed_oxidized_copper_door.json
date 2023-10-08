@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:waxed_oxidized_copper_door"
+      "item": "minecraft:waxed_oxidized_copper"
     },
     "B": {
       "tag": "minecraft:doors"

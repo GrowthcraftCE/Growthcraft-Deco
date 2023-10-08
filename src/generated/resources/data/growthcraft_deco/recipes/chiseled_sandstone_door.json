@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:chiseled_sandstone_door"
+      "item": "minecraft:chiseled_sandstone"
     },
     "B": {
       "tag": "minecraft:doors"

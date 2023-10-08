@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:gilded_blackstone_door"
+      "item": "minecraft:gilded_blackstone"
     },
     "B": {
       "tag": "minecraft:doors"

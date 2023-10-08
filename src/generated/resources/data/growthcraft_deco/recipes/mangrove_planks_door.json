@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:mangrove_planks_door"
+      "item": "minecraft:mangrove_planks"
     },
     "B": {
       "tag": "minecraft:doors"

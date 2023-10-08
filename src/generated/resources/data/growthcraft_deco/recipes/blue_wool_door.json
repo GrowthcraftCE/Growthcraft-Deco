@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:blue_wool_door"
+      "item": "minecraft:blue_wool"
     },
     "B": {
       "tag": "minecraft:doors"

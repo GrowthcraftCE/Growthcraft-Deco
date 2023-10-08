@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:coarse_dirt_door"
+      "item": "minecraft:coarse_dirt"
     },
     "B": {
       "tag": "minecraft:doors"

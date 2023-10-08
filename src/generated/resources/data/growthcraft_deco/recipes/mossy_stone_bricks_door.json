@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:mossy_stone_bricks_door"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "B": {
       "tag": "minecraft:doors"

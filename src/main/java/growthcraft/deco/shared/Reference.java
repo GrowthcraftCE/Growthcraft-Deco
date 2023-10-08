@@ -456,8 +456,8 @@ public class Reference {
         public static final String STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING = "stairs_waxed_oxidized_cut_copper_glowing";
         public static final String STAIR_COBBLED_DEEPSLATE_GLOWING = "stairs_cobbled_deepslate_glowing";
         public static final String STAIR_POLISHED_DEEPSLATE_GLOWING = "stairs_polished_deepslate_glowing";
-        public static final String STAIR_DEEPSLATE_BRICK_GLOWING = "stairs_deepslate_brick_glowing";
-        public static final String STAIR_DEEPSLATE_TILE_GLOWING = "stairs_deepslate_tile_glowing";
+        public static final String STAIR_DEEPSLATE_BRICK_GLOWING = "deepslate_brick_stairs_glowing";
+        public static final String STAIR_DEEPSLATE_TILE_GLOWING = "deepslate_tiles_stairs_glowing";
         public static final String STAIR_BAMBOO_GLOWING = "stairs_bamboo_glowing";
         public static final String STAIR_BAMBOO_MOSAIC_GLOWING = "stairs_bamboo_mosaic_glowing";
         public static final String STONE_GLOWING = "stone_glowing";

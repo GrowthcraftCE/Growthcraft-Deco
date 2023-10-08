@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:warped_planks_door"
+      "item": "minecraft:warped_planks"
     },
     "B": {
       "tag": "minecraft:doors"

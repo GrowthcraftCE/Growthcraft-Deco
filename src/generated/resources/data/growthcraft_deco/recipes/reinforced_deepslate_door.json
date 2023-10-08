@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:reinforced_deepslate_door"
+      "item": "minecraft:reinforced_deepslate"
     },
     "B": {
       "tag": "minecraft:doors"

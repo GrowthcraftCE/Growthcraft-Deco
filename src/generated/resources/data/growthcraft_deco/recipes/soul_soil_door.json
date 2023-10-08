@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:soul_soil_door"
+      "item": "minecraft:soul_soil"
     },
     "B": {
       "tag": "minecraft:doors"

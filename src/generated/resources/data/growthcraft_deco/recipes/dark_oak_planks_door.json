@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "growthcraft_deco:dark_oak_planks_door"
+      "item": "minecraft:dark_oak_planks"
     },
     "B": {
       "tag": "minecraft:doors"

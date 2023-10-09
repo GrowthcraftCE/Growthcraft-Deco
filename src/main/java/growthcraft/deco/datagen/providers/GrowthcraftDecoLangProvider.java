@@ -12,6 +12,7 @@ public class GrowthcraftDecoLangProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        Reference.LocalizedNames.GENERAL_EN_US.forEach(this::add);
         Reference.LocalizedNames.DOORS_EN_US.forEach(this::add);
         Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.forEach(this::add);
     }

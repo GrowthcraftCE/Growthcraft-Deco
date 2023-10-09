@@ -1670,11 +1670,6 @@ public class GrowthcraftDecoBlocks {
             () -> new GlowingStairBlock(Blocks.MANGROVE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.MANGROVE_STAIRS))
     );
 
-    public static final RegistryObject<Block> STAIR_DARK_PRISMARINE_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_DARK_PRISMARINE_GLOWING,
-            () -> new GlowingStairBlock(Blocks.DARK_PRISMARINE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE_STAIRS))
-    );
-
     public static final RegistryObject<Block> STAIR_PRISMARINE_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_PRISMARINE_GLOWING,
             () -> new GlowingStairBlock(Blocks.PRISMARINE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.PRISMARINE_STAIRS))
@@ -1875,67 +1870,97 @@ public class GrowthcraftDecoBlocks {
             () -> new GlowingStairBlock(Blocks.POLISHED_DEEPSLATE_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE_STAIRS))
     );
 
-    /**
-     * Glowing Variants of Vanilla Stairs
+    /*
+      Glowing Variants of Vanilla Stairs
      */
     static {
-        // acacia_stairs.json
-        // andesite_stairs.json
-        // bamboo_mosaic_stairs.json
-        // bamboo_stairs.json
-        // birch_stairs.json
-        // blackstone_stairs.json
-        // brick_stairs.json
-        // cherry_stairs.json
-        // cobbled_deepslate_stairs.json
-        // cobblestone_stairs.json
-        // crimson_stairs.json
-        // cut_copper_stairs.json
-        // dark_oak_stairs.json
-        // dark_prismarine_stairs.json
-        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_bricks"));
-        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/deepslate_tiles"));
-        // diorite_stairs.json
-        // end_stone_brick_stairs.json
-        // exposed_cut_copper_stairs.json
-        // granite_stairs.json
-        // jungle_stairs.json
-        // mangrove_stairs.json
-        // mossy_cobblestone_stairs.json
-        // mossy_stone_brick_stairs.json
-        // mud_brick_stairs.json
-        // nether_brick_stairs.json
-        // oak_stairs.json
-        // oxidized_cut_copper_stairs.json
-        // polished_andesite_stairs.json
-        // polished_blackstone_brick_stairs.json
-        // polished_blackstone_stairs.json
-        // polished_deepslate_stairs.json
-        // polished_diorite_stairs.json
-        // polished_granite_stairs.json
-        // prismarine_brick_stairs.json
-        // prismarine_stairs.json
-        // purpur_stairs.json
-        // quartz_stairs.json
-        // red_nether_brick_stairs.json
-        // red_sandstone_stairs.json
-        // sandstone_stairs.json
-        // smooth_quartz_stairs.json
-        // smooth_red_sandstone_stairs.json
-        // smooth_sandstone_stairs.json
-        // spruce_stairs.json
-        // stone_brick_stairs.json
-        // stone_stairs.json
-        // warped_stairs.json
-        // waxed_cut_copper_stairs.json
-        // waxed_exposed_cut_copper_stairs.json
-        // waxed_oxidized_cut_copper_stairs.json
-        // waxed_weathered_cut_copper_stairs.json
-        // weathered_cut_copper_stairs.json
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_ACACIA_GLOWING,
+                Blocks.ACACIA_STAIRS, Reference.ToolTypeNames.AXE,
+                new ResourceLocation("minecraft", "block/acacia_planks")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_ANDESITE_GLOWING,
+                Blocks.ANDESITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                new ResourceLocation("minecraft", "block/andesite")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BAMBOO_MOSAIC_GLOWING,
+                Blocks.BAMBOO_MOSAIC_STAIRS, Reference.ToolTypeNames.AXE,
+                new ResourceLocation("minecraft", "block/bamboo_mosaic")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BAMBOO_GLOWING,
+                Blocks.BAMBOO_STAIRS, Reference.ToolTypeNames.AXE,
+                new ResourceLocation("minecraft", "block/bamboo_planks")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BIRCH_GLOWING,
+                Blocks.BIRCH_STAIRS, Reference.ToolTypeNames.AXE,
+                new ResourceLocation("minecraft", "block/birch_planks")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BLACKSTONE_GLOWING,
+                Blocks.BLACKSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                new ResourceLocation("minecraft", "block/blackstone")
+        );
+        // TODO: brick_stairs
+        // TODO: cherry_stairs
+        // TODO: cobbled_deepslate_stairs
+        // TODO: cobblestone_stairs
+        // TODO: crimson_stairs
+        // TODO: cut_copper_stairs
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DARK_OAK_GLOWING,
+                Blocks.DARK_OAK_STAIRS, Reference.ToolTypeNames.AXE,
+                new ResourceLocation("minecraft", "block/dark_oak_planks")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DARK_PRISMARINE_GLOWING,
+                Blocks.DARK_PRISMARINE_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                new ResourceLocation("minecraft", "block/dark_prismarine")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING,
+                Blocks.DEEPSLATE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                new ResourceLocation("minecraft", "block/deepslate_bricks")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
+                Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                new ResourceLocation("minecraft", "block/deepslate_tiles")
+        );
+        // TODO: diorite_stairs
+        // TODO: end_stone_brick_stairs
+        // TODO: exposed_cut_copper_stairs
+        // TODO: granite_stairs
+        // TODO: jungle_stairs
+        // TODO: mangrove_stairs
+        // TODO: mossy_cobblestone_stairs
+        // TODO: mossy_stone_brick_stairs
+        // TODO: mud_brick_stairs
+        // TODO: nether_brick_stairs
+        // TODO: oak_stairs
+        // TODO: oxidized_cut_copper_stairs
+        // TODO: polished_andesite_stairs
+        // TODO: polished_blackstone_brick_stairs
+        // TODO: polished_blackstone_stairs
+        // TODO: polished_deepslate_stairs
+        // TODO: polished_diorite_stairs
+        // TODO: polished_granite_stairs
+        // TODO: prismarine_brick_stairs
+        // TODO: prismarine_stairs
+        // TODO: purpur_stairs
+        // TODO: quartz_stairs
+        // TODO: red_nether_brick_stairs
+        // TODO: red_sandstone_stairs
+        // TODO: sandstone_stairs
+        // TODO: smooth_quartz_stairs
+        // TODO: smooth_red_sandstone_stairs
+        // TODO: smooth_sandstone_stairs
+        // TODO: spruce_stairs
+        // TODO: stone_brick_stairs
+        // TODO: stone_stairs
+        // TODO: warped_stairs
+        // TODO: waxed_cut_copper_stairs
+        // TODO: waxed_exposed_cut_copper_stairs
+        // TODO: waxed_oxidized_cut_copper_stairs
+        // TODO: waxed_weathered_cut_copper_stairs
+        // TODO: weathered_cut_copper_stairs
     }
 
-    /**
-     * Glowing Variants of Vanilla Blocks
+    /*
+       Glowing Variants of Vanilla Blocks
      */
     static {
         registerVanillaVariant(Reference.UnlocalizedName.ACACIA_PLANKS_GLOWING, Blocks.ACACIA_PLANKS, "axe", new ResourceLocation("minecraft", "block/acacia_planks"));

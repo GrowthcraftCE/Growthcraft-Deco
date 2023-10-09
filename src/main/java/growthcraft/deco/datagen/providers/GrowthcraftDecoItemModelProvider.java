@@ -1,15 +1,12 @@
 package growthcraft.deco.datagen.providers;
 
-import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
-import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DoorBlock;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -36,19 +33,19 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
     }
 
     private void glowingBlocks() {
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ACACIA_GLOWING, Blocks.ACACIA_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ANDESITE_GLOWING, Blocks.ANDESITE_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_GLOWING, Blocks.BAMBOO_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BIRCH_GLOWING, Blocks.BIRCH_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BLACKSTONE_GLOWING, Blocks.BLACKSTONE_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ACACIA_GLOWING, Blocks.ACACIA_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_ANDESITE_GLOWING, Blocks.ANDESITE_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_GLOWING, Blocks.BAMBOO_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BIRCH_GLOWING, Blocks.BIRCH_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BLACKSTONE_GLOWING, Blocks.BLACKSTONE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_BRICK_GLOWING, Blocks.BRICK_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_COBBLED_DEEPSLATE_GLOWING, Blocks.COBBLED_DEEPSLATE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_COBBLESTONE_GLOWING, Blocks.COBBLESTONE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_CRIMSON_GLOWING, Blocks.CRIMSON_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_CUT_COPPER_GLOWING, Blocks.CUT_COPPER_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_OAK_GLOWING, Blocks.DARK_OAK_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_PRISMARINE_GLOWING, Blocks.DARK_PRISMARINE_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_OAK_GLOWING, Blocks.DARK_OAK_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DARK_PRISMARINE_GLOWING, Blocks.DARK_PRISMARINE_STAIRS);
         //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_BRICK_GLOWING, Blocks.DEEPSLATE_BRICK_STAIRS);
         //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DEEPSLATE_TILE_GLOWING, Blocks.DEEPSLATE_TILE_STAIRS);
         this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_DIORITE_GLOWING, Blocks.DIORITE_STAIRS);

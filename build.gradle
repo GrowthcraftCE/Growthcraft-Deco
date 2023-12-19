@@ -2,7 +2,7 @@ plugins {
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
     id "org.sonarqube" version "4.2.1.3168"
 }
 
@@ -79,7 +79,7 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    runtimeOnly fg.deobf("curse.maven:theoneprobe-${curseforge_theoneprobe}")
+    //runtimeOnly fg.deobf("curse.maven:theoneprobe-${curseforge_theoneprobe}")
     runtimeOnly fg.deobf("curse.maven:jei-${curseforge_jei}")
 }
 

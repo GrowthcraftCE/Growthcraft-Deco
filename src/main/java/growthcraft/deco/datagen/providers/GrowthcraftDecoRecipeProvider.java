@@ -13,8 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-import java.util.function.Consumer;
-
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
  */
@@ -26,7 +24,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     @Override
-    protected void buildRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    protected void buildRecipes(RecipeOutput recipeConsumer) {
         this.carpetedStairsRecipes(recipeConsumer);
         this.glowingRecipes(recipeConsumer);
         this.partialCarpetedStairsRecipes(recipeConsumer);
@@ -35,7 +33,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.stoneCuttingRecipes(recipeConsumer);
     }
 
-    private void stoneCuttingRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void stoneCuttingRecipes(RecipeOutput recipeConsumer) {
         this.buildStonecuttingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIRS_CONCRETE_BLACK.get(), Blocks.BLACK_CONCRETE, 1);
         this.buildStonecuttingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIRS_CONCRETE_BLUE.get(), Blocks.BLUE_CONCRETE, 1);
         this.buildStonecuttingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIRS_CONCRETE_BROWN.get(), Blocks.BROWN_CONCRETE, 1);
@@ -70,7 +68,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildStonecuttingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIRS_TERRACOTTA_YELLOW.get(), Blocks.YELLOW_TERRACOTTA, 1);
     }
 
-    private void slabRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void slabRecipes(RecipeOutput recipeConsumer) {
         this.buildSlabRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANEL_BLACK.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get());
         this.buildSlabRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANEL_BLACK_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BLACK_GLOWING.get(), "from_slab");
         this.buildSlabRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_PANEL_BLUE.get(), GrowthcraftDecoBlocks.SLAB_GLASS_BLUE.get());
@@ -128,7 +126,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildSlabRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLOWSTONE.get(), Blocks.GLOWSTONE);
     }
 
-    private void stairRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void stairRecipes(RecipeOutput recipeConsumer) {
         this.buildStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WOOL_BLACK.get(), Blocks.BLACK_WOOL);
         this.buildStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WOOL_BLUE.get(), Blocks.BLUE_WOOL);
         this.buildStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WOOL_BROWN.get(), Blocks.BROWN_WOOL);
@@ -148,7 +146,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
 
     }
 
-    private void glowingRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void glowingRecipes(RecipeOutput recipeConsumer) {
 
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_BLACK_PANE_GLOWING.get(), Blocks.BLACK_STAINED_GLASS_PANE);
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.GLASS_STAINED_BLUE_PANE_GLOWING.get(), Blocks.BLUE_STAINED_GLASS_PANE);
@@ -202,8 +200,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
 
-
-    private void carpetedStairsRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void carpetedStairsRecipes(RecipeOutput recipeConsumer) {
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BLACK.get(), Blocks.ACACIA_STAIRS, Blocks.BLACK_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BLUE.get(), Blocks.ACACIA_STAIRS, Blocks.BLUE_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BROWN.get(), Blocks.ACACIA_STAIRS, Blocks.BROWN_CARPET);
@@ -334,7 +331,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_YELLOW.get(), Blocks.WARPED_STAIRS, Blocks.YELLOW_CARPET);
     }
 
-    private void partialCarpetedStairsRecipes(Consumer<FinishedRecipe> recipeConsumer) {
+    private void partialCarpetedStairsRecipes(RecipeOutput recipeConsumer) {
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_PARTIAL_BLACK.get(), Blocks.ACACIA_STAIRS, Blocks.BLACK_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_PARTIAL_BLUE.get(), Blocks.ACACIA_STAIRS, Blocks.BLUE_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_PARTIAL_BROWN.get(), Blocks.ACACIA_STAIRS, Blocks.BROWN_CARPET);
@@ -465,7 +462,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_YELLOW.get(), Blocks.WARPED_STAIRS, Blocks.YELLOW_CARPET);
     }
 
-    private void buildHiddenDoorRecipe(Consumer<FinishedRecipe> recipeConsumer, Block result, Block clonedBlock) {
+    private void buildHiddenDoorRecipe(RecipeOutput recipeConsumer, Block result, Block clonedBlock) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
                 .define('A', clonedBlock)
                 .define('B', ItemTags.DOORS)
@@ -476,7 +473,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    private void buildGlowingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient) {
+    private void buildGlowingRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
                 .define('A', ingredient)
                 .define('B', GrowthcraftDecoTags.Items.GLOWING)
@@ -487,7 +484,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    public void buildSlabRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient) {
+    public void buildSlabRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', ingredient)
                 .pattern("AAA")
@@ -495,7 +492,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    public void buildSlabRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient, String recipePostfixName) {
+    public void buildSlabRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient, String recipePostfixName) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', ingredient)
                 .pattern("AAA")
@@ -503,7 +500,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer, new ResourceLocation(Reference.MODID, RecipeProvider.getItemName(result)) + "_" + recipePostfixName);
     }
 
-    public void buildStairRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient) {
+    public void buildStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 4)
                 .define('A', ingredient)
                 .pattern("A  ")
@@ -513,7 +510,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    public void buildCarpetedStairRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
+    public void buildCarpetedStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', base)
                 .define('B', carpet)
@@ -525,7 +522,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    public void buildPartialCarpetedStairRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
+    public void buildPartialCarpetedStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
                 .define('A', base)
                 .define('B', carpet)
@@ -537,7 +534,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
                 .save(recipeConsumer);
     }
 
-    public void buildStonecuttingRecipe(Consumer<FinishedRecipe> recipeConsumer, ItemLike result, ItemLike ingredient, int resultCount) {
+    public void buildStonecuttingRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient, int resultCount) {
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ingredient), RecipeCategory.DECORATIONS, result, resultCount)
                 .unlockedBy(getHasName(ingredient), has(ingredient))
                 .save(recipeConsumer, new ResourceLocation(Reference.MODID, getConversionRecipeName(result, ingredient)) + "_stonecutting");

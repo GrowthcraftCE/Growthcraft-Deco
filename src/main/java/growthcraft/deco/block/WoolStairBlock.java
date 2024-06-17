@@ -23,6 +23,6 @@ public class WoolStairBlock extends StairBlock {
     }
 
     public WoolStairBlock(Supplier<BlockState> state, Properties properties) {
-        super(state, properties);
+        super(state.get(), properties);
     }
 }

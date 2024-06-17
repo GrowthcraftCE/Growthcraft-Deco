@@ -18,7 +18,7 @@ public class BlockPropertiesUtils {
      * @return Customized block properties.
      */
     public static BlockBehaviour.Properties getInitProperties(String blockType, Block block) {
-        BlockBehaviour.Properties properties = BlockBehaviour.Properties.copy(block);
+        BlockBehaviour.Properties properties = BlockBehaviour.Properties.ofFullCopy(block);
 
         switch (blockType) {
             case "concrete_stairs" -> {

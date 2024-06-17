@@ -12,7 +12,7 @@ public class CarpetStairBlock extends StairBlock {
     }
 
     public CarpetStairBlock(Supplier<BlockState> state, Properties properties) {
-        super(state, properties);
+        super(state.get(), properties);
     }
 
 }

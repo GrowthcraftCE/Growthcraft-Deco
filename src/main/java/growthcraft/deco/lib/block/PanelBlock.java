@@ -1,5 +1,6 @@
 package growthcraft.deco.lib.block;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
@@ -13,6 +14,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class PanelBlock extends FaceAttachedHorizontalDirectionalBlock {
+    public static final MapCodec<PanelBlock> CODEC = simpleCodec(PanelBlock::new);
     protected static final VoxelShape AABB_CEILING = Block.box(
             0.0D, 15.0D, 0.0D,
             16.0D, 16.0D, 16.0D
@@ -50,6 +52,10 @@ public class PanelBlock extends FaceAttachedHorizontalDirectionalBlock {
         this.lightLevel = lightLevel;
     }
 
+    public MapCodec<? extends PanelBlock> codec() {
+        return CODEC;
+    }
+
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(FACING, FACE);
@@ -63,17 +69,12 @@ public class PanelBlock extends FaceAttachedHorizontalDirectionalBlock {
             case FLOOR:
                 return AABB_FLOOR;
             case WALL:
-                switch (direction) {
-                    case EAST:
-                        return AABB_EAST;
-                    case WEST:
-                        return AABB_WEST;
-                    case SOUTH:
-                        return AABB_SOUTH;
-                    case NORTH:
-                    default:
-                        return AABB_NORTH;
-                }
+                return switch (direction) {
+                    case EAST -> AABB_EAST;
+                    case WEST -> AABB_WEST;
+                    case SOUTH -> AABB_SOUTH;
+                    default -> AABB_NORTH;
+                };
             case CEILING:
             default:
                 return AABB_CEILING;

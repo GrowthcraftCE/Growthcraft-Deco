@@ -22,6 +22,6 @@ public class TerracottaStairBlock extends StairBlock {
     }
 
     public TerracottaStairBlock(Supplier<BlockState> state, Properties properties) {
-        super(state, properties);
+        super(state.get(), properties);
     }
 }

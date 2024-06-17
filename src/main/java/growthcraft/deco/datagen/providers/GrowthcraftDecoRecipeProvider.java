@@ -3,6 +3,7 @@ package growthcraft.deco.datagen.providers;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.init.GrowthcraftDecoTags;
 import growthcraft.deco.shared.Reference;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
@@ -13,14 +14,16 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
+import java.util.concurrent.CompletableFuture;
+
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
  */
 public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
 
-    public GrowthcraftDecoRecipeProvider(PackOutput packOutput) {
-        super(packOutput);
+    public GrowthcraftDecoRecipeProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+        super(packOutput, lookupProvider);
     }
 
     @Override

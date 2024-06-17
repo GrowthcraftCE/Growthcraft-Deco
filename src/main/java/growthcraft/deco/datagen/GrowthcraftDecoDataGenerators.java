@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -26,8 +27,8 @@ public class GrowthcraftDecoDataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        generator.addProvider(true, new GrowthcraftDecoRecipeProvider(packOutput));
-        generator.addProvider(true, GrowthcraftDecoLootTableProvider.create(packOutput));
+        generator.addProvider(true, new GrowthcraftDecoRecipeProvider(packOutput, lookupProvider));
+        generator.addProvider(true, GrowthcraftDecoLootTableProvider.create(packOutput, lookupProvider));
         generator.addProvider(true, new GrowthcraftDecoBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoBlockTagsProvider(packOutput, Registries.BLOCK, lookupProvider, "minecraft", existingFileHelper));

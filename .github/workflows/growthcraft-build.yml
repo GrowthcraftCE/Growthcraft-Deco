@@ -33,6 +33,8 @@ jobs:
           restore-keys: ${{ runner.os }}-gradle
       - name: Setup Gradle
         run: chmod +x gradlew
+      - name: DataGen Resources
+        run: ./gradlew runData
       - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

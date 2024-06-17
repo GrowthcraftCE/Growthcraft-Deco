@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:red_terracotta"
-            ]
+            "items": "minecraft:red_terracotta"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_red_terracotta",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_red_terracotta"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_terracotta_red_from_red_terracotta_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

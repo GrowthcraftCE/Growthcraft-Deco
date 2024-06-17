@@ -16,7 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:purple_terracotta_glowing"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:purple_terracotta_glowing"
+  }
 }

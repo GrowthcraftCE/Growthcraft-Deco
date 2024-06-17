@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:crimson_stairs"
-            ]
+            "items": "minecraft:crimson_stairs"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:purple_carpet"
-            ]
+            "items": "minecraft:purple_carpet"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_crimson_stairs",
-      "has_purple_carpet",
-      "has_the_recipe"
+      "has_purple_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_crimson_carpet_partial_purple"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

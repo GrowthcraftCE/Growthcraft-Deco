@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:light_blue_concrete"
-            ]
+            "items": "minecraft:light_blue_concrete"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_light_blue_concrete",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_light_blue_concrete"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_concrete_light_blue_from_light_blue_concrete_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

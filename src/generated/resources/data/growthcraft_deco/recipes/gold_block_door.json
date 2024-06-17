@@ -16,7 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:gold_block_door"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:gold_block_door"
+  }
 }

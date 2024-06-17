@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:doors"
+            "items": "#minecraft:doors"
           }
         ]
       },
@@ -20,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_item"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:waxed_oxidized_cut_copper_door"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

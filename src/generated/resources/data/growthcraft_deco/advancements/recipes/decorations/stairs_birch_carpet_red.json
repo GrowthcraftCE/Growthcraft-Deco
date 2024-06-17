@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:birch_stairs"
-            ]
+            "items": "minecraft:birch_stairs"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:red_carpet"
-            ]
+            "items": "minecraft:red_carpet"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_birch_stairs",
-      "has_red_carpet",
-      "has_the_recipe"
+      "has_red_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_birch_carpet_red"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

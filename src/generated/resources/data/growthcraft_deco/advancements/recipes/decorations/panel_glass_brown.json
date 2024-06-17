@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "growthcraft_deco:slab_glass_brown"
-            ]
+            "items": "growthcraft_deco:slab_glass_brown"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_item"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:panel_glass_brown"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

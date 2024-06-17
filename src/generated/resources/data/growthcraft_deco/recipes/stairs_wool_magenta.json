@@ -13,7 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "growthcraft_deco:stairs_wool_magenta"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:stairs_wool_magenta"
+  }
 }

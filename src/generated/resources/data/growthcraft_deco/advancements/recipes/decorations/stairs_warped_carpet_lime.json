@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:lime_carpet"
-            ]
+            "items": "minecraft:lime_carpet"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:warped_stairs"
-            ]
+            "items": "minecraft:warped_stairs"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_warped_stairs",
-      "has_lime_carpet",
-      "has_the_recipe"
+      "has_lime_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_warped_carpet_lime"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:magenta_concrete"
-            ]
+            "items": "minecraft:magenta_concrete"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_magenta_concrete",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_magenta_concrete"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_concrete_magenta_from_magenta_concrete_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

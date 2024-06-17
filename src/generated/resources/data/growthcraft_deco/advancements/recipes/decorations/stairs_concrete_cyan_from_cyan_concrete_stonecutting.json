@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cyan_concrete"
-            ]
+            "items": "minecraft:cyan_concrete"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_cyan_concrete",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_cyan_concrete"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_concrete_cyan_from_cyan_concrete_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

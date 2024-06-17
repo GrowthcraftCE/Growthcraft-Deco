@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oak_stairs"
-            ]
+            "items": "minecraft:oak_stairs"
           }
         ]
       },
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:yellow_carpet"
-            ]
+            "items": "minecraft:yellow_carpet"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_oak_stairs",
-      "has_yellow_carpet",
-      "has_the_recipe"
+      "has_yellow_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_oak_carpet_partial_yellow"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "growthcraft_deco:glowing"
+            "items": "#growthcraft_deco:glowing"
           }
         ]
       },
@@ -20,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_item"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:acacia_planks_glowing"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

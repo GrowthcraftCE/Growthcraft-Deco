@@ -16,7 +16,6 @@
   ],
   "result": {
     "count": 6,
-    "item": "growthcraft_deco:stairs_warped_carpet_green"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:stairs_warped_carpet_green"
+  }
 }

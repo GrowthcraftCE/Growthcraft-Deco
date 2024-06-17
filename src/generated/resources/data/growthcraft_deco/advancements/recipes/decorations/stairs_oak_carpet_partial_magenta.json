@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:magenta_carpet"
-            ]
+            "items": "minecraft:magenta_carpet"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oak_stairs"
-            ]
+            "items": "minecraft:oak_stairs"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_oak_stairs",
-      "has_magenta_carpet",
-      "has_the_recipe"
+      "has_magenta_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_oak_carpet_partial_magenta"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

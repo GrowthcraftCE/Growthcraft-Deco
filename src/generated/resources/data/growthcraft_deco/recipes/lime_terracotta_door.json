@@ -16,7 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:lime_terracotta_door"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:lime_terracotta_door"
+  }
 }

@@ -16,7 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "growthcraft_deco:black_terracotta_door"
-  },
-  "show_notification": true
+    "id": "growthcraft_deco:black_terracotta_door"
+  }
 }

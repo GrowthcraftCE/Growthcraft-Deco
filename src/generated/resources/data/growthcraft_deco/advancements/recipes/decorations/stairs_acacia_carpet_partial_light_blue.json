@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:acacia_stairs"
-            ]
+            "items": "minecraft:acacia_stairs"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:light_blue_carpet"
-            ]
+            "items": "minecraft:light_blue_carpet"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_acacia_stairs",
-      "has_light_blue_carpet",
-      "has_the_recipe"
+      "has_light_blue_carpet"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_acacia_carpet_partial_light_blue"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

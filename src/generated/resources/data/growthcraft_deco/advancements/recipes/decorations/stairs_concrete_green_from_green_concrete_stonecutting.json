@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:green_concrete"
-            ]
+            "items": "minecraft:green_concrete"
           }
         ]
       },
@@ -22,14 +20,13 @@
   },
   "requirements": [
     [
-      "has_green_concrete",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_green_concrete"
     ]
   ],
   "rewards": {
     "recipes": [
       "growthcraft_deco:stairs_concrete_green_from_green_concrete_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

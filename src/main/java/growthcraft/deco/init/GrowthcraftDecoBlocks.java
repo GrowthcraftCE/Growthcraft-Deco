@@ -470,1027 +470,1027 @@ public class GrowthcraftDecoBlocks {
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_ACACIA_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_ACACIA_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS))
+            () -> new CarpetStairBlock(Blocks.ACACIA_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_BIRCH_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_BIRCH_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS))
+            () -> new CarpetStairBlock(Blocks.BIRCH_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_CRIMSON_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_CRIMSON_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS))
+            () -> new CarpetStairBlock(Blocks.CRIMSON_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_DARK_OAK_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_DARK_OAK_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.DARK_OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_JUNGLE_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_JUNGLE_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.JUNGLE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_OAK_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_OAK_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))
+            () -> new CarpetStairBlock(Blocks.OAK_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_SPRUCE_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_SPRUCE_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS))
+            () -> new CarpetStairBlock(Blocks.SPRUCE_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_BLACK,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_BLUE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_BROWN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_CYAN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_GRAY,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_GREEN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_LIME,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_ORANGE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_BLACK,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_BLUE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_BROWN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_BROWN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_CYAN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_CYAN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_GRAY,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_GREEN = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_GREEN,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_LIGHT_BLUE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_LIGHT_GRAY,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_LIME = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_LIME,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_MAGENTA = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_MAGENTA,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_ORANGE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_ORANGE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_PINK,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_PURPLE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_RED,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_WHITE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PARTIAL_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PARTIAL_YELLOW,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PINK = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PINK,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_PURPLE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_PURPLE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_RED = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_RED,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_WHITE = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_WHITE,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIR_WARPED_CARPET_YELLOW = registerBlock(
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_YELLOW,
-            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS))
+            () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
     public static final RegistryObject<Block> STAIRS_TERRACOTTA_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BLACK,
@@ -1623,27 +1623,27 @@ public class GrowthcraftDecoBlocks {
 
     public static final RegistryObject<Block> STAIR_WAXED_CUT_COPPER_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_WAXED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_CUT_COPPER_STAIRS))
+            () -> new GlowingStairBlock(Blocks.WAXED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_CUT_COPPER_STAIRS))
     );
 
     public static final RegistryObject<Block> STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS))
+            () -> new GlowingStairBlock(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS))
     );
 
     public static final RegistryObject<Block> STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS))
+            () -> new GlowingStairBlock(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS))
     );
 
     public static final RegistryObject<Block> STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS))
+            () -> new GlowingStairBlock(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS))
     );
 
     public static final RegistryObject<Block> STAIR_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
             Reference.UnlocalizedName.STAIR_WEATHERED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.WEATHERED_CUT_COPPER_STAIRS))
+            () -> new GlowingStairBlock(Blocks.WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WEATHERED_CUT_COPPER_STAIRS))
     );
 
     /*
@@ -2023,7 +2023,7 @@ public class GrowthcraftDecoBlocks {
      */
     private static void registerVanillaGlowingStairVariant(String name, Block block, Reference.ToolTypeNames toolType, ResourceLocation modelLocation) {
         RegistryObject<Block> GLOWING_STAIR_BLOCK = registerBlock(name,
-                () -> new GlowingStairBlock(block.defaultBlockState(), BlockBehaviour.Properties.copy(block))
+                () -> new GlowingStairBlock(block.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(block))
         );
 
         GLOWING_STAIR_BLOCKS.put(name, GLOWING_STAIR_BLOCK);
@@ -2056,7 +2056,7 @@ public class GrowthcraftDecoBlocks {
 
         // Glowing Block Variant Registration
         RegistryObject<Block> GLOWING_BLOCK = registerBlock(name,
-                () -> new Block(BlockBehaviour.Properties.copy(block).lightLevel((p_50874_) -> 15))
+                () -> new Block(BlockBehaviour.Properties.ofFullCopy(block).lightLevel((p_50874_) -> 15))
         );
 
         GLOWING_VANILLA_BLOCKS.put(name, GLOWING_BLOCK);
@@ -2085,7 +2085,7 @@ public class GrowthcraftDecoBlocks {
 
         // Door Block Variant Registration
         RegistryObject<Block> DOOR_BLOCK = registerBlock(name,
-                () -> new HiddenDoorBlock(BlockBehaviour.Properties.copy(block), blockSetType)
+                () -> new HiddenDoorBlock(blockSetType, BlockBehaviour.Properties.ofFullCopy(block))
         );
 
         HIDDEN_DOOR_BLOCKS.put(name, DOOR_BLOCK);

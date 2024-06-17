@@ -7,6 +7,13 @@ Growthcraft Decorations provides additional decorative blocks to the game of Min
 Curse Forge 
 * [Growthcraft Decorations](https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations)
 
+> Starting with Growthcraft Decorations for Minecraft 1.20.3, the versioning will be more in line with the supported Minecraft version. The Growthcraft Deco version will be the fourth number in the semantic versioning. 1.20.3.1 is the first release that supports MC 1.20.3.
+
+Minecraft 1.20
+* [1.20.3 - Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.20.3)
+* [1.20.2 - Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.20.2)
+* [1.20.1 - Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.20.1)
+
 Mineraft 1.18.2
 * [Code Repository](https://github.com/GrowthcraftCE/Growthcraft-Deco/tree/1.18)
 

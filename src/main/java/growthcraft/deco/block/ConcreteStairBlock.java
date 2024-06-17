@@ -22,6 +22,6 @@ public class ConcreteStairBlock extends StairBlock {
     }
 
     public ConcreteStairBlock(Supplier<BlockState> state, Properties properties) {
-        super(state, properties);
+        super(state.get(), properties);
     }
 }

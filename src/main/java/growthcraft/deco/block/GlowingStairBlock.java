@@ -28,7 +28,7 @@ public class GlowingStairBlock extends StairBlock {
     }
 
     public GlowingStairBlock(Supplier<BlockState> state, Properties properties) {
-        super(state, properties);
+        super(state.get(), properties);
     }
 
     @Override

@@ -14,13 +14,13 @@ credits = "Thanks to Gwafu for starting a great mod. And the Growthcraft CE Deve
 authors = "${mod_authors}"
 description = '''${mod_description}'''
 
-[[dependencies.${ mod_id }]] #optional
+[[dependencies.${mod_id}]] #optional
 modId = "forge" #mandatory
 mandatory = true #mandatory
 versionRange = "${forge_version_range}" #mandatory
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.${ mod_id }]]
+[[dependencies.${mod_id}]]
 modId = "minecraft"
 mandatory = true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version

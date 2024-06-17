@@ -12,7 +12,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.MissingMappingsEvent;
 import org.apache.logging.log4j.LogManager;
@@ -26,7 +25,6 @@ public class GrowthcraftDeco {
 
     public GrowthcraftDeco() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetupEvent);
 
         GrowthcraftDecoBlocks.BLOCKS.register(modEventBus);
@@ -39,15 +37,10 @@ public class GrowthcraftDeco {
 
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-        // Do nothing for now ...
-    }
-
     private void clientSetupEvent(final FMLClientSetupEvent event) {
         GrowthcraftDecoBlockRenderers.registerBlockRenders();
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // do something when the server starts

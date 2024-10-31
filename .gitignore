@@ -29,3 +29,4 @@ forge*changelog.txt
 /venv/
 *.launch
 .vscode
+/.java-version

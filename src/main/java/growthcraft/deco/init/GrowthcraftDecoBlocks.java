@@ -1652,194 +1652,194 @@ public class GrowthcraftDecoBlocks {
     static {
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_ACACIA_GLOWING,
                 Blocks.ACACIA_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/acacia_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/acacia_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_ANDESITE_GLOWING,
                 Blocks.ANDESITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/andesite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/andesite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BAMBOO_MOSAIC_GLOWING,
                 Blocks.BAMBOO_MOSAIC_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/bamboo_mosaic")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/bamboo_mosaic")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BAMBOO_GLOWING,
                 Blocks.BAMBOO_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/bamboo_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/bamboo_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BIRCH_GLOWING,
                 Blocks.BIRCH_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/birch_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/birch_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BLACKSTONE_GLOWING,
                 Blocks.BLACKSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/blackstone")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/blackstone")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_BRICK_GLOWING,
                 Blocks.BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/bricks")
         );
         // TODO: Refactor cherry_stairs
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_COBBLED_DEEPSLATE_GLOWING,
                 Blocks.COBBLED_DEEPSLATE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/cobbled_deepslate")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/cobbled_deepslate")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_COBBLESTONE_GLOWING,
                 Blocks.COBBLESTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/cobblestone")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/cobblestone")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_CRIMSON_GLOWING,
                 Blocks.CRIMSON_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/crimson_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/crimson_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_CUT_COPPER_GLOWING,
                 Blocks.CUT_COPPER_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/cut_copper")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/cut_copper")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DARK_OAK_GLOWING,
                 Blocks.DARK_OAK_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/dark_oak_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/dark_oak_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DARK_PRISMARINE_GLOWING,
                 Blocks.DARK_PRISMARINE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/dark_prismarine")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/dark_prismarine")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING,
                 Blocks.DEEPSLATE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/deepslate_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/deepslate_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING,
                 Blocks.DEEPSLATE_TILE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/deepslate_tiles")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/deepslate_tiles")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_DIORITE_GLOWING,
                 Blocks.DIORITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/diorite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/diorite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_END_STONE_BRICK_GLOWING,
                 Blocks.END_STONE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/end_stone_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/end_stone_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_EXPOSED_CUT_COPPER_GLOWING,
                 Blocks.EXPOSED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/exposed_cut_copper")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/exposed_cut_copper")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_GRANITE_GLOWING,
                 Blocks.GRANITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/granite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/granite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_JUNGLE_GLOWING,
                 Blocks.JUNGLE_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/jungle_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/jungle_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_MANGROVE_GLOWING,
                 Blocks.MANGROVE_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/mangrove_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/mangrove_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_MOSSY_COBBLESTONE_GLOWING,
                 Blocks.MOSSY_COBBLESTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/mossy_cobblestone")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/mossy_cobblestone")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_MOSSY_STONE_BRICK_GLOWING,
                 Blocks.MOSSY_STONE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/mossy_stone_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/mossy_stone_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_MUD_BRICK_GLOWING,
                 Blocks.MUD_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/mossy_stone_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/mossy_stone_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_NETHER_BRICK_GLOWING,
                 Blocks.NETHER_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/nether_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/nether_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_OAK_GLOWING,
                 Blocks.OAK_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/oak_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/oak_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_OXIDIZED_CUT_COPPER_GLOWING,
                 Blocks.OXIDIZED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/oxidized_cut_copper")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/oxidized_cut_copper")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_ANDESITE_GLOWING,
                 Blocks.POLISHED_ANDESITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_andesite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_andesite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_BLACKSTONE_BRICK_GLOWING,
                 Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_blackstone_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_blackstone_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_BLACKSTONE_GLOWING,
                 Blocks.POLISHED_BLACKSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_blackstone")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_blackstone")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_DEEPSLATE_GLOWING,
                 Blocks.POLISHED_DEEPSLATE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_deepslate")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_deepslate")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_DIORITE_GLOWING,
                 Blocks.POLISHED_DIORITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_diorite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_diorite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_POLISHED_GRANITE_GLOWING,
                 Blocks.POLISHED_GRANITE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/polished_granite")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_granite")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_PRISMARINE_BRICK_GLOWING,
                 Blocks.PRISMARINE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/prismarine_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/prismarine_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_PRISMARINE_GLOWING,
                 Blocks.PRISMARINE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/prismarine")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/prismarine")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_PURPUR_GLOWING,
                 Blocks.PURPUR_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/purpur_block")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/purpur_block")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_QUARTZ_GLOWING,
                 Blocks.QUARTZ_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/quartz_block_top")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_block_top")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_RED_NETHER_BRICK_GLOWING,
                 Blocks.RED_NETHER_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/red_nether_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_nether_bricks")
         );
         // TODO: Refactor for multi-textured red_sandstone_stairs
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_RED_SANDSTONE_GLOWING,
                 Blocks.RED_SANDSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/red_sandstone_bottom")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_sandstone_bottom")
         );
         // TODO: Refactor for multi-textured sandstone_stairs
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_SANDSTONE_GLOWING,
                 Blocks.SANDSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/sandstone_bottom")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/sandstone_bottom")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_SMOOTH_QUARTZ_GLOWING,
                 Blocks.SMOOTH_QUARTZ_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/quartz_block_bottom")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_block_bottom")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_SMOOTH_RED_SANDSTONE_GLOWING,
                 Blocks.SMOOTH_RED_SANDSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/red_sandstone_top")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_sandstone_top")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_SMOOTH_SANDSTONE_GLOWING,
                 Blocks.SMOOTH_SANDSTONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/sandstone_top")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/sandstone_top")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_SPRUCE_GLOWING,
                 Blocks.SPRUCE_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/spruce_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/spruce_planks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_STONE_BRICK_GLOWING,
                 Blocks.STONE_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/stone_bricks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/stone_bricks")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_STONE_GLOWING,
                 Blocks.STONE_STAIRS, Reference.ToolTypeNames.PICKAXE,
-                new ResourceLocation("minecraft", "block/stone")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/stone")
         );
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WARPED_GLOWING,
                 Blocks.WARPED_STAIRS, Reference.ToolTypeNames.AXE,
-                new ResourceLocation("minecraft", "block/warped_planks")
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/warped_planks")
         );
 
     }
@@ -1848,154 +1848,154 @@ public class GrowthcraftDecoBlocks {
       Glowing Variants of Vanilla Blocks
      */
     static {
-        registerVanillaVariant(Reference.UnlocalizedName.ACACIA_PLANKS_GLOWING, Blocks.ACACIA_PLANKS, "axe", new ResourceLocation("minecraft", "block/acacia_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.ANDESITE_GLOWING, Blocks.ANDESITE,"pickaxe", new ResourceLocation("minecraft", "block/andesite"));
-        registerVanillaVariant(Reference.UnlocalizedName.BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC, "axe", new ResourceLocation("minecraft", "block/bamboo_mosaic"));
-        registerVanillaVariant(Reference.UnlocalizedName.BAMBOO_PLANKS_GLOWING, Blocks.BAMBOO_PLANKS, "axe", new ResourceLocation("minecraft", "block/bamboo_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.BIRCH_PLANKS_GLOWING, Blocks.BIRCH_PLANKS, "axe", new ResourceLocation("minecraft", "block/birch_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLACKSTONE_GLOWING, Blocks.BLACKSTONE, "pickaxe", new ResourceLocation("minecraft", "block/blackstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLACK_CONCRETE_GLOWING, Blocks.BLACK_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/black_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLACK_TERRACOTTA_GLOWING, Blocks.BLACK_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/black_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLACK_WOOL_GLOWING, Blocks.BLACK_WOOL, "none", new ResourceLocation("minecraft", "block/black_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLUE_CONCRETE_GLOWING, Blocks.BLUE_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/blue_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLUE_TERRACOTTA_GLOWING, Blocks.BLUE_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/blue_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.BLUE_WOOL_GLOWING, Blocks.BLUE_WOOL, "none", new ResourceLocation("minecraft", "block/blue_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.BOOKSHELF_GLOWING, Blocks.BOOKSHELF, "axe", new ResourceLocation("minecraft", "block/bookshelf"));
-        registerVanillaVariant(Reference.UnlocalizedName.BRICKS_GLOWING, Blocks.BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.BROWN_CONCRETE_GLOWING, Blocks.BROWN_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/brown_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.BROWN_TERRACOTTA_GLOWING, Blocks.BROWN_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/brown_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.BROWN_WOOL_GLOWING, Blocks.BROWN_WOOL, "none", new ResourceLocation("minecraft", "block/brown_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.CALCITE_GLOWING, Blocks.CALCITE, "pickaxe", new ResourceLocation("minecraft", "block/calcite"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHERRY_PLANKS_GLOWING, Blocks.CHERRY_PLANKS, "axe", new ResourceLocation("minecraft", "block/cherry_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_DEEPSLATE_GLOWING, Blocks.CHISELED_DEEPSLATE, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_deepslate"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_NETHER_BRICKS_GLOWING, Blocks.CHISELED_NETHER_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_nether_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_POLISHED_BLACKSTONE_GLOWING, Blocks.CHISELED_POLISHED_BLACKSTONE, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_polished_blackstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_QUARTZ_BLOCK_GLOWING, Blocks.CHISELED_QUARTZ_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_quartz_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_RED_SANDSTONE_GLOWING, Blocks.CHISELED_RED_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_red_sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_SANDSTONE_GLOWING, Blocks.CHISELED_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_STONE_BRICKS_GLOWING, Blocks.CHISELED_STONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/chiseled_stone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CLAY_GLOWING, Blocks.CLAY, "shovel", new ResourceLocation("minecraft", "block/clay"));
-        registerVanillaVariant(Reference.UnlocalizedName.COAL_BLOCK_GLOWING, Blocks.COAL_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/coal_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.COARSE_DIRT_GLOWING, Blocks.COARSE_DIRT, "shovel", new ResourceLocation("minecraft", "block/coarse_dirt"));
-        registerVanillaVariant(Reference.UnlocalizedName.COBBLED_DEEPSLATE_GLOWING, Blocks.COBBLED_DEEPSLATE, "pickaxe", new ResourceLocation("minecraft", "block/cobbled_deepslate"));
-        registerVanillaVariant(Reference.UnlocalizedName.COBBLESTONE_GLOWING, Blocks.COBBLESTONE, "pickaxe", new ResourceLocation("minecraft", "block/cobblestone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_DEEPSLATE_BRICKS_GLOWING, Blocks.CRACKED_DEEPSLATE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/cracked_deepslate_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_DEEPSLATE_TILES_GLOWING, Blocks.CRACKED_DEEPSLATE_TILES, "pickaxe", new ResourceLocation("minecraft", "block/cracked_deepslate_tiles"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_NETHER_BRICKS_GLOWING, Blocks.CRACKED_NETHER_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/cracked_nether_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_POLISHED_BLACKSTONE_BRICKS_GLOWING, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/cracked_polished_blackstone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_STONE_BRICKS_GLOWING, Blocks.CRACKED_STONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/cracked_stone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CRIMSON_PLANKS_GLOWING, Blocks.CRIMSON_PLANKS, "axe", new ResourceLocation("minecraft", "block/crimson_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.CUT_RED_SANDSTONE_GLOWING, Blocks.CUT_RED_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/cut_red_sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CUT_SANDSTONE_GLOWING, Blocks.CUT_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/cut_sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.CYAN_CONCRETE_GLOWING, Blocks.CYAN_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/cyan_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.CYAN_TERRACOTTA_GLOWING, Blocks.CYAN_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/cyan_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.CYAN_WOOL_GLOWING, Blocks.CYAN_WOOL, "none", new ResourceLocation("minecraft", "block/cyan_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.DARK_OAK_PLANKS_GLOWING, Blocks.DARK_OAK_PLANKS, "axe", new ResourceLocation("minecraft", "block/dark_oak_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.DARK_PRISMARINE_GLOWING, Blocks.DARK_PRISMARINE, "pickaxe", new ResourceLocation("minecraft", "block/dark_prismarine"));
-        registerVanillaVariant(Reference.UnlocalizedName.DEEPSLATE_BRICKS_GLOWING, Blocks.DEEPSLATE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/deepslate_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.DEEPSLATE_TILES_GLOWING, Blocks.DEEPSLATE_TILES, "pickaxe", new ResourceLocation("minecraft", "block/deepslate_tiles"));
-        registerVanillaVariant(Reference.UnlocalizedName.DIAMOND_BLOCK_GLOWING, Blocks.DIAMOND_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/diamond_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.DIRT_GLOWING, Blocks.DIRT, "shovel", new ResourceLocation("minecraft", "block/dirt"));
-        registerVanillaVariant(Reference.UnlocalizedName.DRIED_KELP_BLOCK_GLOWING, Blocks.DRIED_KELP_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/dried_kelp_block"), new ResourceLocation("minecraft", "block/dried_kelp_side"));
-        registerVanillaVariant(Reference.UnlocalizedName.DRIPSTONE_BLOCK_GLOWING, Blocks.DRIPSTONE_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/dripstone_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.EMERALD_BLOCK_GLOWING, Blocks.EMERALD_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/emerald_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.END_STONE_BRICKS_GLOWING, Blocks.END_STONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/end_stone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.END_STONE_GLOWING, Blocks.END_STONE, "pickaxe", new ResourceLocation("minecraft", "block/end_stone"));
-        registerVanillaVariant(Reference.UnlocalizedName.GILDED_BLACKSTONE_GLOWING, Blocks.GILDED_BLACKSTONE, "pickaxe", new ResourceLocation("minecraft", "block/gilded_blackstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.GOLD_BLOCK_GLOWING, Blocks.GOLD_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/gold_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.GRANITE_GLOWING, Blocks.GRANITE,"pickaxe", new ResourceLocation("minecraft", "block/granite"));
-        registerVanillaVariant(Reference.UnlocalizedName.GRAY_CONCRETE_GLOWING, Blocks.GRAY_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/gray_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.GRAY_TERRACOTTA_GLOWING, Blocks.GRAY_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/gray_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.GRAY_WOOL_GLOWING, Blocks.GRAY_WOOL, "none", new ResourceLocation("minecraft", "block/gray_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.GREEN_CONCRETE_GLOWING, Blocks.GREEN_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/green_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.GREEN_TERRACOTTA_GLOWING, Blocks.GREEN_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/green_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.GREEN_WOOL_GLOWING, Blocks.GREEN_WOOL, "none", new ResourceLocation("minecraft", "block/green_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.HONEYCOMB_BLOCK_GLOWING, Blocks.HONEYCOMB_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/honeycomb_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.IRON_BLOCK_GLOWING, Blocks.IRON_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/iron_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.JUNGLE_PLANKS_GLOWING, Blocks.JUNGLE_PLANKS, "axe", new ResourceLocation("minecraft", "block/jungle_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.LAPIS_BLOCK_GLOWING, Blocks.LAPIS_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/lapis_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_CONCRETE_GLOWING, Blocks.LIGHT_BLUE_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/light_blue_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_TERRACOTTA_GLOWING, Blocks.LIGHT_BLUE_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/light_blue_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_WOOL_GLOWING, Blocks.LIGHT_BLUE_WOOL, "none", new ResourceLocation("minecraft", "block/light_blue_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_CONCRETE_GLOWING, Blocks.LIGHT_GRAY_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/light_gray_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_TERRACOTTA_GLOWING, Blocks.LIGHT_GRAY_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/light_gray_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_WOOL_GLOWING, Blocks.LIGHT_GRAY_WOOL, "none", new ResourceLocation("minecraft", "block/light_gray_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIME_CONCRETE_GLOWING, Blocks.LIME_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/lime_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIME_TERRACOTTA_GLOWING, Blocks.LIME_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/lime_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.LIME_WOOL_GLOWING, Blocks.LIME_WOOL, "none", new ResourceLocation("minecraft", "block/lime_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.LODESTONE_GLOWING, Blocks.LODESTONE, "pickaxe", new ResourceLocation("minecraft", "block/lodestone"), new ResourceLocation("minecraft", "block/lodestone_side"));
-        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_CONCRETE_GLOWING, Blocks.MAGENTA_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/magenta_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_TERRACOTTA_GLOWING, Blocks.MAGENTA_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/magenta_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_WOOL_GLOWING, Blocks.MAGENTA_WOOL, "none", new ResourceLocation("minecraft", "block/magenta_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.MANGROVE_PLANKS_GLOWING, Blocks.MANGROVE_PLANKS, "axe", new ResourceLocation("minecraft", "block/mangrove_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.MOSSY_COBBLESTONE_GLOWING, Blocks.MOSSY_COBBLESTONE, "pickaxe", new ResourceLocation("minecraft", "block/mossy_cobblestone"));
-        registerVanillaVariant(Reference.UnlocalizedName.MOSSY_STONE_BRICKS_GLOWING, Blocks.MOSSY_STONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/mossy_stone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.MUD_BRICKS_GLOWING, Blocks.MUD_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/mud_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.NETHERITE_BLOCK_GLOWING, Blocks.NETHERITE_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/netherite_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.NETHER_BRICKS_GLOWING, Blocks.NETHER_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/nether_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.NETHER_WART_BLOCK_GLOWING, Blocks.NETHER_WART_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/nether_wart_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.OAK_PLANKS_GLOWING, Blocks.OAK_PLANKS, "axe", new ResourceLocation("minecraft", "block/oak_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.OBSIDIAN_GLOWING, Blocks.OBSIDIAN, "pickaxe", new ResourceLocation("minecraft", "block/obsidian"));
-        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_CONCRETE_GLOWING, Blocks.ORANGE_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/orange_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_TERRACOTTA_GLOWING, Blocks.ORANGE_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/orange_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_WOOL_GLOWING, Blocks.ORANGE_WOOL, "none", new ResourceLocation("minecraft", "block/orange_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.PACKED_ICE_GLOWING, Blocks.PACKED_ICE, "pickaxe", new ResourceLocation("minecraft", "block/packed_ice"));
-        registerVanillaVariant(Reference.UnlocalizedName.PACKED_MUD_GLOWING, Blocks.PACKED_MUD, "shovel", new ResourceLocation("minecraft", "block/packed_mud"));
-        registerVanillaVariant(Reference.UnlocalizedName.PINK_CONCRETE_GLOWING, Blocks.PINK_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/pink_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.PINK_TERRACOTTA_GLOWING, Blocks.PINK_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/pink_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.PINK_WOOL_GLOWING, Blocks.PINK_WOOL, "none", new ResourceLocation("minecraft", "block/pink_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_ANDESITE_GLOWING, Blocks.POLISHED_ANDESITE, "pickaxe", new ResourceLocation("minecraft", "block/polished_andesite"));
-        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_BLACKSTONE_BRICKS_GLOWING, Blocks.POLISHED_BLACKSTONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/polished_blackstone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_BLACKSTONE_GLOWING, Blocks.POLISHED_BLACKSTONE, "pickaxe", new ResourceLocation("minecraft", "block/polished_blackstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_DEEPSLATE_GLOWING, Blocks.POLISHED_DEEPSLATE, "pickaxe", new ResourceLocation("minecraft", "block/polished_deepslate"));
-        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_GRANITE_GLOWING, Blocks.POLISHED_GRANITE,"pickaxe", new ResourceLocation("minecraft", "block/polished_granite"));
-        registerVanillaVariant(Reference.UnlocalizedName.PRISMARINE_BRICKS_GLOWING, Blocks.PRISMARINE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/prismarine_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.PRISMARINE_GLOWING, Blocks.PRISMARINE, "pickaxe", new ResourceLocation("minecraft", "block/prismarine"));
-        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_CONCRETE_GLOWING, Blocks.PURPLE_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/purple_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_TERRACOTTA_GLOWING, Blocks.PURPLE_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/purple_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_WOOL_GLOWING, Blocks.PURPLE_WOOL, "none", new ResourceLocation("minecraft", "block/purple_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.PURPUR_BLOCK_GLOWING, Blocks.PURPUR_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/purpur_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.PURPUR_PILLAR_GLOWING, Blocks.PURPUR_PILLAR, "pickaxe", new ResourceLocation("minecraft", "block/purpur_pillar"));
-        registerVanillaVariant(Reference.UnlocalizedName.QUARTZ_BLOCK_GLOWING, Blocks.QUARTZ_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/quartz_block"), new ResourceLocation("minecraft", "block/quartz_block_side"));
-        registerVanillaVariant(Reference.UnlocalizedName.QUARTZ_BRICKS_GLOWING, Blocks.QUARTZ_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/quartz_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.RAW_COPPER_BLOCK_GLOWING, Blocks.RAW_COPPER_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/raw_copper_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.RAW_GOLD_BLOCK_GLOWING, Blocks.RAW_GOLD_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/raw_gold_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.RAW_IRON_BLOCK_GLOWING, Blocks.RAW_IRON_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/raw_iron_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.RED_CONCRETE_GLOWING, Blocks.RED_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/red_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.RED_NETHER_BRICKS_GLOWING, Blocks.RED_NETHER_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/red_nether_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.RED_SANDSTONE_GLOWING, Blocks.RED_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/red_sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.RED_TERRACOTTA_GLOWING, Blocks.RED_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/red_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.RED_WOOL_GLOWING, Blocks.RED_WOOL, "none", new ResourceLocation("minecraft", "block/red_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.REINFORCED_DEEPSLATE_GLOWING, Blocks.REINFORCED_DEEPSLATE, "pickaxe", new ResourceLocation("minecraft", "block/reinforced_deepslate"), new ResourceLocation("minecraft", "block/reinforced_deepslate_side"));
-        registerVanillaVariant(Reference.UnlocalizedName.SANDSTONE_GLOWING, Blocks.SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/sandstone"));
-        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_BASALT_GLOWING, Blocks.SMOOTH_BASALT, "pickaxe", new ResourceLocation("minecraft", "block/smooth_basalt"));
-        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_QUARTZ_GLOWING, Blocks.SMOOTH_QUARTZ, "pickaxe", new ResourceLocation("minecraft", "block/smooth_quartz"), new ResourceLocation("minecraft", "block/quartz_block_bottom"));
-        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_RED_SANDSTONE_GLOWING, Blocks.SMOOTH_RED_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/smooth_red_sandstone"), new ResourceLocation("minecraft", "block/red_sandstone_top"));
-        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_SANDSTONE_GLOWING, Blocks.SMOOTH_SANDSTONE, "pickaxe", new ResourceLocation("minecraft", "block/smooth_sandstone"), new ResourceLocation("minecraft", "block/sandstone_top"));
-        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_STONE_GLOWING, Blocks.SMOOTH_STONE, "pickaxe", new ResourceLocation("minecraft", "block/smooth_stone"));
-        registerVanillaVariant(Reference.UnlocalizedName.SNOW_BLOCK_GLOWING, Blocks.SNOW_BLOCK, "shovel", new ResourceLocation("minecraft", "block/snow_block"), new ResourceLocation("minecraft", "block/snow"));
-        registerVanillaVariant(Reference.UnlocalizedName.SOUL_SOIL_GLOWING, Blocks.SOUL_SOIL, "shovel", new ResourceLocation("minecraft", "block/soul_soil"));
-        registerVanillaVariant(Reference.UnlocalizedName.SPRUCE_PLANKS_GLOWING, Blocks.SPRUCE_PLANKS, "axe", new ResourceLocation("minecraft", "block/spruce_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.STONE_BRICKS_GLOWING, Blocks.STONE_BRICKS, "pickaxe", new ResourceLocation("minecraft", "block/stone_bricks"));
-        registerVanillaVariant(Reference.UnlocalizedName.STONE_GLOWING, Blocks.STONE,"pickaxe", new ResourceLocation("minecraft", "block/stone"));
-        registerVanillaVariant(Reference.UnlocalizedName.TERRACOTTA_GLOWING, Blocks.TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.TUFF_GLOWING, Blocks.TUFF, "pickaxe", new ResourceLocation("minecraft", "block/tuff"));
-        registerVanillaVariant(Reference.UnlocalizedName.WARPED_PLANKS_GLOWING, Blocks.WARPED_PLANKS, "axe", new ResourceLocation("minecraft", "block/warped_planks"));
-        registerVanillaVariant(Reference.UnlocalizedName.WARPED_WART_BLOCK_GLOWING, Blocks.WARPED_WART_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/warped_wart_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_COPPER_BLOCK_GLOWING, Blocks.WAXED_COPPER_BLOCK, "pickaxe", new ResourceLocation("minecraft", "block/copper_block"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_CUT_COPPER_GLOWING, Blocks.WAXED_CUT_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/cut_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_EXPOSED_COPPER_GLOWING, Blocks.WAXED_EXPOSED_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/exposed_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_EXPOSED_CUT_COPPER_GLOWING, Blocks.WAXED_EXPOSED_CUT_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/exposed_cut_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_OXIDIZED_COPPER_GLOWING, Blocks.WAXED_OXIDIZED_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/oxidized_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_OXIDIZED_CUT_COPPER_GLOWING, Blocks.WAXED_OXIDIZED_CUT_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/oxidized_cut_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_WEATHERED_COPPER_GLOWING, Blocks.WAXED_WEATHERED_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/weathered_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WAXED_WEATHERED_CUT_COPPER_GLOWING, Blocks.WAXED_WEATHERED_CUT_COPPER, "pickaxe", new ResourceLocation("minecraft", "block/weathered_cut_copper"));
-        registerVanillaVariant(Reference.UnlocalizedName.WHITE_CONCRETE_GLOWING, Blocks.WHITE_CONCRETE, "pickaxe", new ResourceLocation("minecraft", "block/white_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.WHITE_TERRACOTTA_GLOWING, Blocks.WHITE_TERRACOTTA, "pickaxe", new ResourceLocation("minecraft", "block/white_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.WHITE_WOOL_GLOWING, Blocks.WHITE_WOOL, Reference.ToolTypeNames.NONE, new ResourceLocation("minecraft", "block/white_wool"));
-        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_CONCRETE_GLOWING, Blocks.YELLOW_CONCRETE, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/yellow_concrete"));
-        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_TERRACOTTA_GLOWING, Blocks.YELLOW_TERRACOTTA, Reference.ToolTypeNames.PICKAXE, new ResourceLocation("minecraft", "block/yellow_terracotta"));
-        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_WOOL_GLOWING, Blocks.YELLOW_WOOL, Reference.ToolTypeNames.NONE, new ResourceLocation("minecraft", "block/yellow_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.ACACIA_PLANKS_GLOWING, Blocks.ACACIA_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/acacia_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.ANDESITE_GLOWING, Blocks.ANDESITE,"pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/andesite"));
+        registerVanillaVariant(Reference.UnlocalizedName.BAMBOO_MOSAIC_GLOWING, Blocks.BAMBOO_MOSAIC, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/bamboo_mosaic"));
+        registerVanillaVariant(Reference.UnlocalizedName.BAMBOO_PLANKS_GLOWING, Blocks.BAMBOO_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/bamboo_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.BIRCH_PLANKS_GLOWING, Blocks.BIRCH_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/birch_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLACKSTONE_GLOWING, Blocks.BLACKSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/blackstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLACK_CONCRETE_GLOWING, Blocks.BLACK_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/black_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLACK_TERRACOTTA_GLOWING, Blocks.BLACK_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/black_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLACK_WOOL_GLOWING, Blocks.BLACK_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/black_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLUE_CONCRETE_GLOWING, Blocks.BLUE_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/blue_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLUE_TERRACOTTA_GLOWING, Blocks.BLUE_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/blue_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.BLUE_WOOL_GLOWING, Blocks.BLUE_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/blue_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.BOOKSHELF_GLOWING, Blocks.BOOKSHELF, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/bookshelf"));
+        registerVanillaVariant(Reference.UnlocalizedName.BRICKS_GLOWING, Blocks.BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.BROWN_CONCRETE_GLOWING, Blocks.BROWN_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/brown_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.BROWN_TERRACOTTA_GLOWING, Blocks.BROWN_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/brown_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.BROWN_WOOL_GLOWING, Blocks.BROWN_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/brown_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.CALCITE_GLOWING, Blocks.CALCITE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/calcite"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHERRY_PLANKS_GLOWING, Blocks.CHERRY_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cherry_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_DEEPSLATE_GLOWING, Blocks.CHISELED_DEEPSLATE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_deepslate"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_NETHER_BRICKS_GLOWING, Blocks.CHISELED_NETHER_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_nether_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_POLISHED_BLACKSTONE_GLOWING, Blocks.CHISELED_POLISHED_BLACKSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_polished_blackstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_QUARTZ_BLOCK_GLOWING, Blocks.CHISELED_QUARTZ_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_quartz_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_RED_SANDSTONE_GLOWING, Blocks.CHISELED_RED_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_red_sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_SANDSTONE_GLOWING, Blocks.CHISELED_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CHISELED_STONE_BRICKS_GLOWING, Blocks.CHISELED_STONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/chiseled_stone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CLAY_GLOWING, Blocks.CLAY, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/clay"));
+        registerVanillaVariant(Reference.UnlocalizedName.COAL_BLOCK_GLOWING, Blocks.COAL_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/coal_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.COARSE_DIRT_GLOWING, Blocks.COARSE_DIRT, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/coarse_dirt"));
+        registerVanillaVariant(Reference.UnlocalizedName.COBBLED_DEEPSLATE_GLOWING, Blocks.COBBLED_DEEPSLATE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cobbled_deepslate"));
+        registerVanillaVariant(Reference.UnlocalizedName.COBBLESTONE_GLOWING, Blocks.COBBLESTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cobblestone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_DEEPSLATE_BRICKS_GLOWING, Blocks.CRACKED_DEEPSLATE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cracked_deepslate_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_DEEPSLATE_TILES_GLOWING, Blocks.CRACKED_DEEPSLATE_TILES, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cracked_deepslate_tiles"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_NETHER_BRICKS_GLOWING, Blocks.CRACKED_NETHER_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cracked_nether_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_POLISHED_BLACKSTONE_BRICKS_GLOWING, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cracked_polished_blackstone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRACKED_STONE_BRICKS_GLOWING, Blocks.CRACKED_STONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cracked_stone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CRIMSON_PLANKS_GLOWING, Blocks.CRIMSON_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/crimson_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.CUT_RED_SANDSTONE_GLOWING, Blocks.CUT_RED_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cut_red_sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CUT_SANDSTONE_GLOWING, Blocks.CUT_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cut_sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.CYAN_CONCRETE_GLOWING, Blocks.CYAN_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cyan_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.CYAN_TERRACOTTA_GLOWING, Blocks.CYAN_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cyan_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.CYAN_WOOL_GLOWING, Blocks.CYAN_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cyan_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.DARK_OAK_PLANKS_GLOWING, Blocks.DARK_OAK_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/dark_oak_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.DARK_PRISMARINE_GLOWING, Blocks.DARK_PRISMARINE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/dark_prismarine"));
+        registerVanillaVariant(Reference.UnlocalizedName.DEEPSLATE_BRICKS_GLOWING, Blocks.DEEPSLATE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/deepslate_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.DEEPSLATE_TILES_GLOWING, Blocks.DEEPSLATE_TILES, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/deepslate_tiles"));
+        registerVanillaVariant(Reference.UnlocalizedName.DIAMOND_BLOCK_GLOWING, Blocks.DIAMOND_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/diamond_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.DIRT_GLOWING, Blocks.DIRT, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/dirt"));
+        registerVanillaVariant(Reference.UnlocalizedName.DRIED_KELP_BLOCK_GLOWING, Blocks.DRIED_KELP_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/dried_kelp_block"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/dried_kelp_side"));
+        registerVanillaVariant(Reference.UnlocalizedName.DRIPSTONE_BLOCK_GLOWING, Blocks.DRIPSTONE_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/dripstone_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.EMERALD_BLOCK_GLOWING, Blocks.EMERALD_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/emerald_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.END_STONE_BRICKS_GLOWING, Blocks.END_STONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/end_stone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.END_STONE_GLOWING, Blocks.END_STONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/end_stone"));
+        registerVanillaVariant(Reference.UnlocalizedName.GILDED_BLACKSTONE_GLOWING, Blocks.GILDED_BLACKSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/gilded_blackstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.GOLD_BLOCK_GLOWING, Blocks.GOLD_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/gold_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.GRANITE_GLOWING, Blocks.GRANITE,"pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/granite"));
+        registerVanillaVariant(Reference.UnlocalizedName.GRAY_CONCRETE_GLOWING, Blocks.GRAY_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/gray_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.GRAY_TERRACOTTA_GLOWING, Blocks.GRAY_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/gray_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.GRAY_WOOL_GLOWING, Blocks.GRAY_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/gray_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.GREEN_CONCRETE_GLOWING, Blocks.GREEN_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/green_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.GREEN_TERRACOTTA_GLOWING, Blocks.GREEN_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/green_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.GREEN_WOOL_GLOWING, Blocks.GREEN_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/green_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.HONEYCOMB_BLOCK_GLOWING, Blocks.HONEYCOMB_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/honeycomb_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.IRON_BLOCK_GLOWING, Blocks.IRON_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.JUNGLE_PLANKS_GLOWING, Blocks.JUNGLE_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/jungle_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.LAPIS_BLOCK_GLOWING, Blocks.LAPIS_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/lapis_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_CONCRETE_GLOWING, Blocks.LIGHT_BLUE_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_blue_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_TERRACOTTA_GLOWING, Blocks.LIGHT_BLUE_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_blue_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_BLUE_WOOL_GLOWING, Blocks.LIGHT_BLUE_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_blue_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_CONCRETE_GLOWING, Blocks.LIGHT_GRAY_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_gray_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_TERRACOTTA_GLOWING, Blocks.LIGHT_GRAY_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_gray_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIGHT_GRAY_WOOL_GLOWING, Blocks.LIGHT_GRAY_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/light_gray_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIME_CONCRETE_GLOWING, Blocks.LIME_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/lime_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIME_TERRACOTTA_GLOWING, Blocks.LIME_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/lime_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.LIME_WOOL_GLOWING, Blocks.LIME_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/lime_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.LODESTONE_GLOWING, Blocks.LODESTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/lodestone"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/lodestone_side"));
+        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_CONCRETE_GLOWING, Blocks.MAGENTA_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/magenta_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_TERRACOTTA_GLOWING, Blocks.MAGENTA_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/magenta_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.MAGENTA_WOOL_GLOWING, Blocks.MAGENTA_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/magenta_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.MANGROVE_PLANKS_GLOWING, Blocks.MANGROVE_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/mangrove_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.MOSSY_COBBLESTONE_GLOWING, Blocks.MOSSY_COBBLESTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/mossy_cobblestone"));
+        registerVanillaVariant(Reference.UnlocalizedName.MOSSY_STONE_BRICKS_GLOWING, Blocks.MOSSY_STONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/mossy_stone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.MUD_BRICKS_GLOWING, Blocks.MUD_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/mud_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.NETHERITE_BLOCK_GLOWING, Blocks.NETHERITE_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/netherite_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.NETHER_BRICKS_GLOWING, Blocks.NETHER_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/nether_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.NETHER_WART_BLOCK_GLOWING, Blocks.NETHER_WART_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/nether_wart_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.OAK_PLANKS_GLOWING, Blocks.OAK_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/oak_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.OBSIDIAN_GLOWING, Blocks.OBSIDIAN, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/obsidian"));
+        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_CONCRETE_GLOWING, Blocks.ORANGE_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/orange_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_TERRACOTTA_GLOWING, Blocks.ORANGE_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/orange_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.ORANGE_WOOL_GLOWING, Blocks.ORANGE_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/orange_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.PACKED_ICE_GLOWING, Blocks.PACKED_ICE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/packed_ice"));
+        registerVanillaVariant(Reference.UnlocalizedName.PACKED_MUD_GLOWING, Blocks.PACKED_MUD, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/packed_mud"));
+        registerVanillaVariant(Reference.UnlocalizedName.PINK_CONCRETE_GLOWING, Blocks.PINK_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/pink_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.PINK_TERRACOTTA_GLOWING, Blocks.PINK_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/pink_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.PINK_WOOL_GLOWING, Blocks.PINK_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/pink_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_ANDESITE_GLOWING, Blocks.POLISHED_ANDESITE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_andesite"));
+        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_BLACKSTONE_BRICKS_GLOWING, Blocks.POLISHED_BLACKSTONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_blackstone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_BLACKSTONE_GLOWING, Blocks.POLISHED_BLACKSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_blackstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_DEEPSLATE_GLOWING, Blocks.POLISHED_DEEPSLATE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_deepslate"));
+        registerVanillaVariant(Reference.UnlocalizedName.POLISHED_GRANITE_GLOWING, Blocks.POLISHED_GRANITE,"pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_granite"));
+        registerVanillaVariant(Reference.UnlocalizedName.PRISMARINE_BRICKS_GLOWING, Blocks.PRISMARINE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/prismarine_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.PRISMARINE_GLOWING, Blocks.PRISMARINE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/prismarine"));
+        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_CONCRETE_GLOWING, Blocks.PURPLE_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/purple_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_TERRACOTTA_GLOWING, Blocks.PURPLE_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/purple_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.PURPLE_WOOL_GLOWING, Blocks.PURPLE_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/purple_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.PURPUR_BLOCK_GLOWING, Blocks.PURPUR_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/purpur_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.PURPUR_PILLAR_GLOWING, Blocks.PURPUR_PILLAR, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/purpur_pillar"));
+        registerVanillaVariant(Reference.UnlocalizedName.QUARTZ_BLOCK_GLOWING, Blocks.QUARTZ_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_block"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_block_side"));
+        registerVanillaVariant(Reference.UnlocalizedName.QUARTZ_BRICKS_GLOWING, Blocks.QUARTZ_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.RAW_COPPER_BLOCK_GLOWING, Blocks.RAW_COPPER_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/raw_copper_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.RAW_GOLD_BLOCK_GLOWING, Blocks.RAW_GOLD_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/raw_gold_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.RAW_IRON_BLOCK_GLOWING, Blocks.RAW_IRON_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/raw_iron_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.RED_CONCRETE_GLOWING, Blocks.RED_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.RED_NETHER_BRICKS_GLOWING, Blocks.RED_NETHER_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_nether_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.RED_SANDSTONE_GLOWING, Blocks.RED_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.RED_TERRACOTTA_GLOWING, Blocks.RED_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.RED_WOOL_GLOWING, Blocks.RED_WOOL, "none", ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.REINFORCED_DEEPSLATE_GLOWING, Blocks.REINFORCED_DEEPSLATE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/reinforced_deepslate"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/reinforced_deepslate_side"));
+        registerVanillaVariant(Reference.UnlocalizedName.SANDSTONE_GLOWING, Blocks.SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/sandstone"));
+        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_BASALT_GLOWING, Blocks.SMOOTH_BASALT, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/smooth_basalt"));
+        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_QUARTZ_GLOWING, Blocks.SMOOTH_QUARTZ, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/smooth_quartz"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/quartz_block_bottom"));
+        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_RED_SANDSTONE_GLOWING, Blocks.SMOOTH_RED_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/smooth_red_sandstone"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/red_sandstone_top"));
+        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_SANDSTONE_GLOWING, Blocks.SMOOTH_SANDSTONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/smooth_sandstone"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/sandstone_top"));
+        registerVanillaVariant(Reference.UnlocalizedName.SMOOTH_STONE_GLOWING, Blocks.SMOOTH_STONE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/smooth_stone"));
+        registerVanillaVariant(Reference.UnlocalizedName.SNOW_BLOCK_GLOWING, Blocks.SNOW_BLOCK, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/snow_block"), ResourceLocation.fromNamespaceAndPath("minecraft", "block/snow"));
+        registerVanillaVariant(Reference.UnlocalizedName.SOUL_SOIL_GLOWING, Blocks.SOUL_SOIL, "shovel", ResourceLocation.fromNamespaceAndPath("minecraft", "block/soul_soil"));
+        registerVanillaVariant(Reference.UnlocalizedName.SPRUCE_PLANKS_GLOWING, Blocks.SPRUCE_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/spruce_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.STONE_BRICKS_GLOWING, Blocks.STONE_BRICKS, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/stone_bricks"));
+        registerVanillaVariant(Reference.UnlocalizedName.STONE_GLOWING, Blocks.STONE,"pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/stone"));
+        registerVanillaVariant(Reference.UnlocalizedName.TERRACOTTA_GLOWING, Blocks.TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.TUFF_GLOWING, Blocks.TUFF, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/tuff"));
+        registerVanillaVariant(Reference.UnlocalizedName.WARPED_PLANKS_GLOWING, Blocks.WARPED_PLANKS, "axe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/warped_planks"));
+        registerVanillaVariant(Reference.UnlocalizedName.WARPED_WART_BLOCK_GLOWING, Blocks.WARPED_WART_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/warped_wart_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_COPPER_BLOCK_GLOWING, Blocks.WAXED_COPPER_BLOCK, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/copper_block"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_CUT_COPPER_GLOWING, Blocks.WAXED_CUT_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/cut_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_EXPOSED_COPPER_GLOWING, Blocks.WAXED_EXPOSED_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/exposed_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_EXPOSED_CUT_COPPER_GLOWING, Blocks.WAXED_EXPOSED_CUT_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/exposed_cut_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_OXIDIZED_COPPER_GLOWING, Blocks.WAXED_OXIDIZED_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/oxidized_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_OXIDIZED_CUT_COPPER_GLOWING, Blocks.WAXED_OXIDIZED_CUT_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/oxidized_cut_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_WEATHERED_COPPER_GLOWING, Blocks.WAXED_WEATHERED_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/weathered_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WAXED_WEATHERED_CUT_COPPER_GLOWING, Blocks.WAXED_WEATHERED_CUT_COPPER, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/weathered_cut_copper"));
+        registerVanillaVariant(Reference.UnlocalizedName.WHITE_CONCRETE_GLOWING, Blocks.WHITE_CONCRETE, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/white_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.WHITE_TERRACOTTA_GLOWING, Blocks.WHITE_TERRACOTTA, "pickaxe", ResourceLocation.fromNamespaceAndPath("minecraft", "block/white_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.WHITE_WOOL_GLOWING, Blocks.WHITE_WOOL, Reference.ToolTypeNames.NONE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/white_wool"));
+        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_CONCRETE_GLOWING, Blocks.YELLOW_CONCRETE, Reference.ToolTypeNames.PICKAXE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_concrete"));
+        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_TERRACOTTA_GLOWING, Blocks.YELLOW_TERRACOTTA, Reference.ToolTypeNames.PICKAXE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_terracotta"));
+        registerVanillaVariant(Reference.UnlocalizedName.YELLOW_WOOL_GLOWING, Blocks.YELLOW_WOOL, Reference.ToolTypeNames.NONE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_wool"));
     }
 
 

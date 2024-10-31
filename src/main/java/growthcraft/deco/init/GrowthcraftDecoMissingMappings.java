@@ -13,11 +13,11 @@ public class GrowthcraftDecoMissingMappings {
 
     private static final Map<String, ResourceLocation> MISSING_MAPPINGS = Map.ofEntries(
             Map.entry("growthcraft_deco:stairs_deepslate_brick_glowing",
-                    new ResourceLocation(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING)),
+                    ResourceLocation.fromNamespaceAndPath(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_BRICK_GLOWING)),
             Map.entry("growthcraft_deco:deepslate_tile_stairs_glowing",
-                    new ResourceLocation(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING)),
+                    ResourceLocation.fromNamespaceAndPath(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING)),
             Map.entry("growthcraft_deco:stairs_deepslate_tile_glowing",
-                    new ResourceLocation(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING))
+                    ResourceLocation.fromNamespaceAndPath(Reference.MODID, Reference.UnlocalizedName.STAIR_DEEPSLATE_TILE_GLOWING))
     );
 
     public static void missingMappingEventHandler(MissingMappingsEvent event) {

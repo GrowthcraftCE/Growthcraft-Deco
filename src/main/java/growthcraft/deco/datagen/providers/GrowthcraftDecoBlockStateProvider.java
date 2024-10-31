@@ -106,7 +106,7 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
 
     private void blockWithExistingModel(Block block, String namespace, String modelPath) {
         // TODO: Make a generic data gen to use an existing blocks blockstate model.
-        ResourceLocation modelLocation = new ResourceLocation(namespace, modelPath);
+        ResourceLocation modelLocation = ResourceLocation.fromNamespaceAndPath(namespace, modelPath);
         blockWithExistingModel(block, modelLocation);
     }
 
@@ -119,9 +119,9 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         paneBlockWithRenderType(
                 (IronBarsBlock) block,
                 key(block).toString(),
-                new ResourceLocation(pane),
-                new ResourceLocation(edge),
-                new ResourceLocation("translucent")
+                ResourceLocation.fromNamespaceAndPath(pane),
+                ResourceLocation.fromNamespaceAndPath(edge),
+                ResourceLocation.fromNamespaceAndPath("translucent")
         );
     }
 

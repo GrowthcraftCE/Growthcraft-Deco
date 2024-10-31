@@ -79,7 +79,7 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
 
     private ItemModelBuilder variantDoorBlockItem(RegistryObject<Block> block, ResourceLocation resourceLocation) {
         return this.getBuilder(block.getId().getPath())
-                .parent(getExistingFile(new ResourceLocation(Reference.MODID, "item/template_hidden_door")))
+                .parent(getExistingFile(ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/template_hidden_door")))
                 .texture("layer0", resourceLocation)
                 .texture("particle", resourceLocation);
     }
@@ -101,26 +101,26 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
     }
 
     private ItemModelBuilder translucentPaneBlockItem(RegistryObject<Block> block, ResourceLocation layer0) {
-        return withExistingParent(block.getId().getPath(), new ResourceLocation("item/generated"))
+        return withExistingParent(block.getId().getPath(), ResourceLocation.fromNamespaceAndPath("item/generated"))
                 .renderType("translucent")
                 .texture("layer0", layer0.getNamespace() + ":block/" + layer0.getPath());
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(Reference.MODID, "block/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Reference.MODID, "block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(Reference.MODID, "item/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/handheld")).texture("layer0",
-                new ResourceLocation(Reference.MODID, "item/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/" + item.getId().getPath()));
     }
 }

@@ -36,39 +36,39 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
 
     private void glassPanes() {
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_BLACK_PANE_GLOWING.get(),
-                "minecraft:block/black_stained_glass", "minecraft:block/black_stained_glass_pane_top");
+                "block/black_stained_glass", "block/black_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_BLUE_PANE_GLOWING.get(),
-                "minecraft:block/blue_stained_glass", "minecraft:block/blue_stained_glass_pane_top");
+                "block/blue_stained_glass", "block/blue_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_BROWN_PANE_GLOWING.get(),
-                "minecraft:block/brown_stained_glass", "minecraft:block/brown_stained_glass_pane_top");
+                "block/brown_stained_glass", "block/brown_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_CLEAR_PANE_GLOWING.get(),
-                "minecraft:block/glass", "minecraft:block/glass_pane_top");
+                "block/glass", "block/glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_CYAN_PANE_GLOWING.get(),
-                "minecraft:block/cyan_stained_glass", "minecraft:block/cyan_stained_glass_pane_top");
+                "block/cyan_stained_glass", "block/cyan_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_GRAY_PANE_GLOWING.get(),
-                "minecraft:block/gray_stained_glass", "minecraft:block/gray_stained_glass_pane_top");
+                "block/gray_stained_glass", "block/gray_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_GREEN_PANE_GLOWING.get(),
-                "minecraft:block/green_stained_glass", "minecraft:block/green_stained_glass_pane_top");
+                "block/green_stained_glass", "block/green_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_BLUE_PANE_GLOWING.get(),
-                "minecraft:block/light_blue_stained_glass", "minecraft:block/light_blue_stained_glass_pane_top");
+                "block/light_blue_stained_glass", "block/light_blue_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_LIGHT_GRAY_PANE_GLOWING.get(),
-                "minecraft:block/light_gray_stained_glass", "minecraft:block/light_gray_stained_glass_pane_top");
+                "block/light_gray_stained_glass", "block/light_gray_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_LIME_PANE_GLOWING.get(),
-                "minecraft:block/lime_stained_glass", "minecraft:block/lime_stained_glass_pane_top");
+                "block/lime_stained_glass", "block/lime_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_MAGENTA_PANE_GLOWING.get(),
-                "minecraft:block/magenta_stained_glass", "minecraft:block/magenta_stained_glass_pane_top");
+                "block/magenta_stained_glass", "block/magenta_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_ORANGE_PANE_GLOWING.get(),
-                "minecraft:block/orange_stained_glass", "minecraft:block/orange_stained_glass_pane_top");
+                "block/orange_stained_glass", "block/orange_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_PINK_PANE_GLOWING.get(),
-                "minecraft:block/pink_stained_glass", "minecraft:block/pink_stained_glass_pane_top");
+                "block/pink_stained_glass", "block/pink_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_PURPLE_PANE_GLOWING.get(),
-                "minecraft:block/purple_stained_glass", "minecraft:block/purple_stained_glass_pane_top");
+                "block/purple_stained_glass", "block/purple_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_RED_PANE_GLOWING.get(),
-                "minecraft:block/red_stained_glass", "minecraft:block/red_stained_glass_pane_top");
+                "block/red_stained_glass", "block/red_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_WHITE_PANE_GLOWING.get(),
-                "minecraft:block/white_stained_glass", "minecraft:block/white_stained_glass_pane_top");
+                "block/white_stained_glass", "block/white_stained_glass_pane_top");
         this.paneWithRenderType(GrowthcraftDecoBlocks.GLASS_STAINED_YELLOW_PANE_GLOWING.get(),
-                "minecraft:block/yellow_stained_glass", "minecraft:block/yellow_stained_glass_pane_top");
+                "block/yellow_stained_glass", "block/yellow_stained_glass_pane_top");
     }
 
     private void clonedSimpleBlocks() {

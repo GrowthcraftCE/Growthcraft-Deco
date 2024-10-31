@@ -666,7 +666,6 @@ public class Reference {
 
         public static final String CREATIVE_TAB = "tab";
 
-
     }
 
     public class LocalizedNames {

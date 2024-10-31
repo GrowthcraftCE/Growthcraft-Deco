@@ -1492,6 +1492,142 @@ public class GrowthcraftDecoBlocks {
             Reference.UnlocalizedName.STAIR_WARPED_CARPET_YELLOW,
             () -> new CarpetStairBlock(Blocks.WARPED_PLANKS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_PLANKS))
     );
+
+    //region Tuff Carpet Stairs
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_BLACK = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_BLACK,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_BLUE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_BLUE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_BROWN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_BROWN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_CYAN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_CYAN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_GRAY = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_GRAY,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_GREEN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_GREEN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_LIGHT_BLUE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_LIGHT_GRAY = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_LIME = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_LIME,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_MAGENTA = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_ORANGE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_ORANGE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_BLACK = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_BLACK,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_BLUE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_BLUE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_BROWN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_BROWN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_CYAN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_CYAN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_GRAY = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_GRAY,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_GREEN = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_GREEN,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_LIGHT_BLUE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_LIGHT_BLUE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_LIGHT_GRAY = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_LIGHT_GRAY,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_LIME = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_LIME,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_MAGENTA = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_MAGENTA,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_ORANGE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_ORANGE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_PINK = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_PINK,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_PURPLE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_PURPLE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_RED = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_RED,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_WHITE = registerBlock(
+            Reference.UnlocalizedName.STAIR_ACACIA_CARPET_PARTIAL_WHITE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PARTIAL_YELLOW = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PARTIAL_YELLOW,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PINK = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PINK,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_PURPLE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_PURPLE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_RED = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_RED,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_WHITE = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_WHITE,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+    public static final RegistryObject<Block> STAIR_TUFF_CARPET_YELLOW = registerBlock(
+            Reference.UnlocalizedName.STAIR_TUFF_CARPET_YELLOW,
+            () -> new CarpetStairBlock(Blocks.TUFF.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.TUFF))
+    );
+
+
+
+
+    //endregion
+
     public static final RegistryObject<Block> STAIRS_TERRACOTTA_BLACK = registerBlock(
             Reference.UnlocalizedName.STAIRS_TERRACOTTA_BLACK,
             TerracottaStairBlock::new

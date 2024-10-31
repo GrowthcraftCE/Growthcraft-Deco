@@ -480,7 +480,9 @@ public class Reference {
         public static final String GRANITE_GLOWING = "granite_glowing";
         public static final String POLISHED_GRANITE_GLOWING = "polished_granite_glowing";
         public static final String ANDESITE_GLOWING = "andesite_glowing";
-
+        public static final String STAIRS_TUFF_GLOWING = "stairs_tuff_glowing";
+        public static final String STAIRS_POLISHED_TUFF_GLOWING = "stairs_polished_tuff_glowing";
+        public static final String STAIRS_TUFF_BRICK_GLOWING = "stairs_tuff_brick_glowing";
 
         public static final String POLISHED_ANDESITE_GLOWING = "polished_andesite_glowing";
         public static final String DIRT_GLOWING = "dirt_glowing";
@@ -627,6 +629,38 @@ public class Reference {
         public static final String RAW_GOLD_BLOCK_GLOWING = "raw_gold_block_glowing";
         public static final String REINFORCED_DEEPSLATE_GLOWING = "reinforced_deepslate_glowing";
 
+        public static final String STAIR_TUFF_CARPET_BLACK = "stairs_tuff_carpet_black";
+        public static final String STAIR_TUFF_CARPET_BLUE = "stairs_tuffcarpet_blue";
+        public static final String STAIR_TUFF_CARPET_BROWN = "stairs_tuff_carpet_brown";
+        public static final String STAIR_TUFF_CARPET_CYAN = "stairs_tuffcarpet_cyan";
+        public static final String STAIR_TUFF_CARPET_GRAY = "stairs_tuff_carpet_gray";
+        public static final String STAIR_TUFF_CARPET_GREEN = "stairs_tuff_carpet_green";
+        public static final String STAIR_TUFF_CARPET_LIGHT_BLUE = "stairs_tuff_carpet_light_blue";
+        public static final String STAIR_TUFF_CARPET_LIGHT_GRAY = "stairs_tuff_carpet_light_gray";
+        public static final String STAIR_TUFF_CARPET_LIME = "stairs_tuff_carpet_lime";
+        public static final String STAIR_TUFF_CARPET_MAGENTA = "stairs_tuff_carpet_magenta";
+        public static final String STAIR_TUFF_CARPET_ORANGE = "stairs_tuffcarpet_orange";
+        public static final String STAIR_TUFF_CARPET_PINK = "stairs_tuff_carpet_pink";
+        public static final String STAIR_TUFF_CARPET_PURPLE = "stairs_tuff_carpet_purple";
+        public static final String STAIR_TUFF_CARPET_RED = "stairs_tuff_carpet_red";
+        public static final String STAIR_TUFF_CARPET_WHITE = "stairs_tuff_carpet_white";
+        public static final String STAIR_TUFF_CARPET_YELLOW = "stairs_tuff_carpet_yellow";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_BLACK = "stairs_tuff_carpet_partial_black";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_BLUE = "stairs_tuffcarpet_partial_blue";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_BROWN = "stairs_tuff_carpet_partial_brown";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_CYAN = "stairs_tuffcarpet_partial_cyan";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_GRAY = "stairs_tuff_carpet_partial_gray";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_GREEN = "stairs_tuff_carpet_partial_green";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_LIGHT_BLUE = "stairs_tuff_carpet_partial_light_blue";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_LIGHT_GRAY = "stairs_tuff_carpet_partial_light_gray";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_LIME = "stairs_tuff_carpet_partial_lime";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_MAGENTA = "stairs_tuff_carpet_partial_magenta";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_ORANGE = "stairs_tuffcarpet_partial_orange";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_PINK = "stairs_tuff_carpet_partial_pink";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_PURPLE = "stairs_tuff_carpet_partial_purple";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_RED = "stairs_tuff_carpet_partial_red";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_WHITE = "stairs_tuff_carpet_partial_white";
+        public static final String STAIR_TUFF_CARPET_PARTIAL_YELLOW = "stairs_tuff_carpet_partial_yellow";
 
         public static final String TAG_GLOWING = "glowing";
 

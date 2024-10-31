@@ -1841,6 +1841,20 @@ public class GrowthcraftDecoBlocks {
                 Blocks.WARPED_STAIRS, Reference.ToolTypeNames.AXE,
                 ResourceLocation.fromNamespaceAndPath("minecraft", "block/warped_planks")
         );
+        //region Growthcraft Deco 1.21.0
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIRS_TUFF_GLOWING,
+                Blocks.TUFF_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.withDefaultNamespace("block/tuff")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIRS_POLISHED_TUFF_GLOWING,
+                Blocks.TUFF_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.withDefaultNamespace("block/polished_tuff")
+        );
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIRS_TUFF_BRICK_GLOWING,
+                Blocks.TUFF_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.withDefaultNamespace("block/tuff_bricks")
+        );
+        //endregion
 
     }
 
@@ -1996,6 +2010,7 @@ public class GrowthcraftDecoBlocks {
         registerVanillaVariant(Reference.UnlocalizedName.YELLOW_CONCRETE_GLOWING, Blocks.YELLOW_CONCRETE, Reference.ToolTypeNames.PICKAXE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_concrete"));
         registerVanillaVariant(Reference.UnlocalizedName.YELLOW_TERRACOTTA_GLOWING, Blocks.YELLOW_TERRACOTTA, Reference.ToolTypeNames.PICKAXE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_terracotta"));
         registerVanillaVariant(Reference.UnlocalizedName.YELLOW_WOOL_GLOWING, Blocks.YELLOW_WOOL, Reference.ToolTypeNames.NONE, ResourceLocation.fromNamespaceAndPath("minecraft", "block/yellow_wool"));
+
     }
 
 

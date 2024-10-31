@@ -119,9 +119,9 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         paneBlockWithRenderType(
                 (IronBarsBlock) block,
                 key(block).toString(),
-                ResourceLocation.fromNamespaceAndPath(pane),
-                ResourceLocation.fromNamespaceAndPath(edge),
-                ResourceLocation.fromNamespaceAndPath("translucent")
+                ResourceLocation.withDefaultNamespace(pane),
+                ResourceLocation.withDefaultNamespace(edge),
+                ResourceLocation.withDefaultNamespace("translucent")
         );
     }
 

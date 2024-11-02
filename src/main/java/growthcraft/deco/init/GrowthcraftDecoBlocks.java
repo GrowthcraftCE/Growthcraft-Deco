@@ -1627,38 +1627,48 @@ public class GrowthcraftDecoBlocks {
             WoolStairBlock::new
     );
 
-    public static final RegistryObject<Block> STAIR_WAXED_CUT_COPPER_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_WAXED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_CUT_COPPER_STAIRS))
-    );
-
-    public static final RegistryObject<Block> STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS))
-    );
-
-    public static final RegistryObject<Block> STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS))
-    );
-
-    public static final RegistryObject<Block> STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS))
-    );
-
-    public static final RegistryObject<Block> STAIR_WEATHERED_CUT_COPPER_GLOWING = registerBlock(
-            Reference.UnlocalizedName.STAIR_WEATHERED_CUT_COPPER_GLOWING,
-            () -> new GlowingStairBlock(Blocks.WEATHERED_CUT_COPPER_STAIRS.defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.WEATHERED_CUT_COPPER_STAIRS))
-    );
-
     /*
       Glowing Variants of Vanilla Stairs
      */
     static {
-        registerCarpetStairVariant(Reference.UnlocalizedName.STAIR_TUFF_CARPET,
-                Blocks.TUFF, Reference.ToolTypeNames.PICKAXE,
+        registerCarpetStairVariant(Reference.UnlocalizedName.STAIRS_TUFF_CARPET,
+                Blocks.TUFF_STAIRS, Reference.ToolTypeNames.PICKAXE,
                 ResourceLocation.fromNamespaceAndPath("minecraft", "block/tuff")
+        );
+
+        registerCarpetStairVariant(Reference.UnlocalizedName.STAIRS_POLISHED_TUFF_CARPET,
+                Blocks.POLISHED_TUFF_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/polished_tuff")
+        );
+
+        registerCarpetStairVariant(Reference.UnlocalizedName.STAIRS_TUFF_BRICK_CARPET,
+                Blocks.TUFF_BRICK_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/tuff_bricks")
+        );
+
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WAXED_CUT_COPPER_GLOWING,
+                Blocks.WAXED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/cut_copper")
+        );
+
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING,
+                Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/exposed_cut_copper")
+        );
+
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING,
+                Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/weathered_cut_copper")
+        );
+
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING,
+                Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/oxidized_cut_copper")
+        );
+
+        registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_WEATHERED_CUT_COPPER_GLOWING,
+                Blocks.WEATHERED_CUT_COPPER, Reference.ToolTypeNames.PICKAXE,
+                ResourceLocation.fromNamespaceAndPath("minecraft", "block/weathered_cut_copper")
         );
 
         registerVanillaGlowingStairVariant(Reference.UnlocalizedName.STAIR_ACACIA_GLOWING,

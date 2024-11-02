@@ -22,7 +22,8 @@ public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
 
     private void carpetStairBlocks() {
         this.carpetStairsWithPartialModels("block/stairs/stairs_tuff_carpet", "minecraft:block/tuff");
-
+        this.carpetStairsWithPartialModels("block/stairs/stairs_tuff_brick_carpet", "minecraft:block/tuff_bricks");
+        this.carpetStairsWithPartialModels("block/stairs/stairs_polished_tuff_carpet", "minecraft:block/polished_tuff");
     }
 
     private void carpetStairsWithPartialModels(String baseName, String baseTextureLocation) {

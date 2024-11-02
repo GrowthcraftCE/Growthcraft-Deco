@@ -188,11 +188,11 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLASS_WHITE_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_WHITE.get());
         this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.SLAB_GLASS_YELLOW_GLOWING.get(), GrowthcraftDecoBlocks.SLAB_GLASS_YELLOW.get());
 
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_CUT_COPPER_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS);
-        this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WEATHERED_CUT_COPPER_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_CUT_COPPER_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS);
+        //this.buildGlowingRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING.get(), Blocks.WEATHERED_CUT_COPPER_STAIRS);
 
         GrowthcraftDecoBlocks.GLOWING_BLOCKS_RECIPE_MAP.forEach((glowingBlock, clonedBlock) -> {
             this.buildGlowingRecipe(recipeConsumer, glowingBlock.get(), clonedBlock);

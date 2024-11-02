@@ -35,12 +35,11 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
     }
 
     private void glowingBlocks() {
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING, Blocks.CUT_COPPER_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING, Blocks.EXPOSED_CUT_COPPER_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING, Blocks.OXIDIZED_CUT_COPPER_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING, Blocks.WEATHERED_CUT_COPPER_STAIRS);
-        this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING, Blocks.WEATHERED_CUT_COPPER_STAIRS);
-
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING, Blocks.CUT_COPPER_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING, Blocks.EXPOSED_CUT_COPPER_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING, Blocks.OXIDIZED_CUT_COPPER_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING, Blocks.WEATHERED_CUT_COPPER_STAIRS);
+        //this.simpleBlockItem(GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING, Blocks.WEATHERED_CUT_COPPER_STAIRS);
     }
 
     private void glassPanes() {

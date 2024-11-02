@@ -328,11 +328,11 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_RED.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_WHITE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_YELLOW.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get());
-        this.dropSelf(GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_CUT_COPPER_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_EXPOSED_CUT_COPPER_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_OXIDIZED_CUT_COPPER_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_WAXED_WEATHERED_CUT_COPPER_GLOWING.get());
+        //this.dropSelf(GrowthcraftDecoBlocks.STAIR_WEATHERED_CUT_COPPER_GLOWING.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_BLACK.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_BLUE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_BROWN.get());

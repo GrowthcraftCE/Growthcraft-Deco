@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:tuff_brick_stairs"
+    },
+    "B": {
+      "item": "minecraft:purple_carpet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "id": "growthcraft_deco:stairs_tuff_brick_carpet_purple"
+  }
+}

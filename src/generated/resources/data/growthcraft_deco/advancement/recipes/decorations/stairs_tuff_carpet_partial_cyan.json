@@ -17,11 +17,11 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_tuff": {
+    "has_tuff_stairs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:tuff"
+            "items": "minecraft:tuff_stairs"
           }
         ]
       },
@@ -31,7 +31,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_tuff",
+      "has_tuff_stairs",
       "has_cyan_carpet"
     ]
   ],

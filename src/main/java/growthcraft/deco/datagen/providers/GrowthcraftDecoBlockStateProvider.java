@@ -1,6 +1,5 @@
 package growthcraft.deco.datagen.providers;
 
-import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
@@ -14,8 +13,6 @@ import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.HashMap;
 
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
@@ -32,6 +29,18 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         this.glassPanes();
         this.slabs();
         this.clonedSimpleBlocks();
+        this.carpetStairBlocks();
+    }
+
+    private void carpetStairBlocks() {
+        GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            this.carpetStairs(blockRegistryObject.get(), resourceLocation);
+        });
+
+        GrowthcraftDecoBlocks.CARPET_PARTIAL_STAIR_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            this.carpetStairs(blockRegistryObject.get(), resourceLocation);
+        });
+
     }
 
     private void glassPanes() {
@@ -123,6 +132,46 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
                 ResourceLocation.withDefaultNamespace(edge),
                 ResourceLocation.withDefaultNamespace("translucent")
         );
+    }
+
+    private void carpetStairs(Block block, ResourceLocation modelLocation) {
+        this.stairsBlock((StairBlock) block,
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                "block/stairs/".concat(modelLocation.getPath())
+                        )
+                ),
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                "block/stairs/".concat(modelLocation.getPath()).concat("_inner")
+                        )
+                ),
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                "block/stairs/".concat(modelLocation.getPath()).concat("_outer")
+                        )
+                )
+        );
+    }
+
+    private void carpetStairs(Block block, String baseName, String color) {
+
+        this.stairsBlock((StairBlock) block,
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                String.format("block/stairs/stairs_%s_carpet_%s", baseName, color))
+                ),
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                String.format("block/stairs/stairs_%s_carpet_%s_inner", baseName, color))
+                ),
+                new ModelFile.UncheckedModelFile(
+                        ResourceLocation.fromNamespaceAndPath(Reference.MODID,
+                                String.format("block/stairs/stairs_%s_carpet_%s_outer", baseName, color))
+                )
+        );
+
+
     }
 
     private ResourceLocation key(Block block) {

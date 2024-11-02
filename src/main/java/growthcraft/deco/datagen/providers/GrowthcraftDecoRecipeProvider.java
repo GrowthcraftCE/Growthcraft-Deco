@@ -16,6 +16,8 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.concurrent.CompletableFuture;
 
+import static growthcraft.deco.init.GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS_RECIPE_MAP;
+
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
  */
@@ -204,6 +206,26 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
 
 
     private void carpetedStairsRecipes(RecipeOutput recipeConsumer) {
+
+        // Generate the recipe files for the Carpet Stair Blocks
+        GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS_RECIPE_MAP.forEach((carpetedBlock, ingredients) -> {
+            this.buildCarpetedStairRecipe(
+                    recipeConsumer,
+                    carpetedBlock.get(),
+                    ingredients.get("baseBlock"),
+                    ingredients.get("carpet")
+            );
+        });
+
+        GrowthcraftDecoBlocks.CARPET_PARTIAL_STAIR_BLOCKS_RECIPE_MAP.forEach((carpetedBlock, ingredients) -> {
+            this.buildPartialCarpetedStairRecipe(
+                    recipeConsumer,
+                    carpetedBlock.get(),
+                    ingredients.get("baseBlock"),
+                    ingredients.get("carpet")
+            );
+        });
+
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BLACK.get(), Blocks.ACACIA_STAIRS, Blocks.BLACK_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BLUE.get(), Blocks.ACACIA_STAIRS, Blocks.BLUE_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_ACACIA_CARPET_BROWN.get(), Blocks.ACACIA_STAIRS, Blocks.BROWN_CARPET);
@@ -332,6 +354,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_RED.get(), Blocks.WARPED_STAIRS, Blocks.RED_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_WHITE.get(), Blocks.WARPED_STAIRS, Blocks.WHITE_CARPET);
         this.buildCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_YELLOW.get(), Blocks.WARPED_STAIRS, Blocks.YELLOW_CARPET);
+
     }
 
     private void partialCarpetedStairsRecipes(RecipeOutput recipeConsumer) {
@@ -463,10 +486,11 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_RED.get(), Blocks.WARPED_STAIRS, Blocks.RED_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_WHITE.get(), Blocks.WARPED_STAIRS, Blocks.WHITE_CARPET);
         this.buildPartialCarpetedStairRecipe(recipeConsumer, GrowthcraftDecoBlocks.STAIR_WARPED_CARPET_PARTIAL_YELLOW.get(), Blocks.WARPED_STAIRS, Blocks.YELLOW_CARPET);
+
     }
 
     private void buildHiddenDoorRecipe(RecipeOutput recipeConsumer, Block result, Block clonedBlock) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
+        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 4)
                 .define('A', clonedBlock)
                 .define('B', ItemTags.DOORS)
                 .pattern("AAA")

@@ -43,6 +43,7 @@ public class GrowthcraftDecoDataGenerators {
                 )
         );
 
+        generator.addProvider(true, new GrowthcraftDecoBlockModelProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(true, new GrowthcraftDecoBlockTagsProvider(packOutput, Registries.BLOCK, lookupProvider, "minecraft", existingFileHelper));

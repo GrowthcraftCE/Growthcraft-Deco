@@ -1,5 +1,6 @@
 package growthcraft.deco.datagen.providers;
 
+import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -11,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.logging.log4j.Level;
 
 import java.util.List;
 import java.util.Set;
@@ -347,6 +349,18 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_RED.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_WHITE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_YELLOW.get());
+
+        GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS.forEach(
+                (name, blockObject) -> {
+                    this.dropSelf(blockObject.get());
+                }
+        );
+
+        GrowthcraftDecoBlocks.CARPET_PARTIAL_STAIR_BLOCKS.forEach(
+                (name, blockObject) -> {
+                    this.dropSelf(blockObject.get());
+                }
+        );
 
         // Iterate over all the simple vanilla glowing blocks.
         GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.forEach(

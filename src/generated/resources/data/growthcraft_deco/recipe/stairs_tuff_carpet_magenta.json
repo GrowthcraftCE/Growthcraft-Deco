@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:tuff"
+    },
+    "B": {
+      "item": "minecraft:magenta_carpet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "id": "growthcraft_deco:stairs_tuff_carpet_magenta"
+  }
+}

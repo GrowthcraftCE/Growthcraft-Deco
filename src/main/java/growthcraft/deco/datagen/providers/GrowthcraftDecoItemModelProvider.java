@@ -1,5 +1,6 @@
 package growthcraft.deco.datagen.providers;
 
+import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
@@ -12,6 +13,7 @@ import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.logging.log4j.Level;
 
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
@@ -63,6 +65,17 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
 
     private void simpleBlockItems() {
 
+        // TODO: refactor to make cleaner
+        GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS.forEach( (blockName, blockObject) -> {
+            GrowthcraftDeco.LOGGER.log(Level.WARN, String.format("Parent == %s", Reference.MODID + ":" + "block/stairs/".concat(blockName)));
+            this.simpleBlockItem(blockObject, Reference.MODID + ":" + "block/stairs/".concat(blockName));
+        });
+
+        GrowthcraftDecoBlocks.CARPET_PARTIAL_STAIR_BLOCKS.forEach( (blockName, blockObject) -> {
+            GrowthcraftDeco.LOGGER.log(Level.WARN, String.format("Parent == %s", Reference.MODID + ":" + "block/stairs/".concat(blockName)));
+            this.simpleBlockItem(blockObject, Reference.MODID + ":" + "block/stairs/".concat(blockName));
+        });
+
     }
 
     private void variantStairBlockItems() {
@@ -86,6 +99,10 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, Block mirroredBlock) {
         return simpleBlockItem(block, ForgeRegistries.BLOCKS.getKey(mirroredBlock));
+    }
+
+    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, String blockModelLocation) {
+        return withExistingParent(block.getId().getPath(), blockModelLocation);
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, ResourceLocation parentBlockModel) {

@@ -15,6 +15,7 @@ public class GrowthcraftDecoLangProvider extends LanguageProvider {
         Reference.LocalizedNames.GENERAL_EN_US.forEach(this::add);
         Reference.LocalizedNames.DOORS_EN_US.forEach(this::add);
         Reference.LocalizedNames.GLOWING_BLOCKS_EN_US.forEach(this::add);
+        Reference.LocalizedNames.BLOCKS_EN_US.forEach(this::add);
     }
 
 

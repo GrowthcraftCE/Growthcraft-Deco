@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/deepslate_tiles",
+    "particle": "minecraft:block/deepslate_tiles"
+  }
+}

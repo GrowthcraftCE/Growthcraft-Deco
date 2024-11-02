@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/nether_wart_block",
+    "particle": "minecraft:block/nether_wart_block"
+  }
+}

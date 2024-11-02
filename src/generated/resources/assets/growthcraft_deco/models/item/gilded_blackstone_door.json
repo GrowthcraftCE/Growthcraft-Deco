@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/gilded_blackstone",
+    "particle": "minecraft:block/gilded_blackstone"
+  }
+}

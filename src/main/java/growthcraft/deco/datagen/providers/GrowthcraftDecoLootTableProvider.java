@@ -1,22 +1,14 @@
 package growthcraft.deco.datagen.providers;
 
-import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.RegistryObject;
-import org.apache.logging.log4j.Level;
 
-import java.util.List;
 import java.util.Set;
-import java.util.concurrent.CompletableFuture;
 
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
@@ -350,6 +342,7 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_WHITE.get());
         this.dropSelf(GrowthcraftDecoBlocks.STAIR_WOOL_YELLOW.get());
 
+        // TODO: Change all the below lists to a single list.
         GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS.forEach(
                 (name, blockObject) -> {
                     this.dropSelf(blockObject.get());
@@ -363,7 +356,14 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
         );
 
         // Iterate over all the simple vanilla glowing blocks.
-        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.forEach(
+        GrowthcraftDecoBlocks.GLOWING_BLOCKS.forEach(
+                (name, blockRegistryObject) -> {
+                    this.dropSelf(blockRegistryObject.get());
+                }
+        );
+
+        // Iterate over all the transparent block variants.
+        GrowthcraftDecoBlocks.GLOWING_TRANSPARENT_BLOCKS.forEach(
                 (name, blockRegistryObject) -> {
                     this.dropSelf(blockRegistryObject.get());
                 }
@@ -377,7 +377,7 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
 
         GrowthcraftDecoBlocks.HIDDEN_DOOR_BLOCKS.forEach(
                 (name, blockRegistryObject) -> {
-                    this.dropSelf(blockRegistryObject.get());
+                    this.add(blockRegistryObject.get(), block -> this.createDoorTable(block));
                 }
         );
 

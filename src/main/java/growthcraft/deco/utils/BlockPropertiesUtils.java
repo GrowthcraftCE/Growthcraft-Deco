@@ -89,7 +89,7 @@ public class BlockPropertiesUtils {
         return true;
     }
 
-    private static boolean never(BlockState state, BlockGetter world, BlockPos pos) {
+    public static boolean never(BlockState state, BlockGetter world, BlockPos pos) {
         return false;
     }
 }

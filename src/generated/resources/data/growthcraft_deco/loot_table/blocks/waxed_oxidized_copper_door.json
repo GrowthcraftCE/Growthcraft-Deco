@@ -11,6 +11,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "growthcraft_deco:waxed_oxidized_copper_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
           "name": "growthcraft_deco:waxed_oxidized_copper_door"
         }
       ],

@@ -629,12 +629,26 @@ public class Reference {
         public static final String YELLOW_TERRACOTTA_GLOWING = "yellow_terracotta_glowing";
         public static final String YELLOW_WOOL_GLOWING = "yellow_wool_glowing";
 
+        //region Minecraft 1.21
         public static final String STAIRS_TUFF_CARPET = "stairs_tuff_carpet";
         public static final String STAIRS_POLISHED_TUFF_CARPET = "stairs_polished_tuff_carpet";
         public static final String STAIRS_TUFF_BRICK_CARPET = "stairs_tuff_brick_carpet";
+        public static final String POLISHED_TUFF_GLOWING = "polished_tuff_glowing";
+        public static final String CHISELED_TUFF_GLOWING = "chiseled_tuff_glowing";
+        public static final String TUFF_BRICKS_GLOWING = "tuff_bricks_glowing";
+        public static final String CHISELED_TUFF_BRICKS_GLOWING = "chiseled_tuff_bricks_glowing";
+        public static final String COPPER_GRATE_GLOWING = "copper_grate_glowing";
+        public static final String EXPOSED_COPPER_GRATE_GLOWING = "exposed_copper_grate_glowing";
+        public static final String WEATHERED_COPPER_GRATE_GLOWING = "weathered_copper_grate_glowing";
+        public static final String OXIDIZED_COPPER_GRATE_GLOWING = "oxidized_copper_grate_glowing";
+        public static final String WAXED_COPPER_GRATE_GLOWING = "waxed_copper_grate_glowing";
+        public static final String WAXED_EXPOSED_COPPER_GRATE_GLOWING = "waxed_exposed_copper_grate_glowing";
+        public static final String WAXED_WEATHERED_COPPER_GRATE_GLOWING = "waxed_weathered_copper_grate_glowing";
+        public static final String WAXED_OXIDIZED_COPPER_GRATE_GLOWING = "waxed_oxidized_copper_grate_glowing";
+
+        //endregion
 
         public static final String TAG_GLOWING = "glowing";
-
         public static final String CREATIVE_TAB = "tab";
 
     }

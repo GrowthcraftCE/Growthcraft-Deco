@@ -9,6 +9,8 @@ import net.minecraftforge.client.model.generators.BlockModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import static growthcraft.deco.init.GrowthcraftDecoBlocks.GLOWING_TRANSPARENT_BLOCKS_STATE_MAP;
+
 public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
 
     public GrowthcraftDecoBlockModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
@@ -18,12 +20,28 @@ public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
     @Override
     protected void registerModels() {
         this.carpetStairBlocks();
+        this.transparentBlocks();
+    }
+
+    private void transparentBlocks() {
+        // TODO: Generate model files for Glowing Vanilla Transparent Blocks
+        GLOWING_TRANSPARENT_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            ResourceLocation blockResourceLocation = key(blockRegistryObject.get());
+            String modelLocation = ResourceLocation.fromNamespaceAndPath(blockResourceLocation.getNamespace(),
+                    "block/" + blockResourceLocation.getPath()).toString();
+            this.transparentBlockWithParent(modelLocation, resourceLocation.toString());
+        });
+
     }
 
     private void carpetStairBlocks() {
         this.carpetStairsWithPartialModels("block/stairs/stairs_tuff_carpet", "minecraft:block/tuff");
         this.carpetStairsWithPartialModels("block/stairs/stairs_tuff_brick_carpet", "minecraft:block/tuff_bricks");
         this.carpetStairsWithPartialModels("block/stairs/stairs_polished_tuff_carpet", "minecraft:block/polished_tuff");
+    }
+
+    private void transparentBlockWithParent(String name, String parent) {
+        this.withExistingParent(name, parent).renderType("cutout");
     }
 
     private void carpetStairsWithPartialModels(String baseName, String baseTextureLocation) {

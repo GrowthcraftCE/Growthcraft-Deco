@@ -40,7 +40,6 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         GrowthcraftDecoBlocks.CARPET_PARTIAL_STAIR_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
             this.carpetStairs(blockRegistryObject.get(), resourceLocation);
         });
-
     }
 
     private void glassPanes() {
@@ -82,8 +81,19 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
 
     private void clonedSimpleBlocks() {
         // Glowing Variants for Vanilla Blocks
-        GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCK_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+        GrowthcraftDecoBlocks.GLOWING_BLOCK_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
             blockWithExistingModel(blockRegistryObject.get(), resourceLocation);
+        });
+
+        // Glowing Variants for Vanilla Cut-Out Blocks - Vanilla cut-out blocks do not have the render type set in the
+        // block model, so we have to handle it in our own model.
+        GrowthcraftDecoBlocks.GLOWING_TRANSPARENT_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
+            ResourceLocation registryObjectLocation = ResourceLocation.fromNamespaceAndPath(
+                    blockRegistryObject.getId().getNamespace(),
+                    "block/" + blockRegistryObject.getId().getPath()
+            );
+
+            blockWithExistingModel(blockRegistryObject.get(), registryObjectLocation);
         });
 
         // Glowing Variants for Vanilla Stairs
@@ -94,8 +104,9 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
         // Hidden Door Variants for Vanilla Blocks
         GrowthcraftDecoBlocks.HIDDEN_DOOR_VANILLA_BLOCK_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
             // Generate the Block Models needed for the door block
-            doorBlock((DoorBlock) blockRegistryObject.get(), resourceLocation, resourceLocation);
+            doorBlockWithRenderType((DoorBlock) blockRegistryObject.get(), resourceLocation, resourceLocation, "cutout");
         }));
+
     }
 
     private void slabs() {
@@ -110,7 +121,10 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
     }
 
     private void glowingVanillaBlocksWithExistingModel(String unlocalizedName, String namespace, String modelPath) {
-        blockWithExistingModel(GrowthcraftDecoBlocks.GLOWING_VANILLA_BLOCKS.get(unlocalizedName).get(), namespace, modelPath);
+        blockWithExistingModel(
+                GrowthcraftDecoBlocks.GLOWING_BLOCKS.get(unlocalizedName).get(),
+                namespace,
+                modelPath);
     }
 
     private void blockWithExistingModel(Block block, String namespace, String modelPath) {
@@ -120,8 +134,15 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
     }
 
     private void blockWithExistingModel(Block block, ResourceLocation modelLocation) {
-        simpleBlock(block, models().getExistingFile(modelLocation));
-        simpleBlockItem(block, models().getExistingFile(modelLocation));
+        ModelFile.ExistingModelFile model = models().getExistingFile(modelLocation);
+        simpleBlock(block, model);
+        simpleBlockItem(block, model);
+    }
+
+    private void transparentBlockWithExistingParent(Block block, ResourceLocation modelLocation) {
+        ModelFile.ExistingModelFile model = models().getExistingFile(modelLocation);
+        simpleBlock(block, model);
+        simpleBlockItem(block, model);
     }
 
     private void paneWithRenderType(Block block, String pane, String edge) {

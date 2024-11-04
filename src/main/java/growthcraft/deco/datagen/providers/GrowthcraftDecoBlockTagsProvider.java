@@ -28,17 +28,14 @@ public class GrowthcraftDecoBlockTagsProvider extends TagsProvider<Block> {
     protected void addTags(HolderLookup.Provider provider) {
 
         GrowthcraftDecoBlocks.BLOCKS_MINEABLE_PICKAXE.forEach((unlocalizedName, block) -> {
-                    tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Objects.requireNonNull(block.getKey()));
-                }
-        );
+            addMineableTags(Objects.requireNonNull(block.getKey()), "pickaxe");
+        });
 
         GrowthcraftDecoBlocks.BLOCKS_MINEABLE_AXE.forEach((unlocalizedName, block) -> {
-                    tag(BlockTags.MINEABLE_WITH_AXE).add(Objects.requireNonNull(block.getKey()));
-                }
-        );
+            addMineableTags(Objects.requireNonNull(block.getKey()), "axe");
+        });
 
     }
-
 
     private void addMineableTags(ResourceKey<Block> blockResourceKey, String tool) {
         if (Objects.equals(tool, "pickaxe")) {

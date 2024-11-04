@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/weathered_copper_grate",
+  "render_type": "minecraft:cutout"
+}

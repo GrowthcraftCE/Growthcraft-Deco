@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oxidized_copper_grate"
+    },
+    "B": {
+      "tag": "minecraft:doors"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 4,
+    "id": "growthcraft_deco:oxidized_copper_grate_door"
+  }
+}

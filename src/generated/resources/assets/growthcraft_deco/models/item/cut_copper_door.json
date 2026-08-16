@@ -1,0 +1,7 @@
+{
+  "parent": "growthcraft_deco:item/template_hidden_door",
+  "textures": {
+    "layer0": "minecraft:block/cut_copper",
+    "particle": "minecraft:block/cut_copper"
+  }
+}

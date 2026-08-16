@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "growthcraft_deco:block/slab_polished_diorite_glowing"
+    },
+    "type=double": {
+      "model": "minecraft:block/polished_diorite"
+    },
+    "type=top": {
+      "model": "growthcraft_deco:block/slab_polished_diorite_glowing_top"
+    }
+  }
+}

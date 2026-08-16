@@ -33,6 +33,7 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         this.glowingBlocks();
         this.simpleBlockItems();
         this.variantStairBlockItems();
+        this.variantSlabBlockItems();
         this.variantDoorBlockItems();
     }
 
@@ -83,6 +84,12 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         GrowthcraftDecoBlocks.GLOWING_STAIR_BLOCKS_STATE_MAP.forEach(((blockRegistryObject, resourceLocation) -> {
             simpleBlockItem(blockRegistryObject, blockRegistryObject.get());
         }));
+    }
+
+    private void variantSlabBlockItems() {
+        GrowthcraftDecoBlocks.GLOWING_SLAB_BLOCKS_STATE_MAP.forEach((block, texture) ->
+                simpleBlockItem(block, block.get())
+        );
     }
 
     private void variantDoorBlockItems() {

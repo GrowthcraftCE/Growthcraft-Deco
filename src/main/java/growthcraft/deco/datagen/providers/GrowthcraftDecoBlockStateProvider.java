@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.SlabBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -98,6 +99,12 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
             blockWithExistingModel(blockRegistryObject.get(), registryObjectLocation);
         });
 
+        GrowthcraftDecoBlocks.GLOWING_GLASS_BLOCKS_STATE_MAP.forEach((block, parent) -> {
+            ResourceLocation modelLocation = ResourceLocation.fromNamespaceAndPath(
+                    block.getId().getNamespace(), "block/" + block.getId().getPath());
+            blockWithExistingModel(block.get(), modelLocation);
+        });
+
         // Glowing Variants for Vanilla Stairs
         GrowthcraftDecoBlocks.GLOWING_STAIR_BLOCKS_STATE_MAP.forEach((blockRegistryObject, resourceLocation) -> {
             stairsBlock((StairBlock) blockRegistryObject.get(), resourceLocation);
@@ -112,7 +119,9 @@ public class GrowthcraftDecoBlockStateProvider extends BlockStateProvider {
     }
 
     private void slabs() {
-        //slabBlock(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get(), mcLoc());
+        GrowthcraftDecoBlocks.GLOWING_SLAB_BLOCKS_STATE_MAP.forEach((block, texture) ->
+                slabBlock((SlabBlock) block.get(), texture, texture)
+        );
     }
 
     private void blockWithItem(DeferredBlock<Block> blockRegistryObject) {

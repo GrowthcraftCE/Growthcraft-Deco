@@ -10,6 +10,7 @@ import net.neoforged.neoforge.client.model.generators.BlockModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import static growthcraft.deco.init.GrowthcraftDecoBlocks.GLOWING_TRANSPARENT_BLOCKS_STATE_MAP;
+import static growthcraft.deco.init.GrowthcraftDecoBlocks.GLOWING_GLASS_BLOCKS_STATE_MAP;
 
 public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
 
@@ -21,6 +22,16 @@ public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
     protected void registerModels() {
         this.carpetStairBlocks();
         this.transparentBlocks();
+        this.translucentGlassBlocks();
+    }
+
+    private void translucentGlassBlocks() {
+        GLOWING_GLASS_BLOCKS_STATE_MAP.forEach((block, parent) -> {
+            ResourceLocation blockLocation = key(block.get());
+            String modelLocation = ResourceLocation.fromNamespaceAndPath(blockLocation.getNamespace(),
+                    "block/" + blockLocation.getPath()).toString();
+            this.withExistingParent(modelLocation, parent).renderType("translucent");
+        });
     }
 
     private void transparentBlocks() {

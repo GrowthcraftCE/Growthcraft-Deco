@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "growthcraft_deco:block/slab_tuff_brick_glowing"
+    },
+    "type=double": {
+      "model": "minecraft:block/tuff_bricks"
+    },
+    "type=top": {
+      "model": "growthcraft_deco:block/slab_tuff_brick_glowing_top"
+    }
+  }
+}

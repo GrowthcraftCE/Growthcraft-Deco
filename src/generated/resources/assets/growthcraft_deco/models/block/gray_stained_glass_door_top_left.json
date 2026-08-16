@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "minecraft:block/gray_stained_glass",
+    "top": "minecraft:block/gray_stained_glass"
+  }
+}

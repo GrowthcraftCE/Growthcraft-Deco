@@ -390,6 +390,10 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
      */
     private void silkTouchLootTables() {
         // Silk Touch Required
+        GrowthcraftDecoBlocks.GLOWING_GLASS_BLOCKS.forEach(
+                (name, block) -> this.dropWhenSilkTouch(block.get())
+        );
+
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BLACK_PANE_GLOWING.get());
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BLUE_PANE_GLOWING.get());
         this.dropWhenSilkTouch(GrowthcraftDecoBlocks.GLASS_STAINED_BROWN_PANE_GLOWING.get());
@@ -447,6 +451,10 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
      * Block loot tables that are slabs and double slabs.
      */
     private void slabLootTables() {
+        GrowthcraftDecoBlocks.GLOWING_SLAB_BLOCKS.forEach(
+                (name, block) -> this.add(block.get(), this::createSlabItemTable)
+        );
+
         // Drop Half Slab and/or Double Slab
         this.add(GrowthcraftDecoBlocks.SLAB_GLASS_BLACK.get(), this::createSlabItemTable);
         this.add(GrowthcraftDecoBlocks.SLAB_GLASS_BLUE.get(), this::createSlabItemTable);

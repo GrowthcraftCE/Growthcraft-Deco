@@ -2,7 +2,7 @@ package growthcraft.deco.datagen.providers;
 
 import growthcraft.deco.shared.Reference;
 import net.minecraft.data.PackOutput;
-import net.minecraftforge.common.data.LanguageProvider;
+import net.neoforged.neoforge.common.data.LanguageProvider;
 
 public class GrowthcraftDecoLangProvider extends LanguageProvider {
 

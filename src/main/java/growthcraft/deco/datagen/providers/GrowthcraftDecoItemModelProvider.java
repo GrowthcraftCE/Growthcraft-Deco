@@ -3,16 +3,18 @@ package growthcraft.deco.datagen.providers;
 import growthcraft.deco.GrowthcraftDeco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.shared.Reference;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.client.model.generators.ItemModelBuilder;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
+import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
 import org.apache.logging.log4j.Level;
 
 /**
@@ -89,52 +91,52 @@ public class GrowthcraftDecoItemModelProvider extends ItemModelProvider {
         }));
     }
 
-    private ItemModelBuilder variantDoorBlockItem(RegistryObject<Block> block, ResourceLocation resourceLocation) {
+    private ItemModelBuilder variantDoorBlockItem(DeferredBlock<Block> block, ResourceLocation resourceLocation) {
         return this.getBuilder(block.getId().getPath())
                 .parent(getExistingFile(ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/template_hidden_door")))
                 .texture("layer0", resourceLocation)
                 .texture("particle", resourceLocation);
     }
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, Block mirroredBlock) {
-        return simpleBlockItem(block, ForgeRegistries.BLOCKS.getKey(mirroredBlock));
+    private ItemModelBuilder simpleBlockItem(DeferredBlock<Block> block, Block mirroredBlock) {
+        return simpleBlockItem(block, BuiltInRegistries.BLOCK.getKey(mirroredBlock));
     }
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, String blockModelLocation) {
+    private ItemModelBuilder simpleBlockItem(DeferredBlock<Block> block, String blockModelLocation) {
         return withExistingParent(block.getId().getPath(), blockModelLocation);
     }
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block, ResourceLocation parentBlockModel) {
+    private ItemModelBuilder simpleBlockItem(DeferredBlock<Block> block, ResourceLocation parentBlockModel) {
         return withExistingParent(block.getId().getPath(), parentBlockModel.getNamespace() + ":block/" + parentBlockModel.getPath());
     }
 
-    private ItemModelBuilder translucentPaneBlockItem(RegistryObject<Block> block) {
+    private ItemModelBuilder translucentPaneBlockItem(DeferredBlock<Block> block) {
         return this.translucentPaneBlockItem(block, block.getId());
     }
 
-    private ItemModelBuilder translucentPaneBlockItem(RegistryObject<Block> block, Block mirroredBlock) {
-        return this.translucentPaneBlockItem(block, ForgeRegistries.BLOCKS.getKey(mirroredBlock));
+    private ItemModelBuilder translucentPaneBlockItem(DeferredBlock<Block> block, Block mirroredBlock) {
+        return this.translucentPaneBlockItem(block, BuiltInRegistries.BLOCK.getKey(mirroredBlock));
     }
 
-    private ItemModelBuilder translucentPaneBlockItem(RegistryObject<Block> block, ResourceLocation layer0) {
+    private ItemModelBuilder translucentPaneBlockItem(DeferredBlock<Block> block, ResourceLocation layer0) {
         return withExistingParent(block.getId().getPath(), ResourceLocation.withDefaultNamespace("item/generated"))
                 .renderType("translucent")
                 .texture("layer0", layer0.getNamespace() + ":block/" + layer0.getPath());
     }
 
-    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+    private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Reference.MODID, "block/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
+    private ItemModelBuilder simpleItem(DeferredItem<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+    private ItemModelBuilder handheldItem(DeferredItem<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/handheld")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Reference.MODID, "item/" + item.getId().getPath()));

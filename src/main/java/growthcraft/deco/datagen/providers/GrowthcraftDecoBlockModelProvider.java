@@ -2,12 +2,12 @@ package growthcraft.deco.datagen.providers;
 
 import growthcraft.deco.shared.Reference;
 import growthcraft.deco.utils.ColorUtils;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.client.model.generators.BlockModelProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.client.model.generators.BlockModelProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import static growthcraft.deco.init.GrowthcraftDecoBlocks.GLOWING_TRANSPARENT_BLOCKS_STATE_MAP;
 
@@ -89,6 +89,6 @@ public class GrowthcraftDecoBlockModelProvider extends BlockModelProvider {
 
 
     private ResourceLocation key(Block block) {
-        return ForgeRegistries.BLOCKS.getKey(block);
+        return BuiltInRegistries.BLOCK.getKey(block);
     }
 }

@@ -20,6 +20,8 @@ build
 # other
 eclipse
 run
+.runs
+runs
 .local
 
 # Files from Forge MDK
@@ -30,3 +32,12 @@ forge*changelog.txt
 *.launch
 .vscode
 /.java-version
+
+# Local decompiled Minecraft/NeoForge references for porting
+/.decompiled/
+
+# Local internal porting documentation
+/docs/
+
+# Local coding-agent instructions
+/AGENTS.md

@@ -3,13 +3,12 @@ package growthcraft.deco.init;
 import growthcraft.deco.shared.Reference;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.ArrayList;
 
 public class GrowthcraftDecoItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Reference.MODID);
 
     public static void registerBlockItems() {
 

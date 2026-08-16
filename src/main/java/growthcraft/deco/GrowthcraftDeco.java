@@ -3,37 +3,30 @@ package growthcraft.deco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.init.GrowthcraftDecoCreativeTabs;
 import growthcraft.deco.init.GrowthcraftDecoItems;
-import growthcraft.deco.init.GrowthcraftDecoMissingMappings;
 import growthcraft.deco.init.client.GrowthcraftDecoBlockRenderers;
 import growthcraft.deco.shared.Reference;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.MissingMappingsEvent;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(Reference.MODID)
-@Mod.EventBusSubscriber(modid = Reference.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class GrowthcraftDeco {
 
     public static final Logger LOGGER = LogManager.getLogger(Reference.MODID);
 
-    public GrowthcraftDeco() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public GrowthcraftDeco(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::clientSetupEvent);
 
         GrowthcraftDecoBlocks.BLOCKS.register(modEventBus);
         GrowthcraftDecoItems.ITEMS.register(modEventBus);
         GrowthcraftDecoCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
-        MinecraftForge.EVENT_BUS.register(this);
-
-        MinecraftForge.EVENT_BUS.addListener(this::onMissingMappingsEvent);
+        NeoForge.EVENT_BUS.addListener(this::onServerStarting);
 
     }
 
@@ -41,16 +34,9 @@ public class GrowthcraftDeco {
         GrowthcraftDecoBlockRenderers.registerBlockRenders();
     }
 
-    @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // do something when the server starts
         LOGGER.info("Growthcraft-Deco is starting ...");
     }
-
-    @SubscribeEvent
-    public void onMissingMappingsEvent(MissingMappingsEvent event) {
-        GrowthcraftDecoMissingMappings.missingMappingEventHandler(event);
-    }
-
 
 }

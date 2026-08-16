@@ -6,7 +6,9 @@ import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.Set;
 
@@ -486,6 +488,6 @@ public class GrowthcraftDecoLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return GrowthcraftDecoBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+        return GrowthcraftDecoBlocks.BLOCKS.getEntries().stream().map(holder -> (Block) holder.get())::iterator;
     }
 }

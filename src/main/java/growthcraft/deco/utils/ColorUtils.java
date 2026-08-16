@@ -1,8 +1,8 @@
 package growthcraft.deco.utils;
 
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.List;
 
@@ -17,14 +17,14 @@ public class ColorUtils {
     }
 
     public static Block getWoolBlock(String color) {
-        return ForgeRegistries.BLOCKS.getValue(ResourceLocation.withDefaultNamespace(color + "_wool"));
+        return BuiltInRegistries.BLOCK.get(ResourceLocation.withDefaultNamespace(color + "_wool"));
     }
 
     public static Block getCarpetBlockByColor(String color) {
-        return ForgeRegistries.BLOCKS.getValue(ResourceLocation.withDefaultNamespace(color + "_carpet"));
+        return BuiltInRegistries.BLOCK.get(ResourceLocation.withDefaultNamespace(color + "_carpet"));
     }
 
     private ResourceLocation key(Block block) {
-        return ForgeRegistries.BLOCKS.getKey(block);
+        return BuiltInRegistries.BLOCK.getKey(block);
     }
 }

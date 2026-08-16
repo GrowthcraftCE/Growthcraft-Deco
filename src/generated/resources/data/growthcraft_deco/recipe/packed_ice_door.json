@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:packed_ice"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:packed_ice",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

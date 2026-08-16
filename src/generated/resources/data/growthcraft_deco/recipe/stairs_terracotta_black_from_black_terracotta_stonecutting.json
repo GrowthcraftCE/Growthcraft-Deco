@@ -1,10 +1,7 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:black_terracotta"
-  },
+  "ingredient": "minecraft:black_terracotta",
   "result": {
-    "count": 1,
     "id": "growthcraft_deco:stairs_terracotta_black"
   }
 }

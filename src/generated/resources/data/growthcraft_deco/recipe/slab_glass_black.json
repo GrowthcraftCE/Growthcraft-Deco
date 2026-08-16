@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:black_stained_glass"
-    }
+    "A": "minecraft:black_stained_glass"
   },
   "pattern": [
     "AAA"

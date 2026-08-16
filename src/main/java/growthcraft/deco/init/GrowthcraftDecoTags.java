@@ -1,7 +1,7 @@
 package growthcraft.deco.init;
 
 import growthcraft.deco.shared.Reference;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.tags.ItemTags;
@@ -28,7 +28,7 @@ public class GrowthcraftDecoTags {
         public static final TagKey<Block> GLOWING = tag(Reference.UnlocalizedName.TAG_GLOWING);
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Reference.MODID, name));
+            return BlockTags.create(Identifier.fromNamespaceAndPath(Reference.MODID, name));
         }
     }
 
@@ -41,7 +41,7 @@ public class GrowthcraftDecoTags {
         public static final TagKey<Item> GLOWING = tag(Reference.UnlocalizedName.TAG_GLOWING);
 
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Reference.MODID, name));
+            return ItemTags.create(Identifier.fromNamespaceAndPath(Reference.MODID, name));
         }
     }
 
@@ -52,7 +52,7 @@ public class GrowthcraftDecoTags {
         }
 
         private static TagKey<Fluid> tag(String name) {
-            return FluidTags.create(ResourceLocation.fromNamespaceAndPath(Reference.MODID, name));
+            return FluidTags.create(Identifier.fromNamespaceAndPath(Reference.MODID, name));
         }
     }
 
@@ -65,7 +65,7 @@ public class GrowthcraftDecoTags {
         //public static final TagKey<EntityType<?>> MILKABLE = tag("milkable");
 
         //private static TagKey<EntityType<?>> tag(String name) {
-        //    return TagKey.create(Registry.ENTITY_TYPE_REGISTRY, ResourceLocation.fromNamespaceAndPath(Reference.MODID, name));
+        //    return TagKey.create(Registry.ENTITY_TYPE_REGISTRY, Identifier.fromNamespaceAndPath(Reference.MODID, name));
         //}
     }
 

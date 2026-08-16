@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:nether_brick_stairs"
-    },
-    "B": {
-      "tag": "growthcraft_deco:glowing"
-    }
+    "A": "minecraft:nether_brick_stairs",
+    "B": "#growthcraft_deco:glowing"
   },
   "pattern": [
     "AAA",

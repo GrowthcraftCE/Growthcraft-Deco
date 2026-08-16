@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:warped_wart_block"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:warped_wart_block",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

@@ -2,47 +2,32 @@ package growthcraft.deco.datagen.providers;
 
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.Registry;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.tags.TagsProvider;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Block;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import org.jetbrains.annotations.Nullable;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
 
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 
-public class GrowthcraftDecoBlockTagsProvider extends TagsProvider<Block> {
+public class GrowthcraftDecoBlockTagsProvider extends BlockTagsProvider {
 
     public GrowthcraftDecoBlockTagsProvider(PackOutput packOutput,
-                                            ResourceKey<? extends Registry<Block>> registryKey,
-                                            CompletableFuture<HolderLookup.Provider> lookupProvider,
-                                            String modId,
-                                            @Nullable ExistingFileHelper existingFileHelper) {
-        super(packOutput, registryKey, lookupProvider, modId, existingFileHelper);
+                                            CompletableFuture<HolderLookup.Provider> lookupProvider) {
+        super(packOutput, lookupProvider, growthcraft.deco.shared.Reference.MODID);
     }
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 
         GrowthcraftDecoBlocks.BLOCKS_MINEABLE_PICKAXE.forEach((unlocalizedName, block) -> {
-            addMineableTags(Objects.requireNonNull(block.getKey()), "pickaxe");
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(block.get());
         });
 
         GrowthcraftDecoBlocks.BLOCKS_MINEABLE_AXE.forEach((unlocalizedName, block) -> {
-            addMineableTags(Objects.requireNonNull(block.getKey()), "axe");
+            tag(BlockTags.MINEABLE_WITH_AXE).add(block.get());
         });
 
-    }
-
-    private void addMineableTags(ResourceKey<Block> blockResourceKey, String tool) {
-        if (Objects.equals(tool, "pickaxe")) {
-            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(blockResourceKey);
-        } else if (Objects.equals(tool, "axe")) {
-            tag(BlockTags.MINEABLE_WITH_AXE).add(blockResourceKey);
-        }
     }
 
 }

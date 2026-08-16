@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:light_gray_terracotta"
-    },
-    "B": {
-      "tag": "growthcraft_deco:glowing"
-    }
+    "A": "minecraft:light_gray_terracotta",
+    "B": "#growthcraft_deco:glowing"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:smooth_quartz"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:smooth_quartz",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:coal_block"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:coal_block",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:cut_red_sandstone"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:cut_red_sandstone",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

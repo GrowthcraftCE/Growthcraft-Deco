@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:bamboo_mosaic"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:bamboo_mosaic",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

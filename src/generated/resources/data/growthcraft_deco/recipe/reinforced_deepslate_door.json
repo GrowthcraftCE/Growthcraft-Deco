@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:reinforced_deepslate"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:reinforced_deepslate",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

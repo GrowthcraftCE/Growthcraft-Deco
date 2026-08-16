@@ -1,6 +1,9 @@
 package growthcraft.deco.utils;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -9,6 +12,29 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 
 public class BlockPropertiesUtils {
+    private static final ThreadLocal<Identifier> REGISTRATION_ID = new ThreadLocal<>();
+
+    public static <T> T withRegistrationId(Identifier id, java.util.function.Supplier<T> factory) {
+        REGISTRATION_ID.set(id);
+        try {
+            return factory.get();
+        } finally {
+            REGISTRATION_ID.remove();
+        }
+    }
+
+    public static BlockBehaviour.Properties of() {
+        return applyRegistrationId(BlockBehaviour.Properties.of());
+    }
+
+    public static BlockBehaviour.Properties ofFullCopy(Block block) {
+        return applyRegistrationId(BlockBehaviour.Properties.ofFullCopy(block));
+    }
+
+    private static BlockBehaviour.Properties applyRegistrationId(BlockBehaviour.Properties properties) {
+        Identifier id = REGISTRATION_ID.get();
+        return id == null ? properties : properties.setId(ResourceKey.create(Registries.BLOCK, id));
+    }
 
     /**
      * Generate the initial block properties for the given block.
@@ -18,7 +44,7 @@ public class BlockPropertiesUtils {
      * @return Customized block properties.
      */
     public static BlockBehaviour.Properties getInitProperties(String blockType, Block block) {
-        BlockBehaviour.Properties properties = BlockBehaviour.Properties.ofFullCopy(block);
+        BlockBehaviour.Properties properties = ofFullCopy(block);
 
         switch (blockType) {
             case "concrete_stairs" -> {

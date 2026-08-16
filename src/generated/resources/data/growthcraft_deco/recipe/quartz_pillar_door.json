@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:quartz_pillar"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:quartz_pillar",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

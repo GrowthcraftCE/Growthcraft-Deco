@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:polished_andesite"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:polished_andesite",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

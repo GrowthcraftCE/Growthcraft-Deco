@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:mangrove_planks"
-    },
-    "B": {
-      "tag": "growthcraft_deco:glowing"
-    }
+    "A": "minecraft:mangrove_planks",
+    "B": "#growthcraft_deco:glowing"
   },
   "pattern": [
     "AAA",

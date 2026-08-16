@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:tinted_glass"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:tinted_glass",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

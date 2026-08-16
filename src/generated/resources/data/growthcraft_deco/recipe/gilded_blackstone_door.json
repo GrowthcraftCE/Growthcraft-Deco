@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:gilded_blackstone"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:gilded_blackstone",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

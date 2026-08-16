@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:chiseled_tuff"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:chiseled_tuff",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

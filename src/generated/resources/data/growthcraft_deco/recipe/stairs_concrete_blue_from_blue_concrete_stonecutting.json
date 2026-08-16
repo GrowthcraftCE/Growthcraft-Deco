@@ -1,10 +1,7 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:blue_concrete"
-  },
+  "ingredient": "minecraft:blue_concrete",
   "result": {
-    "count": 1,
     "id": "growthcraft_deco:stairs_concrete_blue"
   }
 }

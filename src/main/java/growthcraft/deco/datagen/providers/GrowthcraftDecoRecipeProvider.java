@@ -6,13 +6,12 @@ import growthcraft.deco.shared.Reference;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -21,21 +20,38 @@ import static growthcraft.deco.init.GrowthcraftDecoBlocks.CARPET_STAIR_BLOCKS_RE
 /**
  * @credit Kaupenjoe for his DataGenerator tutorials
  */
-public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements IConditionBuilder {
+public class GrowthcraftDecoRecipeProvider extends RecipeProvider {
 
 
-    public GrowthcraftDecoRecipeProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider) {
-        super(packOutput, lookupProvider);
+    public GrowthcraftDecoRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) {
+        super(registries, output);
     }
 
     @Override
-    protected void buildRecipes(RecipeOutput recipeConsumer) {
+    protected void buildRecipes() {
+        RecipeOutput recipeConsumer = output;
         this.carpetedStairsRecipes(recipeConsumer);
         this.glowingRecipes(recipeConsumer);
         this.partialCarpetedStairsRecipes(recipeConsumer);
         this.slabRecipes(recipeConsumer);
         this.stairRecipes(recipeConsumer);
         this.stoneCuttingRecipes(recipeConsumer);
+    }
+
+    public static class Runner extends RecipeProvider.Runner {
+        public Runner(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+            super(output, lookupProvider);
+        }
+
+        @Override
+        protected RecipeProvider createRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) {
+            return new GrowthcraftDecoRecipeProvider(registries, output);
+        }
+
+        @Override
+        public String getName() {
+            return "Growthcraft Deco Recipes";
+        }
     }
 
     private void stoneCuttingRecipes(RecipeOutput recipeConsumer) {
@@ -502,7 +518,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     private void buildHiddenDoorRecipe(RecipeOutput recipeConsumer, Block result, Block clonedBlock) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 4)
+        shaped(RecipeCategory.DECORATIONS, result, 4)
                 .define('A', clonedBlock)
                 .define('B', ItemTags.DOORS)
                 .pattern("AAA")
@@ -513,7 +529,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     private void buildGlowingRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
+        shaped(RecipeCategory.DECORATIONS, result, 8)
                 .define('A', ingredient)
                 .define('B', GrowthcraftDecoTags.Items.GLOWING)
                 .pattern("AAA")
@@ -524,7 +540,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     public void buildSlabRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
+        shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', ingredient)
                 .pattern("AAA")
                 .unlockedBy("has_item", has(ingredient))
@@ -532,15 +548,15 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     public void buildSlabRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient, String recipePostfixName) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
+        shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', ingredient)
                 .pattern("AAA")
                 .unlockedBy("has_item", has(ingredient))
-                .save(recipeConsumer, ResourceLocation.fromNamespaceAndPath(Reference.MODID, RecipeProvider.getItemName(result)) + "_" + recipePostfixName);
+                .save(recipeConsumer, Identifier.fromNamespaceAndPath(Reference.MODID, RecipeProvider.getItemName(result)) + "_" + recipePostfixName);
     }
 
     public void buildStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 4)
+        shaped(RecipeCategory.DECORATIONS, result, 4)
                 .define('A', ingredient)
                 .pattern("A  ")
                 .pattern("AA ")
@@ -550,7 +566,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     public void buildCarpetedStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 6)
+        shaped(RecipeCategory.DECORATIONS, result, 6)
                 .define('A', base)
                 .define('B', carpet)
                 .pattern("AAA")
@@ -562,7 +578,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     }
 
     public void buildPartialCarpetedStairRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike base, ItemLike carpet) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, result, 8)
+        shaped(RecipeCategory.DECORATIONS, result, 8)
                 .define('A', base)
                 .define('B', carpet)
                 .pattern("AAA")
@@ -576,7 +592,7 @@ public class GrowthcraftDecoRecipeProvider extends RecipeProvider implements ICo
     public void buildStonecuttingRecipe(RecipeOutput recipeConsumer, ItemLike result, ItemLike ingredient, int resultCount) {
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ingredient), RecipeCategory.DECORATIONS, result, resultCount)
                 .unlockedBy(getHasName(ingredient), has(ingredient))
-                .save(recipeConsumer, ResourceLocation.fromNamespaceAndPath(Reference.MODID, getConversionRecipeName(result, ingredient)) + "_stonecutting");
+                .save(recipeConsumer, Identifier.fromNamespaceAndPath(Reference.MODID, getConversionRecipeName(result, ingredient)) + "_stonecutting");
     }
 
 }

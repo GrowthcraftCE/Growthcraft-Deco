@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:dark_prismarine"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:dark_prismarine",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

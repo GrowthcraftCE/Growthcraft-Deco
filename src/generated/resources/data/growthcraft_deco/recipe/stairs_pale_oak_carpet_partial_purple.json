@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:pale_oak_stairs",
+    "B": "minecraft:purple_carpet"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "id": "growthcraft_deco:stairs_pale_oak_carpet_partial_purple"
+  }
+}

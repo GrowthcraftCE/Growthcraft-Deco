@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:spruce_planks"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:spruce_planks",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

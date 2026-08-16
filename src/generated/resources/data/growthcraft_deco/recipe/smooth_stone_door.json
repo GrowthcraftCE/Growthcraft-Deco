@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:smooth_stone"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:smooth_stone",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

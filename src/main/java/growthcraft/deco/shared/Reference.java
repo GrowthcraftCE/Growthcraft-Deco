@@ -486,6 +486,14 @@ public class Reference {
         public static final String STAIRS_TUFF_GLOWING = "stairs_tuff_glowing";
         public static final String STAIRS_POLISHED_TUFF_GLOWING = "stairs_polished_tuff_glowing";
         public static final String STAIRS_TUFF_BRICK_GLOWING = "stairs_tuff_brick_glowing";
+        public static final String STAIRS_PALE_OAK_CARPET = "stairs_pale_oak_carpet";
+        public static final String STAIR_PALE_OAK_GLOWING = "stairs_pale_oak_glowing";
+        public static final String STAIR_RESIN_BRICK_GLOWING = "stairs_resin_brick_glowing";
+        public static final String SLAB_RESIN_BRICK_GLOWING = "slab_resin_brick_glowing";
+        public static final String PALE_OAK_PLANKS_GLOWING = "pale_oak_planks_glowing";
+        public static final String RESIN_BLOCK_GLOWING = "resin_block_glowing";
+        public static final String RESIN_BRICKS_GLOWING = "resin_bricks_glowing";
+        public static final String CHISELED_RESIN_BRICKS_GLOWING = "chiseled_resin_bricks_glowing";
 
         public static final String ACACIA_PLANKS_GLOWING = "acacia_planks_glowing";
         public static final String BAMBOO_MOSAIC_GLOWING = "bamboo_mosaic_glowing";

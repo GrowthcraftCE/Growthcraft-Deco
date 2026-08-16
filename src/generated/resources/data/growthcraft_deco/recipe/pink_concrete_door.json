@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:pink_concrete"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:pink_concrete",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

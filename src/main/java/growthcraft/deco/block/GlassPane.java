@@ -1,5 +1,6 @@
 package growthcraft.deco.block;
 
+import growthcraft.deco.utils.BlockPropertiesUtils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.BlockGetter;
@@ -17,7 +18,7 @@ public class GlassPane extends StainedGlassPaneBlock {
     }
 
     public GlassPane(DyeColor dyeColor, int lightLevel) {
-        super(dyeColor, BlockBehaviour.Properties.of().strength(0.3F).sound(SoundType.GLASS).noOcclusion());
+        super(dyeColor, BlockPropertiesUtils.of().strength(0.3F).sound(SoundType.GLASS).noOcclusion());
         this.lightLevel = lightLevel;
     }
 

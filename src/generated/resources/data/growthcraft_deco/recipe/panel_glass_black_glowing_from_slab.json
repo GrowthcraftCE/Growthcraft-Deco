@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "growthcraft_deco:slab_glass_black_glowing"
-    }
+    "A": "growthcraft_deco:slab_glass_black_glowing"
   },
   "pattern": [
     "AAA"

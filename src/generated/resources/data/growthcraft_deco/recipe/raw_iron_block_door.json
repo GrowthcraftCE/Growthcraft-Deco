@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:raw_iron_block"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:raw_iron_block",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

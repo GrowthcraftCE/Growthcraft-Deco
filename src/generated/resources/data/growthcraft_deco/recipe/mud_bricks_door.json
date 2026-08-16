@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:mud_bricks"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:mud_bricks",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

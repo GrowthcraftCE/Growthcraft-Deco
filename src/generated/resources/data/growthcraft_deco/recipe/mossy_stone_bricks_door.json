@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:mossy_stone_bricks"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:mossy_stone_bricks",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

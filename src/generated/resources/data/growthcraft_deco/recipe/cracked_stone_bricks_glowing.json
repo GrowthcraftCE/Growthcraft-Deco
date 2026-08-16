@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:cracked_stone_bricks"
-    },
-    "B": {
-      "tag": "growthcraft_deco:glowing"
-    }
+    "A": "minecraft:cracked_stone_bricks",
+    "B": "#growthcraft_deco:glowing"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:oxidized_copper_grate"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:oxidized_copper_grate",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

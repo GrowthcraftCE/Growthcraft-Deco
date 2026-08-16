@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:granite"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:granite",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

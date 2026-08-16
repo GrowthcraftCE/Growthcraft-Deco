@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:acacia_stairs"
-    },
-    "B": {
-      "item": "minecraft:gray_carpet"
-    }
+    "A": "minecraft:acacia_stairs",
+    "B": "minecraft:gray_carpet"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:packed_mud"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:packed_mud",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

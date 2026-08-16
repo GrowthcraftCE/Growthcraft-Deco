@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:soul_soil"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:soul_soil",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

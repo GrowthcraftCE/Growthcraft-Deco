@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:spruce_stairs"
-    },
-    "B": {
-      "item": "minecraft:green_carpet"
-    }
+    "A": "minecraft:spruce_stairs",
+    "B": "minecraft:green_carpet"
   },
   "pattern": [
     "AAA",

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:tuff_brick_stairs"
-    },
-    "B": {
-      "item": "minecraft:black_carpet"
-    }
+    "A": "minecraft:tuff_brick_stairs",
+    "B": "minecraft:black_carpet"
   },
   "pattern": [
     "AAA",

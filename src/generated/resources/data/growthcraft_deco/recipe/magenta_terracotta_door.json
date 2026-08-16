@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:magenta_terracotta"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:magenta_terracotta",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

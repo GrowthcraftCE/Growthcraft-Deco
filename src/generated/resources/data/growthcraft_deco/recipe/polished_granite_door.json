@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:polished_granite"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:polished_granite",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

@@ -2,9 +2,9 @@
 
 # Growthcraft Decorations
 
-[![Version](https://img.shields.io/badge/version-1.21.1.1-orange.svg)](https://github.com/GrowthcraftCE/Growthcraft-Deco)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62b47a.svg)](https://www.minecraft.net/)
-[![NeoForge](https://img.shields.io/badge/NeoForge-21.1.x-yellow.svg)](https://neoforged.net/)
+[![Version](https://img.shields.io/badge/version-26.1.2.1-orange.svg)](https://github.com/GrowthcraftCE/Growthcraft-Deco)
+[![Minecraft](https://img.shields.io/badge/Minecraft-26.1.2-62b47a.svg)](https://www.minecraft.net/)
+[![NeoForge](https://img.shields.io/badge/NeoForge-26.1.2-yellow.svg)](https://neoforged.net/)
 [![CurseForge](https://cf.way2muchnoise.eu/short_growthcraft-decorations.svg)](https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations)
 [![Discord](https://img.shields.io/discord/333690296334548994.svg?label=Discord&color=5865f2)](https://discord.gg/Quh76Jn)
 
@@ -54,11 +54,12 @@ When reporting a problem, include the Minecraft, NeoForge, and Growthcraft Decor
 ## Version History
 
 Growthcraft Decorations versions use the supported Minecraft version followed by the mod release number. For example,
-`1.21.1.1` is the first Growthcraft Decorations release targeting Minecraft 1.21.1.
+`26.1.2.1` is the first Growthcraft Decorations release targeting Minecraft 26.1.2.
 
 | Minecraft | Loader | Latest Decorations version | Status |
 | --- | --- | --- | --- |
-| 1.21.1 | NeoForge | 1.21.1.1 | In development |
+| 26.1.2 | NeoForge | 26.1.2.1 | In development |
+| 1.21.1 | NeoForge | 1.21.1.1 | Released |
 | 1.21 | Forge | 1.21.0.1 | Released |
 | 1.20.6 | Forge | 1.20.6.1 | Released |
 | 1.20.4 | Forge | 1.20.4.1 | Released |
@@ -72,14 +73,14 @@ Older versions remain available from the project's
 ## Contributing and Development
 
 Before starting a change, open or comment on a GitHub issue so work is not duplicated. Keep changes targeted to the
-appropriate Minecraft version branch. This repository uses version branches; Minecraft 1.21.1 NeoForge work belongs on
-`1.21.1-neo`.
+appropriate Minecraft version branch. This repository uses version branches; Minecraft 26.1 NeoForge work belongs on
+`26.1-neo`.
 
 Requirements:
 
-- Java 21
+- Java 25
 - The included Gradle Wrapper
-- A Minecraft 1.21.1-compatible IDE
+- A Minecraft 26.1.2-compatible IDE
 
 Useful commands:
 

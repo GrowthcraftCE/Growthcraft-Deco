@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:deepslate_tiles"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:deepslate_tiles",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

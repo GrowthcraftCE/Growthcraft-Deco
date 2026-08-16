@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:polished_diorite"
-    },
-    "B": {
-      "tag": "minecraft:doors"
-    }
+    "A": "minecraft:polished_diorite",
+    "B": "#minecraft:doors"
   },
   "pattern": [
     "AAA",

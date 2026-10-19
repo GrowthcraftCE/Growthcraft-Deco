@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:mangrove_planks",
     "B": "#growthcraft_deco:glowing"

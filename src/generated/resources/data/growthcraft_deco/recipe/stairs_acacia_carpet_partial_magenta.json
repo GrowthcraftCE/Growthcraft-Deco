@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:acacia_stairs",
     "B": "minecraft:magenta_carpet"

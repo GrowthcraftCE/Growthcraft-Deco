@@ -13,7 +13,7 @@ public class WoolStairBlock extends StairBlock {
     public WoolStairBlock() {
         this(
                 Blocks.OAK_STAIRS.defaultBlockState(),
-                BlockPropertiesUtils.getInitProperties("wool_stairs", Blocks.WHITE_WOOL)
+                BlockPropertiesUtils.getInitProperties("wool_stairs", Blocks.WOOL.white())
         );
     }
 

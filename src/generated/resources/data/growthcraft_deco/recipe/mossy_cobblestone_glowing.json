@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:mossy_cobblestone",
     "B": "#growthcraft_deco:glowing"

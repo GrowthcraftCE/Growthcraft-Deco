@@ -2,13 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "conditions": [
                 {
                   "block": "growthcraft_deco:slab_glass_gray_glowing",

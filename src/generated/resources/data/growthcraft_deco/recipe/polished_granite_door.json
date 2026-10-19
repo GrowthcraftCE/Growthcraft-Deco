@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:polished_granite",
     "B": "#minecraft:doors"

@@ -1,7 +1,7 @@
 {
   "parent": "growthcraft_deco:item/template_hidden_door",
   "textures": {
-    "layer0": "minecraft:block/purpur_pillar",
-    "particle": "minecraft:block/purpur_pillar"
+    "layer0": "minecraft:block/purpur_pillar_side",
+    "particle": "minecraft:block/purpur_pillar_side"
   }
 }

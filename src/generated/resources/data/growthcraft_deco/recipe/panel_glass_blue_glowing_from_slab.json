@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "growthcraft_deco:slab_glass_blue_glowing"
   },

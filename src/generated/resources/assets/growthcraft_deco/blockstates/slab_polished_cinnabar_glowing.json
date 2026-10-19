@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "growthcraft_deco:block/slab_polished_cinnabar_glowing"
+    },
+    "type=double": {
+      "model": "minecraft:block/polished_cinnabar"
+    },
+    "type=top": {
+      "model": "growthcraft_deco:block/slab_polished_cinnabar_glowing_top"
+    }
+  }
+}

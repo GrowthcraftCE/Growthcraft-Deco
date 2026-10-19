@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:waxed_exposed_chiseled_copper",
     "B": "#growthcraft_deco:glowing"

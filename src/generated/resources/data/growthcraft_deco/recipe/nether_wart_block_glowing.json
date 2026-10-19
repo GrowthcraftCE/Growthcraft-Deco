@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:nether_wart_block",
     "B": "#growthcraft_deco:glowing"

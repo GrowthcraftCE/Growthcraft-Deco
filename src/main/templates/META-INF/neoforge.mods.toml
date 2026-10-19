@@ -11,7 +11,7 @@ description = '''${mod_description}'''
 authors = "${mod_authors}"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations"
 updateJSONURL = "https://raw.githubusercontent.com/GrowthcraftCE/Growthcraft-Updates/master/growthcraft-deco-versions.json"
-logoFile = "growthcraft_deco_logo.png"
+bannerFile = "growthcraft_deco_logo.png"
 credits = "Thanks to Gwafu for starting a great mod and the Growthcraft CE developers for continuing the work."
 
 [[dependencies.${mod_id}]]

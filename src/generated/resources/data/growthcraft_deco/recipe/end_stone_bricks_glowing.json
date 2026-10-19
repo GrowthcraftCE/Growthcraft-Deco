@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:end_stone_bricks",
     "B": "#growthcraft_deco:glowing"

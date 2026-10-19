@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:sulfur_stairs",
+    "B": "minecraft:magenta_carpet"
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "id": "growthcraft_deco:stairs_sulfur_carpet_magenta"
+  }
+}

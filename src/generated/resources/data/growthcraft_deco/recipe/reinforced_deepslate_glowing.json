@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:reinforced_deepslate",
     "B": "#growthcraft_deco:glowing"

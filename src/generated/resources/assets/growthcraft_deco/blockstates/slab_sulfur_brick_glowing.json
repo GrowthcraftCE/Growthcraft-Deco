@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "growthcraft_deco:block/slab_sulfur_brick_glowing"
+    },
+    "type=double": {
+      "model": "minecraft:block/sulfur_bricks"
+    },
+    "type=top": {
+      "model": "growthcraft_deco:block/slab_sulfur_brick_glowing_top"
+    }
+  }
+}

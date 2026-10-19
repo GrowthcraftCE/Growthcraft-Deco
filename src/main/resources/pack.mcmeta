@@ -1,6 +1,7 @@
 {
   "pack": {
     "description": "Growthcraft Decoration resources",
-    "pack_format": 32
+    "min_format": 88,
+    "max_format": [107, 1]
   }
 }

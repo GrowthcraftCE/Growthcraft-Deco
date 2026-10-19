@@ -6,6 +6,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.BlockItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -20,17 +21,11 @@ public class GrowthcraftDecoCreativeTabs {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> GrowthcraftDecoBlocks.SLAB_GLOWSHROOM.get().asItem().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                // Add blocks
-                GrowthcraftDecoBlocks.BLOCKS.getEntries().forEach(
-                        blockRegistryObject -> {
-                            if (!GrowthcraftDecoBlocks.excludeBlockItemRegistry(blockRegistryObject.getId())) {
-                                output.accept(new ItemStack(blockRegistryObject.get()));
-                            }
-                        }
-                );
-                // Add items
+                // Block items are already registered in ITEMS; adding BLOCKS as well duplicates them.
                 GrowthcraftDecoItems.ITEMS.getEntries().forEach(itemRegistryObject -> {
-                    if (!GrowthcraftDecoItems.excludeItemRegistry(itemRegistryObject.getId())) {
+                    if (!GrowthcraftDecoItems.excludeItemRegistry(itemRegistryObject.getId())
+                            && (!(itemRegistryObject.get() instanceof BlockItem)
+                            || !GrowthcraftDecoBlocks.excludeBlockItemRegistry(itemRegistryObject.getId()))) {
                         output.accept(new ItemStack(itemRegistryObject.get()));
                     }
                 });

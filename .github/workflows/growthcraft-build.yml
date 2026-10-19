@@ -42,6 +42,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew build --info
+      - name: Run server GameTests
+        run: ./gradlew runGameTestServer --info
       - name: Analyze with SonarQube Cloud
         if: ${{ env.SONAR_TOKEN != '' && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository) }}
         continue-on-error: true

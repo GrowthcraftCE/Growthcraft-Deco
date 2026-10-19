@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:polished_sulfur_stairs",
+    "B": "minecraft:light_blue_carpet"
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "count": 6,
+    "id": "growthcraft_deco:stairs_polished_sulfur_carpet_light_blue"
+  }
+}

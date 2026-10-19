@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:diorite_slab",
     "B": "#growthcraft_deco:glowing"

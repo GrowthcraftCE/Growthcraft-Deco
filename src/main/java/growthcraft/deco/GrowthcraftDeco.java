@@ -3,6 +3,7 @@ package growthcraft.deco;
 import growthcraft.deco.init.GrowthcraftDecoBlocks;
 import growthcraft.deco.init.GrowthcraftDecoCreativeTabs;
 import growthcraft.deco.init.GrowthcraftDecoItems;
+import growthcraft.deco.init.GrowthcraftDecoGameTests;
 import growthcraft.deco.init.client.GrowthcraftDecoBlockRenderers;
 import growthcraft.deco.shared.Reference;
 import net.neoforged.neoforge.common.NeoForge;
@@ -25,6 +26,8 @@ public class GrowthcraftDeco {
         GrowthcraftDecoBlocks.BLOCKS.register(modEventBus);
         GrowthcraftDecoItems.ITEMS.register(modEventBus);
         GrowthcraftDecoCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        GrowthcraftDecoGameTests.TEST_FUNCTIONS.register(modEventBus);
+        modEventBus.addListener(GrowthcraftDecoGameTests::registerTests);
 
         NeoForge.EVENT_BUS.addListener(this::onServerStarting);
 

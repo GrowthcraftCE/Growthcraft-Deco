@@ -3,7 +3,7 @@ plugins {
     id 'jacoco'
     id 'org.sonarqube' version '7.2.3.7755'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.141'
+    id 'net.neoforged.moddev' version '2.0.148'
     id 'idea'
 }
 
@@ -87,6 +87,7 @@ dependencies {
     runtimeOnly "mezz.jei:jei-${minecraft_version_short}-neoforge:${jei_version}"
     testImplementation platform('org.junit:junit-bom:5.14.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.14.0'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

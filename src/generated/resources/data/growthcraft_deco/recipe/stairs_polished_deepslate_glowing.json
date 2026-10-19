@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:polished_deepslate_stairs",
     "B": "#growthcraft_deco:glowing"

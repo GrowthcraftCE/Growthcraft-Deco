@@ -2,9 +2,9 @@
 
 # Growthcraft Decorations
 
-[![Version](https://img.shields.io/badge/version-26.1.2.1-orange.svg)](https://github.com/GrowthcraftCE/Growthcraft-Deco)
-[![Minecraft](https://img.shields.io/badge/Minecraft-26.1.2-62b47a.svg)](https://www.minecraft.net/)
-[![NeoForge](https://img.shields.io/badge/NeoForge-26.1.2-yellow.svg)](https://neoforged.net/)
+[![Version](https://img.shields.io/badge/version-26.2.1.1-orange.svg)](https://github.com/GrowthcraftCE/Growthcraft-Deco)
+[![Minecraft](https://img.shields.io/badge/Minecraft-26.2-62b47a.svg)](https://www.minecraft.net/)
+[![NeoForge](https://img.shields.io/badge/NeoForge-26.2-yellow.svg)](https://neoforged.net/)
 [![CurseForge](https://cf.way2muchnoise.eu/short_growthcraft-decorations.svg)](https://www.curseforge.com/minecraft/mc-mods/growthcraft-decorations)
 [![Discord](https://img.shields.io/discord/333690296334548994.svg?label=Discord&color=5865f2)](https://discord.gg/Quh76Jn)
 
@@ -58,7 +58,8 @@ Growthcraft Decorations versions use the supported Minecraft version followed by
 
 | Minecraft | Loader | Latest Decorations version | Status |
 | --- | --- | --- | --- |
-| 26.1.2 | NeoForge | 26.1.2.1 | In development |
+| 26.2 | NeoForge | 26.2.1.1 | Release preparation |
+| 26.1.2 | NeoForge | 26.1.2.1 | Released |
 | 1.21.1 | NeoForge | 1.21.1.1 | Released |
 | 1.21 | Forge | 1.21.0.1 | Released |
 | 1.20.6 | Forge | 1.20.6.1 | Released |
@@ -73,14 +74,14 @@ Older versions remain available from the project's
 ## Contributing and Development
 
 Before starting a change, open or comment on a GitHub issue so work is not duplicated. Keep changes targeted to the
-appropriate Minecraft version branch. This repository uses version branches; Minecraft 26.1 NeoForge work belongs on
-`26.1-neo`.
+appropriate Minecraft version branch. This repository uses version branches; Minecraft 26.2 NeoForge work belongs on
+`26.2-neo`. The `base` branch is a shell, and `26.1-neo` retains the stable 26.1.2 release.
 
 Requirements:
 
 - Java 25
 - The included Gradle Wrapper
-- A Minecraft 26.1.2-compatible IDE
+- A Minecraft 26.2-compatible IDE
 
 Useful commands:
 
@@ -97,6 +98,8 @@ equivalent command-line synchronization task is `neoForgeIdeSync`.
 
 Generated recipes, loot tables, tags, blockstates, models, item models, and translations are stored under
 `src/generated/resources`. Run data generation and inspect its diff whenever a provider or registered block changes.
+The existing client-asset provider retains checked-in models and blockstates during server data generation;
+it does not generate assets for new blocks. See [the vanilla scope review](VANILLA_SCOPE.md) for the 26.2 additions.
 
 ## License
 

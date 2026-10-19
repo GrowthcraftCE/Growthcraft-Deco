@@ -38,5 +38,7 @@ public class GrowthcraftDecoDataGenerators {
         event.addProvider(new GrowthcraftDecoBlockTagsProvider(packOutput, lookupProvider));
         event.addProvider(new GrowthcraftDecoLangProvider(packOutput));
         event.addProvider(new GrowthcraftDecoItemDefinitions(packOutput));
+        event.addProvider(new GrowthcraftDecoExistingClientAssets(packOutput));
+        event.addProvider(new GrowthcraftDecoSulfurCinnabarAssets(packOutput));
     }
 }

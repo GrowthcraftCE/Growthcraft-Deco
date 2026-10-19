@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:smooth_sandstone",
     "B": "#growthcraft_deco:glowing"

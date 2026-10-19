@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "growthcraft_deco:polished_cinnabar_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "growthcraft_deco:polished_cinnabar_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "growthcraft_deco:blocks/polished_cinnabar_door"
+}

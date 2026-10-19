@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:cinnabar_stairs",
+    "B": "minecraft:light_gray_carpet"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "id": "growthcraft_deco:stairs_cinnabar_carpet_partial_light_gray"
+  }
+}

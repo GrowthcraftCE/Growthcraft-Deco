@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "A": "minecraft:waxed_cut_copper",
     "B": "#growthcraft_deco:glowing"
